@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles'))
+  .sort((a, b) => a.data.titre.localeCompare(b.data.titre, 'fr'));
+---
+
+<Base title="Articles" description="Articles et dossiers cinéma de Cinemationis">
+  <div class="container">
+    <h1 class="section-title">Articles</h1>
+
+    <div class="articles-list">
+      {articles.map((article) => (
+        <a href={`/articles/${article.id}`} class="article-card">
+          <h2>{article.data.titre}</h2>
+          {article.data.resume && <p>{article.data.resume}</p>}
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .article-card {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    transition: border-color 0.2s;
+    color: var(--text);
+  }
+  .article-card:hover {
+    border-color: var(--accent-2);
+    text-decoration: none;
+  }
+  .article-card h2 { font-size: 1.15rem; margin-bottom: 0.4rem; }
+  .article-card p { color: var(--text-muted); font-size: 0.9rem; }
+</style>

@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const films = (await getCollection('films'))
+  .sort((a, b) => a.data.titre.localeCompare(b.data.titre, 'fr'));
+
+const allGenres = [...new Set(films.flatMap(f => f.data.genres))].sort();
+---
+
+<Base title="Catalogue Films d'horreur" description="Toutes les fiches films d'horreur de Cinemationis">
+  <div class="container">
+    <h1 class="section-title">Films d'horreur <span class="count">({films.length})</span></h1>
+
+    <div class="filters">
+      <input type="text" id="search" placeholder="Rechercher un film..." />
+      <select id="genre-filter">
+        <option value="">Tous les genres</option>
+        {allGenres.map(g => <option value={g}>{g}</option>)}
+      </select>
+      <select id="sort">
+        <option value="titre">Titre A-Z</option>
+        <option value="note">Meilleure note</option>
+        <option value="annee">Plus récent</option>
+        <option value="date_ajout">Dernier ajout</option>
+      </select>
+    </div>
+
+    <div class="cards-grid" id="cards">
+      {films.map((film) => (
+        <Card
+          titre={film.data.titre}
+          image={film.data.image}
+          note={film.data.note}
+          annee={film.data.annee}
+          href={`/films/${film.id}`}
+          genres={film.data.genres}
+        />
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .count { color: var(--text-muted); font-weight: 400; font-size: 1rem; }
+</style>
+
+<script>
+  const search = document.getElementById('search') as HTMLInputElement;
+  const grid = document.getElementById('cards')!;
+  const cards = Array.from(grid.children) as HTMLElement[];
+
+  search.addEventListener('input', () => {
+    const query = search.value.toLowerCase();
+    cards.forEach(card => {
+      const title = card.querySelector('.card-title')?.textContent?.toLowerCase() || '';
+      card.style.display = title.includes(query) ? '' : 'none';
+    });
+  });
+</script>

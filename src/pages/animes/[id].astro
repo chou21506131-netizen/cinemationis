@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const animes = await getCollection('animes');
+  return animes.map(anime => ({
+    params: { id: anime.id },
+    props: { anime },
+  }));
+}
+
+const { anime } = Astro.props;
+const { Content } = await render(anime);
+const d = anime.data;
+---
+
+<Base title={d.titre} description={d.resume_court}>
+  <div class="fiche">
+    <div class="fiche-header">
+      {d.image && <img src={d.image} alt={d.titre} class="fiche-poster" />}
+      <div class="fiche-info">
+        <h1>{d.titre}</h1>
+        <p class="meta-line"><strong>Note :</strong> {d.note} {d.score_mal ? `(MAL : ${d.score_mal})` : ''}</p>
+        <p class="meta-line"><strong>Année :</strong> {d.annee}</p>
+        {d.saisons && <p class="meta-line"><strong>Saisons :</strong> {d.saisons}</p>}
+        {d.episodes && <p class="meta-line"><strong>Épisodes :</strong> {d.episodes}</p>}
+        {d.films && <p class="meta-line"><strong>Films :</strong> {d.films}</p>}
+        {d.statut && <p class="meta-line"><strong>Statut :</strong> {d.statut}</p>}
+        {d.studios?.length > 0 && <p class="meta-line"><strong>Studio :</strong> {d.studios.join(', ')}</p>}
+        {d.realisateur && <p class="meta-line"><strong>Réalisateur :</strong> {d.realisateur}</p>}
+        <p class="meta-line"><strong>Recommandation :</strong> {d.recommandation}</p>
+        <div class="genres">
+          {d.genres.map(g => <span class="tag">{g}</span>)}
+        </div>
+      </div>
+    </div>
+
+    <div class="fiche-content">
+      <Content />
+    </div>
+
+    <div class="fiche-nav">
+      <a href="/animes">&larr; Retour au catalogue</a>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .genres { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.75rem; }
+  .fiche-nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+  .fiche-nav a { color: var(--text-muted); font-size: 0.9rem; }
+</style>

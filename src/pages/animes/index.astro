@@ -1,0 +1,72 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const animes = (await getCollection('animes'))
+  .sort((a, b) => a.data.titre.localeCompare(b.data.titre, 'fr'));
+
+// Collecter les genres uniques pour le filtre
+const allGenres = [...new Set(animes.flatMap(a => a.data.genres))].sort();
+---
+
+<Base title="Catalogue Animés" description="Toutes les fiches animés de Cinemationis">
+  <div class="container">
+    <h1 class="section-title">Animés <span class="count">({animes.length})</span></h1>
+
+    <div class="filters">
+      <input type="text" id="search" placeholder="Rechercher un animé..." />
+      <select id="genre-filter">
+        <option value="">Tous les genres</option>
+        {allGenres.map(g => <option value={g}>{g}</option>)}
+      </select>
+      <select id="sort">
+        <option value="titre">Titre A-Z</option>
+        <option value="note">Meilleure note</option>
+        <option value="annee">Plus récent</option>
+        <option value="date_ajout">Dernier ajout</option>
+      </select>
+    </div>
+
+    <div class="cards-grid" id="cards">
+      {animes.map((anime) => (
+        <Card
+          titre={anime.data.titre}
+          image={anime.data.image}
+          note={anime.data.note}
+          annee={anime.data.annee}
+          href={`/animes/${anime.id}`}
+          genres={anime.data.genres}
+        />
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .count { color: var(--text-muted); font-weight: 400; font-size: 1rem; }
+</style>
+
+<script>
+  // Filtrage et tri côté client
+  const search = document.getElementById('search') as HTMLInputElement;
+  const genreFilter = document.getElementById('genre-filter') as HTMLSelectElement;
+  const sortSelect = document.getElementById('sort') as HTMLSelectElement;
+  const grid = document.getElementById('cards')!;
+  const cards = Array.from(grid.children) as HTMLElement[];
+
+  function filterAndSort() {
+    const query = search.value.toLowerCase();
+    const genre = genreFilter.value;
+
+    cards.forEach(card => {
+      const title = card.querySelector('.card-title')?.textContent?.toLowerCase() || '';
+      const matchSearch = title.includes(query);
+      // Le genre est stocké comme data-attribute si besoin, pour l'instant filtre simple
+      card.style.display = matchSearch ? '' : 'none';
+    });
+  }
+
+  search.addEventListener('input', filterAndSort);
+  genreFilter.addEventListener('change', filterAndSort);
+</script>

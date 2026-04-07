@@ -1,0 +1,76 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const films = await getCollection('films');
+  return films.map(film => ({
+    params: { id: film.id },
+    props: { film },
+  }));
+}
+
+const { film } = Astro.props;
+const { Content } = await render(film);
+const d = film.data;
+---
+
+<Base title={d.titre} description={d.resume_court}>
+  <div class="fiche">
+    <div class="fiche-header">
+      {d.image && <img src={d.image} alt={d.titre} class="fiche-poster" />}
+      <div class="fiche-info">
+        <h1>{d.titre}</h1>
+        <p class="meta-line"><strong>Note :</strong> {d.note} {d.score_alo ? `(IMDb : ${d.score_alo})` : ''}</p>
+        <p class="meta-line"><strong>Année :</strong> {d.annee}</p>
+        {d.realisateur && <p class="meta-line"><strong>Réalisateur :</strong> {d.realisateur}</p>}
+        <p class="meta-line"><strong>Recommandation :</strong> {d.recommandation}</p>
+        <div class="genres">
+          {d.genres.map(g => <span class="tag">{g}</span>)}
+        </div>
+      </div>
+    </div>
+
+    <div class="fiche-content">
+      <Content />
+    </div>
+
+    {d.bande_annonce && (
+      <div class="trailer">
+        <h2>Bande annonce</h2>
+        <div class="video-wrapper">
+          <iframe
+            src={`https://www.youtube.com/embed/${d.bande_annonce.split('v=')[1]?.split('&')[0] || d.bande_annonce.split('/').pop()}`}
+            title={`Bande annonce - ${d.titre}`}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    )}
+
+    <div class="fiche-nav">
+      <a href="/films">&larr; Retour au catalogue</a>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .genres { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.75rem; }
+  .fiche-nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+  .fiche-nav a { color: var(--text-muted); font-size: 0.9rem; }
+  .trailer { margin-top: 2rem; }
+  .trailer h2 { font-size: 1.3rem; margin-bottom: 0.75rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border-radius: var(--radius);
+  }
+</style>

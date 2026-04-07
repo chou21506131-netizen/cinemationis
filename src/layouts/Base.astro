@@ -1,0 +1,49 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Revues animés, films horreur et articles cinéma' } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} | Cinemationis</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="site-logo">Cinemat<span>ion</span>is</a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Accueil</a></li>
+            <li><a href="/animes" class:list={[{ active: currentPath.startsWith('/animes') }]}>Animés</a></li>
+            <li><a href="/films" class:list={[{ active: currentPath.startsWith('/films') }]}>Films</a></li>
+            <li><a href="/articles" class:list={[{ active: currentPath.startsWith('/articles') }]}>Articles</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        Cinemationis &mdash; Un site de passionné, pour les passionnés.
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

@@ -1,0 +1,78 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const animes = (await getCollection('animes'))
+  .sort((a, b) => b.data.date_ajout.getTime() - a.data.date_ajout.getTime())
+  .slice(0, 6);
+
+const films = (await getCollection('films'))
+  .sort((a, b) => b.data.date_ajout.getTime() - a.data.date_ajout.getTime())
+  .slice(0, 6);
+---
+
+<Base title="Accueil">
+  <div class="container">
+    <section class="hero">
+      <h1>Bienvenue sur <span class="highlight">Cinemationis</span></h1>
+      <p>Des revues d'animés, de films d'horreur et des articles sur le cinéma.<br />
+      Le tout avec un ton subjectif et sans filtre.</p>
+    </section>
+
+    <section>
+      <div class="section-header">
+        <h2 class="section-title">Derniers animés</h2>
+        <a href="/animes">Voir tout &rarr;</a>
+      </div>
+      <div class="cards-grid">
+        {animes.map((anime) => (
+          <Card
+            titre={anime.data.titre}
+            image={anime.data.image}
+            note={anime.data.note}
+            annee={anime.data.annee}
+            href={`/animes/${anime.id}`}
+            genres={anime.data.genres}
+          />
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <div class="section-header">
+        <h2 class="section-title">Derniers films</h2>
+        <a href="/films">Voir tout &rarr;</a>
+      </div>
+      <div class="cards-grid">
+        {films.map((film) => (
+          <Card
+            titre={film.data.titre}
+            image={film.data.image}
+            note={film.data.note}
+            annee={film.data.annee}
+            href={`/films/${film.id}`}
+            genres={film.data.genres}
+          />
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    padding: 3rem 0 2rem;
+    text-align: center;
+  }
+  .hero h1 { font-size: 2.2rem; margin-bottom: 0.75rem; }
+  .highlight { color: var(--accent); }
+  .hero p { color: var(--text-muted); font-size: 1.1rem; line-height: 1.7; }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .section-header a { color: var(--text-muted); font-size: 0.9rem; }
+  section { margin-bottom: 3rem; }
+</style>

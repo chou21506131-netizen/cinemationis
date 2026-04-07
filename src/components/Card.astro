@@ -1,0 +1,36 @@
+---
+interface Props {
+  titre: string;
+  image?: string;
+  note: string;
+  annee: number;
+  href: string;
+  genres?: string[];
+}
+
+const { titre, image, note, annee, href, genres = [] } = Astro.props;
+---
+
+<a href={href} class="card">
+  {image ? (
+    <img src={image} alt={titre} class="card-image" loading="lazy" />
+  ) : (
+    <div class="card-image card-image--placeholder"></div>
+  )}
+  <div class="card-body">
+    <div class="card-title">{titre}</div>
+    <div class="card-meta">
+      <span class="card-note">{note}</span>
+      <span>{annee}</span>
+    </div>
+  </div>
+</a>
+
+<style>
+  .card-image--placeholder {
+    background: linear-gradient(135deg, var(--bg-hover), var(--border));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>

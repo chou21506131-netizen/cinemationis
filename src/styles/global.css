@@ -1,0 +1,246 @@
+/* ===== Variables ===== */
+:root {
+  --bg: #0d0d0d;
+  --bg-card: #1a1a1a;
+  --bg-hover: #242424;
+  --text: #e8e8e8;
+  --text-muted: #999;
+  --accent: #e63946;     /* rouge — touche horreur */
+  --accent-2: #6c5ce7;   /* violet — touche anime */
+  --border: #2a2a2a;
+  --radius: 8px;
+  --max-width: 1200px;
+  --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* ===== Reset ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent-2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+/* ===== Layout ===== */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ===== Header ===== */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 100;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.site-logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.site-logo span { color: var(--accent); }
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.site-nav a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* ===== Cards grid ===== */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-2);
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0.75rem 1rem 1rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+
+.card-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.card-note {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ===== Tags / Genres ===== */
+.tag {
+  display: inline-block;
+  background: var(--bg-hover);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+/* ===== Fiche detail ===== */
+.fiche {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.fiche-header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.fiche-poster {
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+}
+
+.fiche-info h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.fiche-info .meta-line {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.fiche-content h2 {
+  font-size: 1.3rem;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.fiche-content h3 {
+  font-size: 1.1rem;
+  color: var(--accent-2);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.fiche-content p {
+  margin-bottom: 1rem;
+}
+
+/* ===== Filters bar ===== */
+.filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.filters select,
+.filters input {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.filters input {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* ===== Section title ===== */
+.section-title {
+  font-size: 1.5rem;
+  margin: 2rem 0 0.5rem;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .fiche-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .fiche-poster { width: 160px; }
+  .cards-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; }
+}
