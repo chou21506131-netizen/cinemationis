@@ -1,6 +1,6 @@
 /**
  * Script pré-commit :
- * 1. Met à jour les scores MAL via l'API Jikan
+ * 1. Met à jour les scores MAL (moyenne de toutes les saisons/suites/films)
  * 2. Vérifie les URLs YouTube
  */
 
@@ -25,6 +25,55 @@ async function fetchJSON(url) {
   if (!res.ok) return null;
   return res.json();
 }
+
+// ── Collecte de toutes les entrées liées (saisons, films, etc.) ──
+
+const FOLLOW_RELATIONS = ['Sequel', 'Prequel'];
+
+async function collectAllMALIds(startId) {
+  const visited = new Set();
+  const toVisit = [startId];
+  const entries = []; // { mal_id, score }
+
+  while (toVisit.length > 0) {
+    const id = toVisit.pop();
+    if (visited.has(id)) continue;
+    visited.add(id);
+
+    await sleep(DELAY);
+
+    // Récupérer le score de cette entrée
+    const animeData = await fetchJSON(`${JIKAN_BASE}/anime/${id}`);
+    if (animeData?.data) {
+      const d = animeData.data;
+      // Ne prendre que TV, Movie, OVA, ONA, Special (pas Music, CM, PV, etc.)
+      const validTypes = ['TV', 'Movie', 'OVA', 'ONA', 'Special'];
+      if (d.score && d.score > 0 && validTypes.includes(d.type)) {
+        entries.push({ mal_id: id, title: d.title, score: d.score, type: d.type });
+      }
+    }
+
+    await sleep(DELAY);
+
+    // Récupérer les relations
+    const relData = await fetchJSON(`${JIKAN_BASE}/anime/${id}/relations`);
+    if (relData?.data) {
+      for (const rel of relData.data) {
+        if (!FOLLOW_RELATIONS.includes(rel.relation)) continue;
+        for (const entry of rel.entry) {
+          // Ne suivre que les anime (pas les manga)
+          if (entry.type === 'anime' && !visited.has(entry.mal_id)) {
+            toVisit.push(entry.mal_id);
+          }
+        }
+      }
+    }
+  }
+
+  return entries;
+}
+
+// ── Frontmatter helpers ──
 
 function parseFrontmatter(content) {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -63,7 +112,7 @@ async function checkYouTubeUrl(url) {
 
 async function main() {
   const files = fs.readdirSync(ANIMES_DIR).filter(f => f.endsWith('.md'));
-  console.log(`📊 Mise à jour des scores MAL (${files.length} fiches)...`);
+  console.log(`📊 Mise à jour des scores MAL (${files.length} fiches)...\n`);
 
   let updated = 0;
   const brokenVideos = [];
@@ -79,16 +128,19 @@ async function main() {
     const titre = getValue(parsed.raw, 'titre') || file;
     const malId = getValue(parsed.raw, 'mal_id');
 
-    // ── Score MAL ──
+    // ── Score MAL : moyenne de toutes les oeuvres liées ──
     if (malId) {
-      await sleep(DELAY);
-      const data = await fetchJSON(`${JIKAN_BASE}/anime/${malId}`);
-      const score = data?.data?.score;
-      if (score) {
+      const entries = await collectAllMALIds(parseInt(malId));
+
+      if (entries.length > 0) {
+        const avg = entries.reduce((sum, e) => sum + e.score, 0) / entries.length;
+        const rounded = Math.round(avg * 100) / 100; // arrondi à 2 décimales
+
         const current = getValue(newRaw, 'score_mal');
-        if (String(score) !== current) {
-          newRaw = setValue(newRaw, 'score_mal', score);
-          console.log(`  📝 ${titre} : ${current || '?'} → ${score}`);
+        if (String(rounded) !== current) {
+          newRaw = setValue(newRaw, 'score_mal', rounded);
+          const details = entries.map(e => `${e.title}: ${e.score}`).join(', ');
+          console.log(`  📝 ${titre} : ${current || '?'} → ${rounded} (${entries.length} oeuvres: ${details})`);
           changed = true;
         }
       }
