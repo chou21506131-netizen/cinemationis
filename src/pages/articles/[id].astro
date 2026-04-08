@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import AutoLink from '../../components/AutoLink.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -12,21 +13,96 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 const { Content } = await render(article);
+const d = article.data;
+
+const dateStr = d.date_publication
+  ? new Date(d.date_publication).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
 ---
 
-<Base title={article.data.titre}>
-  <div class="fiche">
-    <h1>{article.data.titre}</h1>
-    <div class="fiche-content article-body">
+<Base title={d.titre}>
+  <article class="article-page">
+    <header class="article-header">
+      <h1>{d.titre}</h1>
+      <div class="article-meta">
+        {dateStr && <time>{dateStr}</time>}
+        {d.tags?.length > 0 && (
+          <div class="article-tags">
+            {d.tags.map(t => <span class="tag">{t}</span>)}
+          </div>
+        )}
+      </div>
+      {d.resume && <p class="article-lead">{d.resume}</p>}
+    </header>
+
+    <div class="article-body fiche-content">
       <Content />
     </div>
-    <div class="fiche-nav">
+    <AutoLink currentTitle={d.titre} selector=".article-body" />
+
+    <div class="article-nav">
       <a href="/articles">&larr; Retour aux articles</a>
     </div>
-  </div>
+  </article>
 </Base>
 
 <style>
-  h1 { margin-bottom: 1.5rem; font-size: 2rem; }
-  .article-body { font-size: 1.05rem; line-height: 1.75; }
+  .article-page {
+    max-width: 680px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+  }
+
+  .article-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .article-header h1 {
+    font-size: 2.2rem;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .article-meta time {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  .article-tags {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .article-lead {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .article-body {
+    font-size: 1.05rem;
+    line-height: 1.85;
+  }
+
+  .article-nav {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .article-nav a {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
 </style>

@@ -1,0 +1,119 @@
+---
+/**
+ * AutoLink — remplace automatiquement les mentions de titres d'animés/films
+ * par des liens cliquables vers leur fiche.
+ *
+ * Props:
+ *   currentTitle: titre de la page actuelle (pour ne pas se linker soi-même)
+ *   selector: sélecteur CSS de la zone de contenu à traiter (défaut: .fiche-content)
+ */
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentTitle: string;
+  selector?: string;
+}
+
+const { currentTitle, selector = '.fiche-content' } = Astro.props;
+
+const animes = await getCollection('animes');
+const films = await getCollection('films');
+
+// Index : titre → href, trié par longueur décroissante (les plus longs d'abord)
+const titleIndex = [
+  ...animes.map(a => ({ titre: String(a.data.titre), href: `/animes/${a.id}` })),
+  ...films.map(f => ({ titre: String(f.data.titre), href: `/films/${f.id}` })),
+]
+  .filter(item => item.titre.toLowerCase() !== currentTitle.toLowerCase())
+  .filter(item => item.titre.length >= 3) // ignorer les titres trop courts
+  .sort((a, b) => b.titre.length - a.titre.length);
+---
+
+<script define:vars={{ titleIndex, selector }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector(selector);
+    if (!container) return;
+
+    // Construire une map pour accès rapide
+    const titleMap = new Map();
+    titleIndex.forEach(item => {
+      titleMap.set(item.titre.toLowerCase(), item);
+    });
+
+    // Parcourir les noeuds texte du contenu
+    function walkTextNodes(node) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        return [node];
+      }
+      // Ne pas entrer dans les liens existants, les headings, ou les éléments de code
+      if (node.tagName === 'A' || node.tagName === 'H1' || node.tagName === 'H2' ||
+          node.tagName === 'H3' || node.tagName === 'CODE' || node.tagName === 'PRE') {
+        return [];
+      }
+      const nodes = [];
+      node.childNodes.forEach(child => {
+        nodes.push(...walkTextNodes(child));
+      });
+      return nodes;
+    }
+
+    const textNodes = walkTextNodes(container);
+    const alreadyLinked = new Set(); // un titre ne se linke qu'une fois
+
+    for (const textNode of textNodes) {
+      let text = textNode.textContent;
+      if (!text || text.trim().length < 3) continue;
+
+      let replacements = [];
+
+      // Chercher chaque titre (du plus long au plus court)
+      for (const item of titleIndex) {
+        if (alreadyLinked.has(item.titre.toLowerCase())) continue;
+
+        const idx = text.toLowerCase().indexOf(item.titre.toLowerCase());
+        if (idx === -1) continue;
+
+        // Vérifier que c'est un mot "entier" (pas au milieu d'un autre mot)
+        const before = idx > 0 ? text[idx - 1] : ' ';
+        const after = idx + item.titre.length < text.length ? text[idx + item.titre.length] : ' ';
+        const wordBoundary = /[\s.,;:!?()«»""'\-—\/\[\]]/;
+        if (idx > 0 && !wordBoundary.test(before)) continue;
+        if (idx + item.titre.length < text.length && !wordBoundary.test(after)) continue;
+
+        replacements.push({
+          start: idx,
+          end: idx + item.titre.length,
+          matched: text.substring(idx, idx + item.titre.length),
+          href: item.href,
+          titre: item.titre,
+        });
+        alreadyLinked.add(item.titre.toLowerCase());
+        break; // une seule correspondance par noeud texte
+      }
+
+      if (replacements.length === 0) continue;
+
+      const r = replacements[0];
+      const fragment = document.createDocumentFragment();
+
+      // Texte avant
+      if (r.start > 0) {
+        fragment.appendChild(document.createTextNode(text.substring(0, r.start)));
+      }
+
+      // Le lien
+      const link = document.createElement('a');
+      link.href = r.href;
+      link.textContent = r.matched;
+      link.title = `Voir la fiche : ${r.titre}`;
+      fragment.appendChild(link);
+
+      // Texte après
+      if (r.end < text.length) {
+        fragment.appendChild(document.createTextNode(text.substring(r.end)));
+      }
+
+      textNode.parentNode.replaceChild(fragment, textNode);
+    }
+  });
+</script>

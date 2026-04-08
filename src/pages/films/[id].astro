@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import AutoLink from '../../components/AutoLink.astro';
 import { getCollection, render } from 'astro:content';
 
 const allFilms = await getCollection('films');
@@ -53,6 +54,7 @@ const sameDirector = d.realisateur
     <div class="fiche-content">
       <Content />
     </div>
+    <AutoLink currentTitle={d.titre} />
 
     {d.bande_annonce && (
       <div class="trailer">

@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import AutoLink from '../../components/AutoLink.astro';
 import { getCollection, render } from 'astro:content';
 
 const allAnimes = await getCollection('animes');
@@ -60,6 +61,7 @@ const sameStudio = d.studios?.length > 0
     <div class="fiche-content">
       <Content />
     </div>
+    <AutoLink currentTitle={d.titre} />
 
     {sameGenre.length > 0 && (
       <section class="reco-section">
