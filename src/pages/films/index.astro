@@ -4,27 +4,56 @@ import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
 
 const films = (await getCollection('films'))
-  .sort((a, b) => a.data.titre.localeCompare(b.data.titre, 'fr'));
+  .sort((a, b) => (b.data.date_ajout?.getTime() || 0) - (a.data.date_ajout?.getTime() || 0));
 
 const allGenres = [...new Set(films.flatMap(f => f.data.genres))].sort();
+const allRecos = [...new Set(films.map(f => f.data.recommandation).filter(Boolean))].sort();
+const allRealisateurs = [...new Set(films.map(f => f.data.realisateur).filter(Boolean) as string[])].sort();
+
+function parseNote(note: string): number {
+  const match = note?.match(/^(\d+(?:[.,]\d+)?)/);
+  return match ? parseFloat(match[1].replace(',', '.')) : 0;
+}
 ---
 
 <Base title="Catalogue Films d'horreur" description="Toutes les fiches films d'horreur de Cinemationis">
   <div class="container">
-    <h1 class="section-title">Films d'horreur <span class="count">({films.length})</span></h1>
+    <h1 class="section-title">Films d'horreur <span class="count" id="count">({films.length})</span></h1>
 
-    <div class="filters">
-      <input type="text" id="search" placeholder="Rechercher un film..." />
-      <select id="genre-filter">
-        <option value="">Tous les genres</option>
-        {allGenres.map(g => <option value={g}>{g}</option>)}
-      </select>
-      <select id="sort">
-        <option value="titre">Titre A-Z</option>
-        <option value="note">Meilleure note</option>
-        <option value="annee">Plus récent</option>
-        <option value="date_ajout">Dernier ajout</option>
-      </select>
+    <div class="filters-bar">
+      <input type="text" id="search" placeholder="Rechercher un film..." class="filter-input" />
+      <div class="filter-row">
+        <select id="reco-filter" class="filter-select">
+          <option value="">Toutes les recos</option>
+          {allRecos.map(r => <option value={r}>{r}</option>)}
+        </select>
+        <select id="realisateur-filter" class="filter-select">
+          <option value="">Tous les réalisateurs</option>
+          {allRealisateurs.map(r => <option value={r}>{r}</option>)}
+        </select>
+        <select id="sort" class="filter-select">
+          <option value="date-desc">Dernier ajout</option>
+          <option value="titre">Titre A-Z</option>
+          <option value="note-desc">Meilleure note</option>
+          <option value="note-asc">Moins bonne note</option>
+          <option value="annee-desc">Plus récent</option>
+          <option value="annee-asc">Plus ancien</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="genre-section">
+      <div class="genre-label">Genres :</div>
+      <div class="genre-tags" id="genre-tags">
+        {allGenres.map(g => (
+          <button class="genre-tag" data-genre={g} data-state="off">{g}</button>
+        ))}
+      </div>
+      <div class="genre-legend">
+        <span class="legend-item"><span class="dot dot--include"></span> Inclus</span>
+        <span class="legend-item"><span class="dot dot--exclude"></span> Exclus</span>
+        <span class="legend-hint">Clic = inclure, 2e clic = exclure, 3e = retirer</span>
+      </div>
     </div>
 
     <div class="cards-grid" id="cards">
@@ -36,6 +65,10 @@ const allGenres = [...new Set(films.flatMap(f => f.data.genres))].sort();
           annee={film.data.annee}
           href={`/films/${film.id}`}
           genres={film.data.genres}
+          recommandation={film.data.recommandation}
+          noteNum={parseNote(film.data.note)}
+          dateAjout={film.data.date_ajout?.toISOString() || ''}
+          realisateur={film.data.realisateur || ''}
         />
       ))}
     </div>
@@ -44,18 +77,126 @@ const allGenres = [...new Set(films.flatMap(f => f.data.genres))].sort();
 
 <style>
   .count { color: var(--text-muted); font-weight: 400; font-size: 1rem; }
+  .filters-bar { margin: 1.5rem 0 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .filter-input {
+    width: 100%;
+    background: var(--bg-card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+  }
+  .filter-input:focus { outline: none; border-color: var(--accent-2); }
+  .filter-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .filter-select {
+    background: var(--bg-card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .filter-select:focus { outline: none; border-color: var(--accent-2); }
+  .genre-section { margin-bottom: 1.5rem; }
+  .genre-label { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+  .genre-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .genre-tag {
+    background: var(--bg-card);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+  }
+  .genre-tag:hover { border-color: var(--text-muted); }
+  .genre-tag[data-state="include"] { background: var(--accent-2); color: white; border-color: var(--accent-2); }
+  .genre-tag[data-state="exclude"] { background: var(--accent); color: white; border-color: var(--accent); text-decoration: line-through; }
+  .genre-legend { display: flex; gap: 1rem; align-items: center; margin-top: 0.5rem; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 0.3rem; font-size: 0.75rem; color: var(--text-muted); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot--include { background: var(--accent-2); }
+  .dot--exclude { background: var(--accent); }
+  .genre-legend .legend-hint { font-size: 0.7rem; color: var(--text-muted); opacity: 0.7; }
 </style>
 
 <script>
   const search = document.getElementById('search') as HTMLInputElement;
+  const recoFilter = document.getElementById('reco-filter') as HTMLSelectElement;
+  const realFilter = document.getElementById('realisateur-filter') as HTMLSelectElement;
+  const sortSelect = document.getElementById('sort') as HTMLSelectElement;
   const grid = document.getElementById('cards')!;
+  const countEl = document.getElementById('count')!;
   const cards = Array.from(grid.children) as HTMLElement[];
+  const genreTags = document.querySelectorAll('.genre-tag') as NodeListOf<HTMLButtonElement>;
 
-  search.addEventListener('input', () => {
-    const query = search.value.toLowerCase();
-    cards.forEach(card => {
-      const title = card.querySelector('.card-title')?.textContent?.toLowerCase() || '';
-      card.style.display = title.includes(query) ? '' : 'none';
+  genreTags.forEach(tag => {
+    tag.addEventListener('click', () => {
+      const state = tag.dataset.state;
+      if (state === 'off') tag.dataset.state = 'include';
+      else if (state === 'include') tag.dataset.state = 'exclude';
+      else tag.dataset.state = 'off';
+      filterAndSort();
     });
   });
+
+  function getGenreFilters() {
+    const include: string[] = [];
+    const exclude: string[] = [];
+    genreTags.forEach(tag => {
+      if (tag.dataset.state === 'include') include.push(tag.dataset.genre!);
+      if (tag.dataset.state === 'exclude') exclude.push(tag.dataset.genre!);
+    });
+    return { include, exclude };
+  }
+
+  function filterAndSort() {
+    const query = search.value.toLowerCase();
+    const reco = recoFilter.value;
+    const real = realFilter.value;
+    const { include: genresInclude, exclude: genresExclude } = getGenreFilters();
+
+    let visible = cards.filter(card => {
+      const title = card.dataset.titre || '';
+      const genres = (card.dataset.genres || '').split(',').filter(Boolean);
+      const cardReco = card.dataset.reco || '';
+      const cardReal = card.dataset.realisateur || '';
+
+      const matchSearch = title.includes(query);
+      const matchReco = !reco || cardReco === reco;
+      const matchReal = !real || cardReal === real.toLowerCase();
+      const matchGenreInclude = genresInclude.length === 0 || genresInclude.every(g => genres.includes(g));
+      const matchGenreExclude = genresExclude.length === 0 || !genresExclude.some(g => genres.includes(g));
+
+      const show = matchSearch && matchReco && matchReal && matchGenreInclude && matchGenreExclude;
+      card.style.display = show ? '' : 'none';
+      return show;
+    });
+
+    const sortVal = sortSelect.value;
+    visible.sort((a, b) => {
+      switch (sortVal) {
+        case 'note-desc': return (parseFloat(b.dataset.note || '0') - parseFloat(a.dataset.note || '0'));
+        case 'note-asc': return (parseFloat(a.dataset.note || '0') - parseFloat(b.dataset.note || '0'));
+        case 'annee-desc': return (parseInt(b.dataset.annee || '0') - parseInt(a.dataset.annee || '0'));
+        case 'annee-asc': return (parseInt(a.dataset.annee || '0') - parseInt(b.dataset.annee || '0'));
+        case 'date-desc': return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+        case 'titre': return (a.dataset.titre || '').localeCompare(b.dataset.titre || '', 'fr');
+        default: return 0;
+      }
+    });
+
+    visible.forEach(card => grid.appendChild(card));
+    cards.filter(c => c.style.display === 'none').forEach(c => grid.appendChild(c));
+    countEl.textContent = `(${visible.length})`;
+  }
+
+  search.addEventListener('input', filterAndSort);
+  recoFilter.addEventListener('change', filterAndSort);
+  realFilter.addEventListener('change', filterAndSort);
+  sortSelect.addEventListener('change', filterAndSort);
 </script>

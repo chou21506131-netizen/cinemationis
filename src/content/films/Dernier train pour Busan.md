@@ -9,7 +9,7 @@ genres:
   - Zombie
 realisateur: Yeon Sang-ho
 resume_court: Un virus inconnu se répand en Corée du Sud. Les passagers d'un train se livrent à une lutte sans merci pour survivre jusqu'à Busan, l'unique ville sûre.
-image: ""
+image: https://static.wixstatic.com/media/31f424_b00e6fb3d23f41ebbb7376d9823c37c5~mv2.jpg/Dernier%20train%20pour%20busan.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=p44njVCBJN0
 score_alo: 7.6

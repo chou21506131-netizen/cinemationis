@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: James Wan
 resume_court: Ed et Lorraine Warren, enquêteurs paranormaux, viennent en aide à une famille terrorisée par une présence inquiétante dans leur ferme isolée.
-image: ""
+image: https://static.wixstatic.com/media/31f424_2937c37ee6d049028ea91384d8929c6c~mv2.jpg/Conjuring%201.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=McOmzgX09wo
 score_alo: 7.5

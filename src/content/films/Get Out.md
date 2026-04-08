@@ -8,7 +8,7 @@ genres:
   - Drame
 realisateur: Jordan Peele
 resume_court: Chris, un jeune Afro-Américain, va rencontrer la famille de sa petite amie blanche. L'atmosphère tendue cache un secret bien plus inquiétant.
-image: ""
+image: https://static.wixstatic.com/media/31f424_ec70cf85c7544905a42b689fb504466b~mv2.jpg/Get%20out.jpg
 date_ajout: 2023-03-12
 bande_annonce: https://www.youtube.com/watch?v=Het-qDIFers
 score_alo: 7.8

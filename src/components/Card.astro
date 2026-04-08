@@ -1,36 +1,150 @@
 ---
 interface Props {
   titre: string;
-  image?: string;
+  image?: string | null;
   note: string;
   annee: number;
   href: string;
   genres?: string[];
+  recommandation?: string;
+  noteNum?: number;
+  dateAjout?: string;
+  studios?: string[];
+  realisateur?: string;
 }
 
-const { titre, image, note, annee, href, genres = [] } = Astro.props;
+const { titre, image, note, annee, href, genres = [], recommandation = '', noteNum = 0, dateAjout = '', studios = [], realisateur = '' } = Astro.props;
+
+const recoClass = recommandation === 'A voir' ? 'reco--top'
+  : recommandation === 'Pas mal' ? 'reco--ok'
+  : recommandation === 'Bof' ? 'reco--meh'
+  : recommandation === 'Nul' ? 'reco--bad'
+  : '';
+
+const noteClass = noteNum >= 16 ? 'note--high'
+  : noteNum >= 12 ? 'note--mid'
+  : noteNum >= 8 ? 'note--low'
+  : 'note--bad';
 ---
 
-<a href={href} class="card">
-  {image ? (
-    <img src={image} alt={titre} class="card-image" loading="lazy" />
-  ) : (
-    <div class="card-image card-image--placeholder"></div>
-  )}
-  <div class="card-body">
-    <div class="card-title">{titre}</div>
-    <div class="card-meta">
-      <span class="card-note">{note}</span>
+<a href={href} class="card"
+  data-titre={titre.toLowerCase()}
+  data-genres={genres.join(',')}
+  data-reco={recommandation}
+  data-note={noteNum}
+  data-annee={annee}
+  data-date={dateAjout}
+  data-studios={studios.join(',')}
+  data-realisateur={realisateur?.toLowerCase() || ''}
+>
+  <div class="card-img-wrap">
+    {image ? (
+      <img src={image} alt={titre} loading="lazy" />
+    ) : (
+      <div class="card-placeholder"></div>
+    )}
+    <span class={`badge-note ${noteClass}`}>{note}</span>
+    {recommandation && (
+      <span class={`badge-reco ${recoClass}`}>{recommandation}</span>
+    )}
+  </div>
+  <div class="card-info">
+    <div class="card-titre">{titre}</div>
+    <div class="card-sub">
       <span>{annee}</span>
+      {genres.length > 0 && <span class="card-genres">{genres.slice(0, 2).join(' · ')}</span>}
     </div>
   </div>
 </a>
 
 <style>
-  .card-image--placeholder {
-    background: linear-gradient(135deg, var(--bg-hover), var(--border));
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .card {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+    text-decoration: none;
+    color: inherit;
   }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-2);
+    text-decoration: none;
+  }
+
+  /* Image wrapper — DOIT être position:relative pour les badges */
+  .card-img-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    background: var(--bg-hover);
+  }
+  .card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .card-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--bg-hover), var(--border));
+  }
+
+  /* Badge note — coin haut-gauche */
+  .badge-note {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    z-index: 2;
+  }
+  .note--high { background: rgba(46, 204, 113, 0.9); color: #fff; }
+  .note--mid  { background: rgba(241, 196, 15, 0.9); color: #1a1a1a; }
+  .note--low  { background: rgba(230, 126, 34, 0.9); color: #fff; }
+  .note--bad  { background: rgba(231, 76, 60, 0.9); color: #fff; }
+
+  /* Badge reco — coin haut-droit */
+  .badge-reco {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    z-index: 2;
+  }
+  .reco--top { background: rgba(108, 92, 231, 0.9); color: #fff; }
+  .reco--ok  { background: rgba(0, 184, 148, 0.85); color: #fff; }
+  .reco--meh { background: rgba(150, 150, 150, 0.85); color: #fff; }
+  .reco--bad { background: rgba(214, 48, 49, 0.85); color: #fff; }
+
+  /* Info sous l'image */
+  .card-info {
+    padding: 0.6rem 0.75rem 0.75rem;
+  }
+  .card-titre {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.2rem;
+    color: var(--text);
+  }
+  .card-sub {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    display: flex;
+    gap: 0.5rem;
+  }
+  .card-genres { opacity: 0.7; }
 </style>

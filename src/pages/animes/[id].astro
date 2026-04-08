@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
 
+const allAnimes = await getCollection('animes');
+
 export async function getStaticPaths() {
   const animes = await getCollection('animes');
   return animes.map(anime => ({
@@ -13,9 +15,28 @@ export async function getStaticPaths() {
 const { anime } = Astro.props;
 const { Content } = await render(anime);
 const d = anime.data;
+
+// Recommandations "Du même genre" : 100% en commun OU au moins 3 genres communs
+const sameGenre = allAnimes
+  .filter(a => a.id !== anime.id)
+  .map(a => {
+    const common = a.data.genres.filter(g => d.genres.includes(g));
+    return { anime: a, commonCount: common.length };
+  })
+  .filter(({ commonCount }) => commonCount === d.genres.length || commonCount >= 3)
+  .sort((a, b) => b.commonCount - a.commonCount)
+  .slice(0, 12)
+  .map(x => x.anime);
+
+// Recommandations "Du même studio"
+const sameStudio = d.studios?.length > 0
+  ? allAnimes
+      .filter(a => a.id !== anime.id && a.data.studios?.some(s => d.studios.includes(s)))
+      .slice(0, 12)
+  : [];
 ---
 
-<Base title={d.titre} description={d.resume_court}>
+<Base title={d.titre} description={d.resume_court || undefined}>
   <div class="fiche">
     <div class="fiche-header">
       {d.image && <img src={d.image} alt={d.titre} class="fiche-poster" />}
@@ -31,7 +52,7 @@ const d = anime.data;
         {d.realisateur && <p class="meta-line"><strong>Réalisateur :</strong> {d.realisateur}</p>}
         <p class="meta-line"><strong>Recommandation :</strong> {d.recommandation}</p>
         <div class="genres">
-          {d.genres.map(g => <span class="tag">{g}</span>)}
+          {d.genres.map(g => <a href={`/animes?genre=${g}`} class="tag">{g}</a>)}
         </div>
       </div>
     </div>
@@ -40,14 +61,135 @@ const d = anime.data;
       <Content />
     </div>
 
+    {sameGenre.length > 0 && (
+      <section class="reco-section">
+        <h3 class="reco-title">Du même genre...</h3>
+        <div class="reco-strip">
+          {sameGenre.map(a => (
+            <a href={`/animes/${a.id}`} class="reco-item" title={a.data.titre}>
+              {a.data.image ? (
+                <img src={a.data.image} alt={a.data.titre} loading="lazy" />
+              ) : (
+                <div class="reco-placeholder"></div>
+              )}
+              <span class="reco-label">{a.data.titre}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {sameStudio.length > 0 && (
+      <section class="reco-section">
+        <h3 class="reco-title">Du même studio ({d.studios.join(', ')})</h3>
+        <div class="reco-strip">
+          {sameStudio.map(a => (
+            <a href={`/animes/${a.id}`} class="reco-item" title={a.data.titre}>
+              {a.data.image ? (
+                <img src={a.data.image} alt={a.data.titre} loading="lazy" />
+              ) : (
+                <div class="reco-placeholder"></div>
+              )}
+              <span class="reco-label">{a.data.titre}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <div class="fiche-nav">
       <a href="/animes">&larr; Retour au catalogue</a>
     </div>
   </div>
 </Base>
 
+<script>
+  document.querySelectorAll('.reco-strip').forEach(strip => {
+    const items = Array.from(strip.children);
+    if (items.length <= 3) {
+      (strip as HTMLElement).style.overflowX = 'auto';
+      return;
+    }
+    // Dupliquer les items pour boucle infinie
+    items.forEach(item => strip.appendChild(item.cloneNode(true)));
+    // Adapter la vitesse au nombre d'items (plus il y en a, plus c'est long)
+    const duration = items.length * 3; // ~3s par item
+    (strip as HTMLElement).style.setProperty('--scroll-duration', `${duration}s`);
+    strip.classList.add('scrolling');
+  });
+</script>
+
 <style>
   .genres { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.75rem; }
+  .genres .tag { cursor: pointer; transition: border-color 0.15s; }
+  .genres .tag:hover { border-color: var(--accent-2); text-decoration: none; }
   .fiche-nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); }
   .fiche-nav a { color: var(--text-muted); font-size: 0.9rem; }
+
+  /* Bandeau de recommandations */
+  .reco-section { margin-top: 2rem; overflow: hidden; }
+  .reco-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .reco-strip {
+    display: flex;
+    width: max-content;
+    gap: 0.6rem;
+    padding-bottom: 0.5rem;
+  }
+  .reco-strip.scrolling {
+    animation: scroll-strip var(--scroll-duration, 25s) linear infinite;
+  }
+  .reco-strip.scrolling:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll-strip {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-50% - 0.3rem)); }
+  }
+
+  .reco-item {
+    flex-shrink: 0;
+    width: 90px;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.2s;
+  }
+  .reco-item:hover { transform: translateY(-3px); text-decoration: none; }
+
+  .reco-item img {
+    width: 90px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    transition: border-color 0.2s;
+  }
+  .reco-item:hover img { border-color: var(--accent-2); }
+
+  .reco-placeholder {
+    width: 90px;
+    height: 125px;
+    background: var(--bg-hover);
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+
+  .reco-label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 </style>
