@@ -10,7 +10,7 @@ genres:
   - Thriller
 realisateur: Steven R. Monroe
 resume_court: Jennifer, jeune et jolie écrivain, s’isole dans un chalet pour y écrire son nouveau roman.
-image: https://static.wixstatic.com/media/31f424_9e077208c3c94c12a1085a3682657dba~mv2.jpg/I%20spit%20on%20your%20grave.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/1JAFM0veqxRn3ppl4rDFNerrzbT.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=Z0tYu5v2Z88
 score_alo: 6.3

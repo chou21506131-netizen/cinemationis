@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Len Wiseman
 resume_court: Selene est une guerrière vampire puissante.
-image: https://static.wixstatic.com/media/31f424_d6a6d771e5524e2ba2cff9859abb0328~mv2.jpg/Underworld.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/adHhrshaTECoTe6iIKmVsSIALzR.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=ZU4rT6RB2Sk
 score_alo: 6.8
@@ -30,7 +30,7 @@ Quelques petits problèmes aussi au niveau des effets spéciaux mais le film dat
 
 En plus de ça, on regarde pas ce genre de film pour voir des scènes de guérilla urbaine, on voudrait plus un truc avec des combats avec les pouvoirs propres aux vampires et aux loups garous, histoire que ça ait un sens. Mais vu qu'ils en ont fait une chiée de ce film on va voir dans les suivants s'ils ont corrigé tout ça.
 
-Ps : Malgré les défauts j'ai eu un petit coup de cœur pour ce film et l'ensemble de la saga. J'aime beaucoup l'ambiance et le perso principal.
+PS : Malgré les défauts j'ai eu un petit coup de cœur pour ce film et l'ensemble de la saga. J'aime beaucoup l'ambiance et le perso principal.
 
 ---
 

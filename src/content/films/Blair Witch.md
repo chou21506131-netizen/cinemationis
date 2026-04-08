@@ -9,10 +9,10 @@ genres:
   - Found footage
 realisateur: Adam Wingard
 resume_court: James et un groupe d'amis décident de s'aventurer dans la forêt de Black Hills dans le Maryland, afin d'élucider les mystères autour de la disparition en 1994 de sa sœur, que beaucoup croient liée ...
-image: https://static.wixstatic.com/media/31f424_ea54660de1394223bda7a0d9d7ecbf74~mv2.jpg/Blair%20witch.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/eVjM7CIZykrMpigdTOEitOUE5yD.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=Jmsom3vN0Ks
-score_alo: 5.0
+score_alo: 5
 ---
 
 ## Résumé
@@ -23,7 +23,7 @@ James et un groupe d'amis décident de s'aventurer dans la forêt de Black Hills
 
 ## Commentaire
 
-Un film en mode found footage, c'est pas tous les jours. Le début est un peu long mais lorsque les ennuis commencent pour les héros, ça ne s'arrête plus ! Le found foutage met le pauvre spectateur continuellement sous pression (on se reposera quand on sera mort de toute façon).
+Un film en mode found footage, c'est pas tous les jours. Le début est un peu long mais lorsque les ennuis commencent pour les héros, ça ne s'arrête plus ! Le *found foutage* met le pauvre spectateur continuellement sous pression (on se reposera quand on sera mort de toute façon).
 
 C'est d'ailleurs ce qui permet de maintenir l'intérêt pour le film vu que son scénario est comme mes cousins, c'est-à-dire assez limité (ce qui est normal pour ce format). Si quelques scènes peuvent faire peur, on a plus peur d'avoir peur qu'autre chose, et c'est ça qui rend le tout très angoissant, aidé par l'atmosphère joliment réalisée.
 

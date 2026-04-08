@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Gerard Johnstone
 resume_court: Une cambrioleuse à la petite semaine est assignée au domicile parental pour purger sa peine.
-image: https://static.wixstatic.com/media/31f424_c7905a5fc8284c9c92de4c5bff62a02d~mv2.jpg/Housebound.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/jPKEeHmUuoDnIaRs6VUqSr4qRGR.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=mYnLs8-Ii1c
 score_alo: 6.7

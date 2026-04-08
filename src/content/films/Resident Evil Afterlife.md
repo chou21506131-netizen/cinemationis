@@ -9,7 +9,7 @@ genres:
   - Action
 realisateur: Paul W.S. Anderson
 resume_court: Dans un monde ravagé par un virus, transformant ses victimes en morts-vivants, Alice continue sa lutte à mort avec Umbrella Corporation.
-image: https://static.wixstatic.com/media/31f424_673982d53e754a959c1dabed1da3fa44~mv2.jpg/Resident%20evil%20afterlife.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/dN18DJyxcuQZaQoInDZt0YH50dh.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=P5BX0pHeeJQ
 score_alo: 5.8

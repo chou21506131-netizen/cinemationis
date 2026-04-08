@@ -8,10 +8,10 @@ genres:
   - Thriller
 realisateur: Eric D. Howell
 resume_court: Dans une vieille maison de la campagne italienne, une infirmière découvre que l'enfant dont elle s'occupe est hanté par des forces malveillantes présentes dans les murs de la bâtisse.
-image: https://static.wixstatic.com/media/31f424_cab72d51994b4ad2a18c93b58f48d58e~mv2.jpg/Voice%20from%20the%20stone.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/wLwatN5yesJsMlxPk0UeBbyZxNK.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=17rIMhJjlzM
-score_alo: 5.0
+score_alo: 5
 ---
 
 ## Résumé

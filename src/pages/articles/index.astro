@@ -8,9 +8,9 @@ const articles = (await getCollection('articles'))
 
 <Base title="Articles" description="Articles et dossiers cinéma de Cinemationis">
   <div class="container">
-    <h1 class="section-title">Articles</h1>
+    <h1 class="section-title">Articles <span class="count" id="count">({articles.length})</span></h1>
 
-    <div class="articles-list">
+    <div class="articles-list" id="articles">
       {articles.map((article) => (
         <a href={`/articles/${article.id}`} class="article-card">
           <h2>{article.data.titre}</h2>
@@ -18,10 +18,13 @@ const articles = (await getCollection('articles'))
         </a>
       ))}
     </div>
+
+    <div class="pagination" id="pagination"></div>
   </div>
 </Base>
 
 <style>
+  .count { color: var(--text-muted); font-weight: 400; font-size: 1rem; }
   .articles-list {
     display: flex;
     flex-direction: column;
@@ -43,4 +46,46 @@ const articles = (await getCollection('articles'))
   }
   .article-card h2 { font-size: 1.15rem; margin-bottom: 0.4rem; }
   .article-card p { color: var(--text-muted); font-size: 0.9rem; }
+
+  /* pagination dans global.css */
 </style>
+
+<script>
+  const PER_PAGE = 10;
+  let currentPage = 1;
+
+  const list = document.getElementById('articles')!;
+  const paginationEl = document.getElementById('pagination')!;
+  const items = Array.from(list.children) as HTMLElement[];
+
+  function paginate() {
+    const totalPages = Math.max(1, Math.ceil(items.length / PER_PAGE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    const start = (currentPage - 1) * PER_PAGE;
+
+    items.forEach((item, i) => {
+      item.style.display = (i >= start && i < start + PER_PAGE) ? '' : 'none';
+    });
+
+    if (totalPages <= 1) { paginationEl.innerHTML = ''; return; }
+    let html = `<button data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>&laquo;</button>`;
+    for (let i = 1; i <= totalPages; i++) {
+      html += `<button data-page="${i}" class="${i === currentPage ? 'active' : ''}">${i}</button>`;
+    }
+    html += `<button data-page="next" ${currentPage === totalPages ? 'disabled' : ''}>&raquo;</button>`;
+    paginationEl.innerHTML = html;
+
+    paginationEl.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const p = btn.dataset.page;
+        if (p === 'prev') currentPage--;
+        else if (p === 'next') currentPage++;
+        else currentPage = parseInt(p!);
+        paginate();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  }
+
+  paginate();
+</script>

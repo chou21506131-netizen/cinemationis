@@ -1,5 +1,5 @@
 ---
-titre: "The Descent 2 : Part 2"
+titre: The Descent Part 2
 annee: 2009
 note: 14/20
 recommandation: Pas mal
@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Jon Harris
 resume_court: Une escapée de l'expédition spéléologique de "The Descent" émerge seule des grottes des Appalaches, traumatisée par les événements.
-image: https://static.wixstatic.com/media/31f424_50bfd7e08ed44bfe8eb1d76fab9ce290~mv2.jpg/The%20descent%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/or2G7w0tztnfNGfotYz4tTbxKvq.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=FN9tmvZuk3c
 score_alo: 5.7
@@ -23,7 +23,7 @@ Une escapée de l'expédition spéléologique de "The Descent" émerge seule des
 
 ## Commentaire
 
-GROSSE SALOPE ! (chose promise chose due). La suite de l'excellent The Descent. On pensait qu'il allait être beaucoup plus mauvais que le premier mais pas tant que ça finalement ! On est d'accord qu'il est un peu moins bien car la plupart des personnages nouvellement introduits n'ont aucune importance et on sait ce qui va leur arriver donc on s'en fout un peu.
+GROSSE SALOPE ! (chose promise chose due). La suite de l'excellent [[The Descent]]. On pensait qu'il allait être beaucoup plus mauvais que le premier mais pas tant que ça finalement ! On est d'accord qu'il est un peu moins bien car la plupart des personnages nouvellement introduits n'ont aucune importance et on sait ce qui va leur arriver donc on s'en fout un peu.
 
 Ce qui était intéressant, c'était de savoir ce que les personnages du premier opus étaient devenus. C'est d'ailleurs pour ça qu'on rentre très vite dans le vif du sujet sans se préoccuper de l'introduction. Au final l’héroïne principale est assez sympathique (même si on est bien content qu'elle se fasse défoncer 2/3 fois dans le film).
 

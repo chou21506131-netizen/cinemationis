@@ -30,7 +30,7 @@ Un thriller signifie, en théorie, la garantie d'une tension scénaristique maî
 
 Personnellement je me fous un peu qu'il s'agisse d'un survival, d'une enquête policière (pas une bouse genre Meurtre à Dijon par contre) ou d'un concours de tarte aux quetsches : du moment que le scénario et le rythme sont en béton, le reste passe tout seul. Le suspens doit nous maintenir en haleine jusqu'au bout, où l'on découvre le plot twist impossible à prédire qui nous fait bondir du canapé accompagné d'un « WHAT ?! » non feint.
 
-Vous me croyez pas ?! Jetez un œil à [[Death Note]], tas de punaises ingrates.
+Vous me croyez pas ?! Jetez un œil à [[films/Death Note]], tas de punaises ingrates.
 
 ## Horreur/surnaturel
 
@@ -50,6 +50,6 @@ Surprenez-vous à pleurer devant un moment déchirant d'un film, à vous dire à
 
 Si je devais ne garder d'un seul genre de cette liste, ce serait celui-là, incontestablement. Pour faire simple, animé psychologique = focus sur la façon de penser des personnages (ça ne marche pas tout le temps pour les films car ça passe parfois par des voix off ou des monologues).
 
-Je déteste les personnages complètement fumés ou qui finissent par gagner uniquement parce qu'ils sont du côté des gentils, mais bordel qu'est-ce que j'adore les personnages stupidement intelligents comme on peut en trouver dans [[Code Geass]], No Game No Life ou [[Death Note]]. Une bonne série psychologique rime avec scénario ou personnages intelligents, ou au moins intelligemment écrits. Lorsque le duel se fait à coup de dogmes, d'aphories, d'anticipations et autres tours de stratège émérite, je ne peux que plussoyer.
+Je déteste les personnages complètement fumés ou qui finissent par gagner uniquement parce qu'ils sont du côté des gentils, mais bordel qu'est-ce que j'adore les personnages stupidement intelligents comme on peut en trouver dans [[Code Geass]], No Game No Life ou [[films/Death Note]]. Une bonne série psychologique rime avec scénario ou personnages intelligents, ou au moins intelligemment écrits. Lorsque le duel se fait à coup de dogmes, d'aphories, d'anticipations et autres tours de stratège émérite, je ne peux que plussoyer.
 
 A noter qu'une œuvre peut être psychologique sans être chiante. Ainsi, la combinaison avec des guerres, des enquêtes ou des jeunes filles plantureuses est donc tout à fait possible et valide.

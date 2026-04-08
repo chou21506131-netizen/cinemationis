@@ -7,7 +7,7 @@ genres:
   - Horreur
 realisateur: M. Night Shyamalan
 resume_court: Deux enfants sont envoyés passer une semaine en Pennsylvanie, dans la ferme de leurs grands-parents.
-image: https://static.wixstatic.com/media/31f424_03685b237e444db38b81cf760d86e578~mv2.jpg/The%20visit.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/xyIwHUaJ0wbue606ZRICiPrz8QZ.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=IBlHQHJJEJU
 score_alo: 6.2

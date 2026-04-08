@@ -110,7 +110,7 @@ Sans avoir valeur de documentaire, on parle là d'animés qui mettent en scène 
 
 -   Baccano !
 
--   [[Le Tombeau des Lucioles]] (film)
+-   [[Le Tombeau des lucioles]] (film)
 
 -   C'est tout lol
 
@@ -244,7 +244,7 @@ L'équivalent pour filles (de 7 à 14 ans donc) où l'on aborde l'amour (mais en
 
 ### Seinens
 
-Un poil plus mature que les shonens, la cible des seinens correspond aux garçons de 15 ans et plus. En gros, place aux titres les plus en vogue de ces dernières années : SNK, [[Tokyo Ghoul]], [[Death Note]]...
+Un poil plus mature que les shonens, la cible des seinens correspond aux garçons de 15 ans et plus. En gros, place aux titres les plus en vogue de ces dernières années : SNK, [[Tokyo Ghoul]], [[films/Death Note]]...
 
 Attention, c'est aussi dans cette catégorie que l'on trouve les animés avec des scènes un peu plus... crues, dirons-nous. Donc un gros poil plus mature.
 

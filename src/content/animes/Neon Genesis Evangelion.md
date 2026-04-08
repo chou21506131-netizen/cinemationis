@@ -14,11 +14,12 @@ genres:
   - Drame
   - Fantastique
   - Psychologique
+  - Mecha
 studios:
   - Gainax
 realisateur: Hideaki Anno
 resume_court: Un enfant sans histoire est choisi pour protéger l'humanité d'une invasion.
-image: "https://myanimelist.net/images/anime/1314/108941l.jpg"
+image: https://myanimelist.net/images/anime/1314/108941l.jpg
 date_ajout: 2024-08-18
 videos:
   - 

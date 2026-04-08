@@ -1,5 +1,5 @@
 ---
-titre: "Pet (:D)"
+titre: Pet (:D)
 annee: 2016
 note: 16/20
 recommandation: A voir
@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Carles Torrens
 resume_court: Seth, trentenaire maladroit et inquiétant, tente de séduire Holly, une serveuse, mais échoue lamentablement.
-image: https://static.wixstatic.com/media/31f424_c5801020b89d4b59a77cbcddd01133ff~mv2.jpg/Pet.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/cO5debLXk54GhgXd92GVD0Hpinv.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=QIMZG_1L9Vk
 score_alo: 5.7

@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Nicolas Winding Refn
 resume_court: Une jeune fille débarque à Los Angeles.
-image: https://static.wixstatic.com/media/31f424_a5497ee9a0b644abb3b48ace35eb909a~mv2.jpg/The%20neon%20demon.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/wvF24m4ktOyMZRleuk3kwJhBI0v.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=lBYf1ALkpVc
 score_alo: 6.1

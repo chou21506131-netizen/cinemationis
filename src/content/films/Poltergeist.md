@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Gil Kenan
 resume_court: Lorsque les Bowen emménagent dans leur nouvelle maison, ils sont rapidement confrontés à des phénomènes étranges.
-image: https://static.wixstatic.com/media/31f424_b70e3b92f81545c590b3af6cb29a0a6c~mv2.jpg/Poltergeist.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/AhQYjd6iIRqGyRKzb1S1g69xLT6.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=kJF4AyHvfo8
 score_alo: 4.9
@@ -26,7 +26,7 @@ Après plusieurs semaines sans film, j'espérais reprendre par quelque chose de 
 
 Le début, même s'il traîne en longueur, est assez bien fait et plante bien le décor et les personnages. Mais à partir de la moitié du film, tout part complètement en steak : plus rien n'a de sens. Je sais même pas quoi dire tellement l'ensemble est mauvais.
 
-Et sans déconner, la fin est suffisamment pourrie pour concurrencer The Grudge. Je dis ça je dis tout... Je le conseille vivement dans le cas où vous voulez vous foutre de quelque chose avec des potes sinon passez votre chemin. Rien que la tête de trisomique d'un des méchants sur la miniature de la bande-annonce vend du rêve.
+Et sans déconner, la fin est suffisamment pourrie pour concurrencer [[The Grudge]]. Je dis ça je dis tout... Je le conseille vivement dans le cas où vous voulez vous foutre de quelque chose avec des potes sinon passez votre chemin. Rien que la tête de trisomique d'un des méchants sur la miniature de la bande-annonce vend du rêve.
 
 On dirait un mélange entre un cochon et un playmobile moche.
 

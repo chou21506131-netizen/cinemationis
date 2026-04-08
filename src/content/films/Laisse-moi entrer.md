@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Matt Reeves
 resume_court: Abby, une mystérieuse fille de 12 ans, vient d'emménager dans l'appartement à côté de celui où vit Owen.
-image: https://static.wixstatic.com/media/31f424_45b944c8785c44f08927733ffdcc522f~mv2.jpg/Laisse-moi%20entrer.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/qITzZAQarBhGGO30LrLQFfKcFoB.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=5xzPV0fnefY
 score_alo: 7.1

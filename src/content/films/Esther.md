@@ -8,10 +8,10 @@ genres:
   - Thriller
 realisateur: Jaume Collet-Serra
 resume_court: Après avoir perdu l'enfant qu'elle attendait, la fragile Kate voit ressurgir les douloureux souvenirs d'un passé qu'elle préférerait oublier.
-image: https://static.wixstatic.com/media/31f424_20e5a99370664885939874828ea1892b~mv2.jpg/Esther.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/mvY2eNImpHcfF3kAXaVmSf82Ecc.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=k7C6E_ibYa8
-score_alo: 7.0
+score_alo: 7
 ---
 
 ## Résumé

@@ -7,10 +7,10 @@ genres:
   - Horreur
 realisateur: William Brent Bell
 resume_court: Pour essayer d’échapper à son passé, Greta, une jeune Américaine, se fait engager comme assistante maternelle en Angleterre, dans une maison perdue en pleine campagne.
-image: https://static.wixstatic.com/media/31f424_bbe038bb7a1d45b58b064d90409b9943~mv2.jpg/The%20boy.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/qcL9cF0SpsXg7ioy6gbETEC6RCr.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=diBRmxDnz0E
-score_alo: 6.0
+score_alo: 6
 ---
 
 ## Résumé

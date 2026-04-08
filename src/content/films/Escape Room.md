@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Adam Robitel
 resume_court: Six amis testent leur intelligence dans un escape game qui bascule dans la violence.
-image: https://static.wixstatic.com/media/31f424_9c3fbbf4bc144dbeafd4692ae22eca85~mv2.jpg/Escape%20room.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/oT27qfl5kRjpLEPf7g3SYFVS61G.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=_Wzj2iNPy7s
 score_alo: 6.4

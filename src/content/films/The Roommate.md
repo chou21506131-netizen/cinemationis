@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Christian E. Christiansen
 resume_court: Sara, une étudiante, voit sa vie basculer dans l'horreur avec l'arrivée de Rebecca, sa nouvelle colocataire...
-image: https://static.wixstatic.com/media/31f424_be45197d75914f66b6db458d483f6998~mv2.jpg/The%20roommate.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/uq7rPGqF6z57vhiikvZUFlGgB9W.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=7NX30f8b1Oo
 score_alo: 4.4

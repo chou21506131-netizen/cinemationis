@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Caradog W. James
 resume_court: Jess est une artiste de renom.
-image: https://static.wixstatic.com/media/31f424_548c230863534be5b69adb951accf091~mv2.jpg/Baba%20yaga.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/2YrVaHhT1BlIddBKV3LKgsm3nUn.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=G_UwooodBMM
 score_alo: 5.1

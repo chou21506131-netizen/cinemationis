@@ -9,7 +9,7 @@ genres:
   - Horreur
 realisateur: Sylvain White
 resume_court: Dans une petite ville du Massachusetts, quatre adolescentes exécutent un rituel visant à démystifier l'existence du Slenderman.
-image: https://static.wixstatic.com/media/31f424_0915e3a3022c4ed3a72e0ede7b5580c8~mv2.jpg/Slender%20man.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/wEaCBT2fMfmdRcMSltiyFqPh0KN.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=kGDOO2d2_uU
 score_alo: 3.2

@@ -7,7 +7,7 @@ genres:
   - Drame
 realisateur: Julia Leigh
 resume_court: Une jeune étudiante qui a besoin d’argent multiplie les petits boulots.
-image: https://static.wixstatic.com/media/31f424_1a9b15c72a9a497eb6adbe4c0e299baf~mv2.jpg/Sleeping%20beauty.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/nAzmtPTHYqzUeBjkQq9QMCrMtne.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=BsvtvJN8tZc
 score_alo: 4.9
@@ -25,7 +25,7 @@ Pour être clair : c'est le pire navet que j'ai pu voir de toute mon existence, 
 
 Ce film cherche sûrement à montrer quelque chose, mais la réalisation est complètement ratée : on s'attarde sur des plans fixes qui n'ont aucun sens : on nous montre un passage pendant 30 secondes qui n'a aucun rapport avec ce qu'il y a avant ou après.
 
-Bref, on ne sait pas pourquoi ce film existe, et on en fait les frais. J’hésite même à dire que The Grudge est plus intéressant tellement qu'il est chiant... Voyez où j'en suis rendu ! Heureusement pour nous qu'Emily Browning était là. Sans elle, le film nous aurait tué d'ennui au bout de 15 minutes.
+Bref, on ne sait pas pourquoi ce film existe, et on en fait les frais. J’hésite même à dire que [[The Grudge]] est plus intéressant tellement qu'il est chiant... Voyez où j'en suis rendu ! Heureusement pour nous qu'Emily Browning était là. Sans elle, le film nous aurait tué d'ennui au bout de 15 minutes.
 
 La fin est triste dans tous les sens du terme : triste à la fois au niveau scénaristique et à la fois pour le personnage principal qui saisit ce qui lui arrive (au moins une personne qui aura compris quelque chose). Je préfère ne pas parler de l'ambiance sonore inexistante ni des moments ultra gênants qui viennent nous faire coucou de temps en temps.
 

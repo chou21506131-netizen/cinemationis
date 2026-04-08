@@ -8,7 +8,7 @@ genres:
   - Comédie
 realisateur: Eli Craig
 resume_court: Tucker et Dale, deux gentils péquenauds en forêt, sont pris pour des serial killers par un groupe d'étudiants suite à un quiproquo mortel.
-image: https://static.wixstatic.com/media/31f424_d6ac564cd58e40cfa87b16696ac5561f~mv2.jpg/Tucker%20&%20Dale%20fightent%20le%20mal.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/oDrfUaVWRy2qbaj9FzPWwlFHPPP.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=yocEi2ZLQdE
 score_alo: 7.5

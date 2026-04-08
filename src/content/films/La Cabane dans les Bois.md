@@ -9,10 +9,10 @@ genres:
   - Action
 realisateur: Drew Goddard
 resume_court: Cinq amis partent passer le week-end dans une cabane perdue au fond des bois.
-image: https://static.wixstatic.com/media/31f424_c1e7e895ccdc4ed19c6a489f359f60f5~mv2.jpg/La%20cabane%20dans%20les%20bois.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/8L9d3rU1eVeIoxdJvprz5A5OXXo.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=lZMV-kj85Kc
-score_alo: 7.0
+score_alo: 7
 ---
 
 ## Résumé

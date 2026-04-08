@@ -9,10 +9,10 @@ genres:
   - Thriller
 realisateur: Christopher Landon
 resume_court: Alors que Tree pensait s’être définitivement débarrassée de celle qui voulait sa mort et qu’elle file le parfait amour avec Carter, elle se retrouve projetée dans une dimension parallèle à notre mo...
-image: https://static.wixstatic.com/media/31f424_8555268399324202be8594d8634a1642~mv2.jpg/Happy%20birthdead%202%20you.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/q6Bc1nIgcr6uLkFxRvM2SwxLpqn.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=IRo6TUtZW1I
-score_alo: 6.0
+score_alo: 6
 ---
 
 ## Résumé

@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: James Wan
 resume_court: Un homme revient dans sa ville natale pour enquêter sur la mort mystérieuse de sa femme.
-image: https://static.wixstatic.com/media/31f424_18f3f144a4df4ad497ec6299889c8265~mv2.jpg/Dead%20silence.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/sXr3Eihgmm8eooEUceXXcFF6ZEZ.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=nCa7r_vJ6xM
 score_alo: 6.2

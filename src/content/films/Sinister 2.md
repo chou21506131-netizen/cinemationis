@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Ciaran Foy
 resume_court: Alors qu’il reprend son enquête inachevée sur les homicides non résolus, l’ex-shérif adjoint fait la connaissance d’une jeune mère de famille et de ses jumeaux.
-image: https://static.wixstatic.com/media/31f424_5a552b2379e94f418e579e8b8e50f4d7~mv2.jpg/Sinister%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/vInsiNLr95OgrsDAIIiICWsCt8L.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=dHVwlgisBU4
 score_alo: 5.3
@@ -24,7 +24,7 @@ Alors qu’il reprend son enquête inachevée sur les homicides non résolus, l�
 
 Cette suite de Sinister a la particularité de présenter l'histoire d'un point de vue différent. Ici, le film fait plus office de spin-off ou de support du premier plus qu'autre chose. L'histoire permet notamment de mieux comprendre ce qu'il s'est passé dans l'autre film.
 
-En ce qui concerne le scénario, celui-ci est clairement moins élaboré que dans le premier (mais reste satisfaisant, parce que c'est dur de faire mieux quand même) et le côté thriller/enquête est délaissé au profit de l'horreur, rendant le film proche d'un Dead Silence ou de La Dame en Noir.
+En ce qui concerne le scénario, celui-ci est clairement moins élaboré que dans le premier (mais reste satisfaisant, parce que c'est dur de faire mieux quand même) et le côté thriller/enquête est délaissé au profit de l'horreur, rendant le film proche d'un [[Dead Silence]] ou de [[La Dame en Noir]].
 
 C'est un choix. On perd quand même en qualité à cause de l'ajout d'une histoire romantique vraiment pas incroyable qui fait redescendre considérablement la pression due aux passages d'horreur (c'est pas que c'est pas bien les gros poumons mais faut en assumer les conséquences).
 

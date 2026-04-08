@@ -7,7 +7,7 @@ genres:
   - Horreur
 realisateur: Alejandro Amenabar
 resume_court: En 1945 sur l'île de Jerseye vit Grace et ses deux enfants, Anne et Nicholas.
-image: https://static.wixstatic.com/media/31f424_2ea42d0f9d974f288fec203337f08a8d~mv2.jpg/Les%20autres.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/avGVh36bjnw88tDFV41N6Hodybl.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=VeOLvPnndLs
 score_alo: 7.6

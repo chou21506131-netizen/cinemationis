@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Len Wiseman
 resume_court: La lutte millénaire que se livrent Vampires et Lycans est sur le point de connaître un tournant décisif...Pour avoir découvert le secret du massacre de sa famille, Sélène, la redoutable guerrière v...
-image: https://static.wixstatic.com/media/31f424_ec7ece75f98843eba2d8444285ce3113~mv2.jpg/Underworld%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/lfTRmqf0rQ101evfT0u5KK9JhJj.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=QjI5PkhQ3J0
 score_alo: 6.6

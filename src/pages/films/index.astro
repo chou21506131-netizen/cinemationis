@@ -72,6 +72,8 @@ function parseNote(note: string): number {
         />
       ))}
     </div>
+
+    <div class="pagination" id="pagination"></div>
   </div>
 </Base>
 
@@ -122,15 +124,21 @@ function parseNote(note: string): number {
   .dot--include { background: var(--accent-2); }
   .dot--exclude { background: var(--accent); }
   .genre-legend .legend-hint { font-size: 0.7rem; color: var(--text-muted); opacity: 0.7; }
+
+  /* pagination dans global.css */
 </style>
 
 <script>
+  const PER_PAGE = 20;
+  let currentPage = 1;
+
   const search = document.getElementById('search') as HTMLInputElement;
   const recoFilter = document.getElementById('reco-filter') as HTMLSelectElement;
   const realFilter = document.getElementById('realisateur-filter') as HTMLSelectElement;
   const sortSelect = document.getElementById('sort') as HTMLSelectElement;
   const grid = document.getElementById('cards')!;
   const countEl = document.getElementById('count')!;
+  const paginationEl = document.getElementById('pagination')!;
   const cards = Array.from(grid.children) as HTMLElement[];
   const genreTags = document.querySelectorAll('.genre-tag') as NodeListOf<HTMLButtonElement>;
 
@@ -140,6 +148,7 @@ function parseNote(note: string): number {
       if (state === 'off') tag.dataset.state = 'include';
       else if (state === 'include') tag.dataset.state = 'exclude';
       else tag.dataset.state = 'off';
+      currentPage = 1;
       filterAndSort();
     });
   });
@@ -166,37 +175,68 @@ function parseNote(note: string): number {
       const cardReco = card.dataset.reco || '';
       const cardReal = card.dataset.realisateur || '';
 
-      const matchSearch = title.includes(query);
-      const matchReco = !reco || cardReco === reco;
-      const matchReal = !real || cardReal === real.toLowerCase();
-      const matchGenreInclude = genresInclude.length === 0 || genresInclude.every(g => genres.includes(g));
-      const matchGenreExclude = genresExclude.length === 0 || !genresExclude.some(g => genres.includes(g));
-
-      const show = matchSearch && matchReco && matchReal && matchGenreInclude && matchGenreExclude;
-      card.style.display = show ? '' : 'none';
-      return show;
+      return title.includes(query)
+        && (!reco || cardReco === reco)
+        && (!real || cardReal === real.toLowerCase())
+        && (genresInclude.length === 0 || genresInclude.every(g => genres.includes(g)))
+        && (genresExclude.length === 0 || !genresExclude.some(g => genres.includes(g)));
     });
 
     const sortVal = sortSelect.value;
     visible.sort((a, b) => {
       switch (sortVal) {
-        case 'note-desc': return (parseFloat(b.dataset.note || '0') - parseFloat(a.dataset.note || '0'));
-        case 'note-asc': return (parseFloat(a.dataset.note || '0') - parseFloat(b.dataset.note || '0'));
-        case 'annee-desc': return (parseInt(b.dataset.annee || '0') - parseInt(a.dataset.annee || '0'));
-        case 'annee-asc': return (parseInt(a.dataset.annee || '0') - parseInt(b.dataset.annee || '0'));
+        case 'note-desc': return parseFloat(b.dataset.note || '0') - parseFloat(a.dataset.note || '0');
+        case 'note-asc': return parseFloat(a.dataset.note || '0') - parseFloat(b.dataset.note || '0');
+        case 'annee-desc': return parseInt(b.dataset.annee || '0') - parseInt(a.dataset.annee || '0');
+        case 'annee-asc': return parseInt(a.dataset.annee || '0') - parseInt(b.dataset.annee || '0');
         case 'date-desc': return (b.dataset.date || '').localeCompare(a.dataset.date || '');
         case 'titre': return (a.dataset.titre || '').localeCompare(b.dataset.titre || '', 'fr');
         default: return 0;
       }
     });
 
-    visible.forEach(card => grid.appendChild(card));
+    const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    const start = (currentPage - 1) * PER_PAGE;
+    const pageItems = visible.slice(start, start + PER_PAGE);
+
+    cards.forEach(c => c.style.display = 'none');
+    pageItems.forEach(card => { card.style.display = ''; grid.appendChild(card); });
     cards.filter(c => c.style.display === 'none').forEach(c => grid.appendChild(c));
+
     countEl.textContent = `(${visible.length})`;
+    renderPagination(totalPages);
   }
 
-  search.addEventListener('input', filterAndSort);
-  recoFilter.addEventListener('change', filterAndSort);
-  realFilter.addEventListener('change', filterAndSort);
-  sortSelect.addEventListener('change', filterAndSort);
+  function renderPagination(totalPages: number) {
+    if (totalPages <= 1) { paginationEl.innerHTML = ''; return; }
+    let html = `<button data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>&laquo;</button>`;
+    for (let i = 1; i <= totalPages; i++) {
+      if (totalPages > 7 && i > 2 && i < totalPages - 1 && Math.abs(i - currentPage) > 1) {
+        if (i === 3 || i === totalPages - 2) html += `<span class="pagination-dots">...</span>`;
+        continue;
+      }
+      html += `<button data-page="${i}" class="${i === currentPage ? 'active' : ''}">${i}</button>`;
+    }
+    html += `<button data-page="next" ${currentPage === totalPages ? 'disabled' : ''}>&raquo;</button>`;
+    paginationEl.innerHTML = html;
+
+    paginationEl.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const p = btn.dataset.page;
+        if (p === 'prev') currentPage--;
+        else if (p === 'next') currentPage++;
+        else currentPage = parseInt(p!);
+        filterAndSort();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  }
+
+  search.addEventListener('input', () => { currentPage = 1; filterAndSort(); });
+  recoFilter.addEventListener('change', () => { currentPage = 1; filterAndSort(); });
+  realFilter.addEventListener('change', () => { currentPage = 1; filterAndSort(); });
+  sortSelect.addEventListener('change', () => { currentPage = 1; filterAndSort(); });
+
+  filterAndSort();
 </script>

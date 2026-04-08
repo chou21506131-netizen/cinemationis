@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Stiles White
 resume_court: Après avoir perdu Debbie, son amie d'enfance, dans des circonstances atroces, Laine tombe sur une vieille planchette Ouija dans la chambre de Debbie et tente alors d'y jouer pour dire "Au revoir" à...
-image: https://static.wixstatic.com/media/31f424_42c97e6226f044a28a084853518ea168~mv2.jpg/Ouija.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/gwjHlGjK2xXKpjd65BWyAMwzTWC.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=eolG77PY-P0
 score_alo: 4.5

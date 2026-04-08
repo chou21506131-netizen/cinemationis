@@ -10,7 +10,7 @@ genres:
   - Thriller
 realisateur: Kevin Goetz
 resume_court: Lucie, une petite fille de dix ans, disparue quelques mois plus tôt, est retrouvée errant sur la route.
-image: https://static.wixstatic.com/media/31f424_c7b624aebeb24266ba718757cca9f199~mv2.jpg/Martyrs.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/do92C3aiADF8SHC7gkRI65z6o9S.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=whLR-LWitPc
 score_alo: 4.6

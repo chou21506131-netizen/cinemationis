@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Adam Robitel
 resume_court: "Le docteur Elise Rainier, la brillante parapsychologue, va affronter le cas le plus effrayant et le plus personnel de son histoire : elle doit intervenir dans sa propre maison…"
-image: https://static.wixstatic.com/media/31f424_0acad2f970b747fbb4efb1622d102a47~mv2.jpg/Insidious%204.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/mlGRKj0W21XSBr6woXsikPnvPzh.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=jSQxxYuvHHU
 score_alo: 5.7

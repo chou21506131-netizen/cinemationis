@@ -9,7 +9,7 @@ genres:
   - Horreur
 realisateur: Gareth Evans
 resume_court: Un homme se rend sur une île lointaine à la recherche de sa sœur, kidnappée par une dangereuse secte.
-image: https://static.wixstatic.com/media/31f424_baa0afa688fe48e7b44013133b7efbb1~mv2.jpg/Le%20bon%20ap%C3%B4tre.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/xHoV8u9nYztHL4zzs0zFAPZNChs.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=mr-DKfHP7dI
 score_alo: 6.3

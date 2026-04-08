@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: James Wan
 resume_court: Lorraine et Ed Warren se rendent dans le nord de Londres pour venir en aide à une mère qui élève seule ses quatre enfants dans une maison hantée par des esprits maléfiques.
-image: https://static.wixstatic.com/media/31f424_4a8f8556393e41ec82d691e2eea8df75~mv2.jpg/Conjuring%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/oHQRX1zrBH1Li5JNbNJSUi0h22d.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=Y3kNhv0Nm_g
 score_alo: 7.3
@@ -22,7 +22,7 @@ Lorraine et Ed Warren se rendent dans le nord de Londres pour venir en aide à u
 
 ## Commentaire
 
-Comme Conjuring 1 : haletant du début à la fin. Le personnage principal remplit parfaitement son rôle et je trouve même qu'il devient attachant. Après le parallélisme entre les 2 familles me semble un tantinet tordu, mais la convergence est réussie et ça mène à de sacrées scènes.
+Comme [[Conjuring 1]] : haletant du début à la fin. Le personnage principal remplit parfaitement son rôle et je trouve même qu'il devient attachant. Après le parallélisme entre les 2 familles me semble un tantinet tordu, mais la convergence est réussie et ça mène à de sacrées scènes.
 
 Par contre la fin n'est toujours pas qualitative, à la manière du 1er.
 

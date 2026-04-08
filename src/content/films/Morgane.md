@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Luke Scott
 resume_court: Consultante en gestion du risque, Lee est envoyée dans un lieu isolé et tenu secret pour enquêter sur un événement terrifiant qui s’y est déroulé.
-image: https://static.wixstatic.com/media/31f424_533b57f8c036474ca6a478f5d1a6ea2d~mv2.jpg/Morgane.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/4AyeAbLfCF07rJ3k6VRMIxpKy1h.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=NkAKvzn9hhs
 score_alo: 5.8

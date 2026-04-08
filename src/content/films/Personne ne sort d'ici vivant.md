@@ -7,7 +7,7 @@ genres:
   - Thriller
 realisateur: Santiago Menghini
 resume_court: Ambar est une immigrante qui rêve d'une vie meilleure en Amérique.
-image: https://static.wixstatic.com/media/31f424_804d909aa0be4d849b3ba7bb62cd9e04~mv2.jpg/Personne%20ne%20sort%20d'ici%20vivant.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/aTcck3rwEhj4vsC8Ij2AdErN67Y.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=_HfHAdxJrgg
 score_alo: 5.2

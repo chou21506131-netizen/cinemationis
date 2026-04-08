@@ -26,7 +26,7 @@ Ils ont changé de réalisateur, et ils ont bien fait ! Au moins, maintenant, le
 
 A la différence de nombreux films, il n'y a pas de moments creux où on essaye de faire avancer une histoire pour surprendre le spectateur avec des twists (normal vu qu'il y en a pas), là on cherche juste à faire peur. Et je dois dire qu'on fait ça bien !
 
-On pourrait croire à une avalanche de screamers mais pas tant que ça. Y en a, forcément, mais il y a aussi des moments qui mettent une bonne pression. A noter aussi que les filles jouent très bien, surtout celle du personnage principal. Sinon la musique m'a pas marqué plus que ça et la fin se raccorde très bien avec le début d'Annabelle 1 (même si l'actrice adulte ressemble PAS DU TOUT à celle enfant).
+On pourrait croire à une avalanche de screamers mais pas tant que ça. Y en a, forcément, mais il y a aussi des moments qui mettent une bonne pression. A noter aussi que les filles jouent très bien, surtout celle du personnage principal. Sinon la musique m'a pas marqué plus que ça et la fin se raccorde très bien avec le début d'[[Annabelle]] (même si l'actrice adulte ressemble PAS DU TOUT à celle enfant).
 
 ---
 

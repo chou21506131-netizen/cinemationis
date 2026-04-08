@@ -10,7 +10,7 @@ genres:
   - Surnaturel
 realisateur: Fede Alvarez
 resume_court: Mia a déjà connu pas mal de galères dans sa vie, et elle est décidée à en finir une bonne fois pour toutes avec ses addictions.
-image: https://static.wixstatic.com/media/31f424_66296cbc346c4104a8ef51ce63275022~mv2.jpg/Evil%20dead.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/bntAvXObNU0cmLLWwHB61DtQZWk.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=qNGi-SFz8LE
 score_alo: 6.5

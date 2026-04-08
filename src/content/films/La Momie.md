@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Alex Kurtzman
 resume_court: Bien qu’elle ait été consciencieusement enterrée dans un tombeau au fin fond d’un insondable désert, une princesse de l’ancienne Égypte, dont le destin lui a été injustement ravi, revient à la vie ...
-image: https://static.wixstatic.com/media/31f424_de4098f31fe040c982035b585c7f5af6~mv2.jpg/La%20momie.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/uHOcfHEo6i9ovafAlhBdflMHEt5.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=5AgglcMuQqE
 score_alo: 5.4

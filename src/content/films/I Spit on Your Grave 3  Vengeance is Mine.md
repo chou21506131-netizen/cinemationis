@@ -7,10 +7,10 @@ genres:
   - Rape & Revenge
 realisateur: R.D. Braunstein
 resume_court: Jennifer Hills est toujours tourmentée par l'agression sexuelle dont elle a été victime des années auparavant.
-image: https://static.wixstatic.com/media/31f424_adfd5b7335994ba09b75cbe6f76f921a~mv2.jpg/I%20spit%20on%20your%20grave%203.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/qosIFCddpZjoMdsrkcQWB4UGm3o.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=4sdCJMunlWw
-score_alo: 5.0
+score_alo: 5
 ---
 
 ## Résumé

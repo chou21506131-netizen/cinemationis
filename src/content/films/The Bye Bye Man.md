@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Stacy Title
 resume_court: Lorsque trois étudiants s'installent dans une vieille maison aux abords de leur campus, ils libèrent le Bye Bye Man, une entité surnaturelle qui hante ceux qui découvrent son nom.
-image: https://static.wixstatic.com/media/31f424_9cd5357a097b48959dde4152ab7c4533~mv2.jpg/The%20bye%20bye%20man.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/CDMDlV5fEtAZcy4NXxh6cs2TCG.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=euiodGNABLg
 score_alo: 3.4
@@ -22,7 +22,7 @@ Lorsque trois étudiants s'installent dans une vieille maison aux abords de leur
 
 ## Commentaire
 
-C'est clairement un copié-collé plus ou moins raté de Mister Babadook (on ne retrouve pas les mêmes moments de tension). Ici, les personnages n'ont pas été assez approfondis au début du film donc lorsqu'ils deviennent fous, bah on s'en tape un peu. On prend pas assez de temps pour planter le décors.
+C'est clairement un copié-collé plus ou moins raté de [[Mister Babadook]] (on ne retrouve pas les mêmes moments de tension). Ici, les personnages n'ont pas été assez approfondis au début du film donc lorsqu'ils deviennent fous, bah on s'en tape un peu. On prend pas assez de temps pour planter le décors.
 
 C'est dommage parce que le méchant était pas mal, même s'il se balade en peignoir, ce qui constitue un défaut majeur pour un antagoniste, à mon sens. Après il n'est pas assez présent pour vraiment plomber l'atmosphère comme le Babadook de notre enfance (non).
 

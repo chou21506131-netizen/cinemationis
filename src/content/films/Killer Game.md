@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Patrick Brice
 resume_court: Makani et ses amis du lycée Osborne High font tout pour identifier et arrêter un tueur masqué qui s'en prend aux élèves en dévoilant leurs secrets les plus intimes.
-image: https://static.wixstatic.com/media/31f424_f9a224928e9e449584f25a4ec608a294~mv2.jpg/Killer%20game.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/rOq2fVzMVkrgCZ5OZXArjd8sxkY.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=PQjiBw6-bZ0
 score_alo: 4.9

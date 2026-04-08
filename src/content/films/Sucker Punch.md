@@ -8,10 +8,10 @@ genres:
   - Thriller
 realisateur: Zack Snyder
 resume_court: Enfermée contre son gré, Babydoll a toujours envie de se battre pour reconquérir sa liberté.
-image: https://static.wixstatic.com/media/31f424_c8359c6422964f108fd958a5a67953e2~mv2.jpg/Sucker%20punch.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/oQN7bmjvbIYH2H8DebvecLQ9kRK.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=9ZH2vJ0Uwi4
-score_alo: 6.0
+score_alo: 6
 ---
 
 ## Résumé

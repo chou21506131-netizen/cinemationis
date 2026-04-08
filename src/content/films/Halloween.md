@@ -9,10 +9,10 @@ genres:
   - Slasher
 realisateur: Rob Zombie
 resume_court: Un 31 octobre, le soir d'Halloween, la vie du jeune Michael Myers, 10 ans, bascule.
-image: https://static.wixstatic.com/media/31f424_31114ea0785047fb92681fd4a55edde8~mv2.jpg/Halloween.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/bIqDPdb7wxYuPynxySTIpoL5K1G.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=H4Kuyo5K4Jk
-score_alo: 6.0
+score_alo: 6
 ---
 
 ## Résumé

@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Tom Harper
 resume_court: Pendant la Seconde Guerre mondiale, huit écoliers accompagnés par la directrice de l’école et une jeune enseignante, quittent Londres pour se mettre à l’abri dans le petit village de Crythin Gifford.
-image: https://static.wixstatic.com/media/31f424_c3e00a6d871f4976bf26c2733703dd51~mv2.jpg/La%20dame%20en%20noir%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/5FG4AcVxptlAikXO4ce9qHXQvmg.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=AzdjHSYpv1k
 score_alo: 4.9

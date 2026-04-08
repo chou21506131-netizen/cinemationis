@@ -1,4 +1,6 @@
 ---
+import { getCollection } from 'astro:content';
+
 interface Props {
   title: string;
   description?: string;
@@ -6,6 +8,32 @@ interface Props {
 
 const { title, description = 'Revues animés, films horreur et articles cinéma' } = Astro.props;
 const currentPath = Astro.url.pathname;
+
+// Index de recherche globale
+const animes = await getCollection('animes');
+const films = await getCollection('films');
+const articles = await getCollection('articles');
+
+const searchIndex = [
+  ...animes.map(a => ({
+    titre: a.data.titre,
+    type: 'anime',
+    href: `/animes/${a.id}`,
+    text: [a.data.titre, a.data.resume_court || '', (a.data.genres || []).join(' '), (a.data.studios || []).join(' '), a.data.realisateur || '', a.body || ''].join(' ').toLowerCase(),
+  })),
+  ...films.map(f => ({
+    titre: f.data.titre,
+    type: 'film',
+    href: `/films/${f.id}`,
+    text: [f.data.titre, f.data.resume_court || '', (f.data.genres || []).join(' '), f.data.realisateur || '', f.body || ''].join(' ').toLowerCase(),
+  })),
+  ...articles.map(a => ({
+    titre: a.data.titre,
+    type: 'article',
+    href: `/articles/${a.id}`,
+    text: [a.data.titre, a.data.resume || '', (a.data.tags || []).join(' '), a.body || ''].join(' ').toLowerCase(),
+  })),
+];
 ---
 
 <!doctype html>
@@ -21,16 +49,57 @@ const currentPath = Astro.url.pathname;
     <header class="site-header">
       <div class="container">
         <a href="/" class="site-logo">Cinemat<span>ion</span>is</a>
-        <nav>
-          <ul class="site-nav">
-            <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Accueil</a></li>
-            <li><a href="/animes" class:list={[{ active: currentPath.startsWith('/animes') }]}>Animés</a></li>
-            <li><a href="/films" class:list={[{ active: currentPath.startsWith('/films') }]}>Films</a></li>
-            <li><a href="/articles" class:list={[{ active: currentPath.startsWith('/articles') }]}>Articles</a></li>
-          </ul>
-        </nav>
+        <div class="header-right">
+          <div class="global-search" id="global-search">
+            <input type="text" id="global-search-input" placeholder="Rechercher..." autocomplete="off" />
+            <div class="search-results" id="search-results"></div>
+          </div>
+          <nav>
+            <ul class="site-nav">
+              <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Accueil</a></li>
+              <li><a href="/animes" class:list={[{ active: currentPath.startsWith('/animes') }]}>Animés</a></li>
+              <li><a href="/films" class:list={[{ active: currentPath.startsWith('/films') }]}>Films</a></li>
+              <li><a href="/articles" class:list={[{ active: currentPath.startsWith('/articles') }]}>Articles</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
+
+    <script define:vars={{ searchIndex }}>
+      const input = document.getElementById('global-search-input');
+      const results = document.getElementById('search-results');
+      const typeLabels = { anime: 'Animé', film: 'Film', article: 'Article' };
+      const typeColors = { anime: '#6c9fe7', film: '#e63946', article: '#dec494' };
+
+      input.addEventListener('input', () => {
+        const q = input.value.toLowerCase().trim();
+        if (q.length < 2) { results.style.display = 'none'; return; }
+
+        const matches = searchIndex
+          .filter(item => item.text.includes(q))
+          .slice(0, 10);
+
+        if (matches.length === 0) {
+          results.innerHTML = '<div class="search-empty">Aucun résultat</div>';
+        } else {
+          results.innerHTML = matches.map(m =>
+            `<a href="${m.href}" class="search-item">
+              <span class="search-type" style="color:${typeColors[m.type]}">${typeLabels[m.type]}</span>
+              <span class="search-title">${m.titre}</span>
+            </a>`
+          ).join('');
+        }
+        results.style.display = 'block';
+      });
+
+      input.addEventListener('blur', () => {
+        setTimeout(() => { results.style.display = 'none'; }, 200);
+      });
+      input.addEventListener('focus', () => {
+        if (input.value.trim().length >= 2) results.style.display = 'block';
+      });
+    </script>
 
     <main>
       <slot />
@@ -38,7 +107,7 @@ const currentPath = Astro.url.pathname;
 
     <footer class="site-footer">
       <div class="container">
-        Cinemationis &mdash; Un site de passionné, pour les passionnés.
+        Cinemationis
       </div>
     </footer>
   </body>

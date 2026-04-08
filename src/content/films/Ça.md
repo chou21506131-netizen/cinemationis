@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Andy Muschietti
 resume_court: À Derry, dans le Maine, 7 gamins ayant du mal à s'intégrer se sont regroupés au sein du "Club des Ratés".
-image: https://static.wixstatic.com/media/31f424_c59985b40a5346bd98f8c747152df3a9~mv2.jpg/Ca.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/3SUz0F0I2Bodcj9Ev2pYSWnE9zp.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=Tw3yT-qAbvc
 score_alo: 7.3

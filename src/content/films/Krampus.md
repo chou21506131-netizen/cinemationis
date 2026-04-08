@@ -9,7 +9,7 @@ genres:
   - Comédie
 realisateur: Michael Dougherty
 resume_court: Quand Max voit sa famille peu exemplaire se disputer à l'approche de Noël, le garçon décide d'ignorer la célébration, sans se rendre compte que ce manquement à la tradition va provoquer les foudres...
-image: https://static.wixstatic.com/media/31f424_61dacabad49a4e6da9bf5c2837a8e7ab~mv2.jpg/Krampus.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/eefEFpgdaGH9udEm3hefnbXQnsh.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=T4M00G16iHE
 score_alo: 6.2
@@ -27,7 +27,9 @@ Et de 100 films ! (101 en fait mais j'avais oublié). Pour l'occasion, première
 
 Rien à redire niveau acteurs ou scénario, ça colle parfaitement à l'ambiance, mais il aurait fallu accentuer plus l'horreur parce qu'à part un screamer ou deux y a pas grand chose. Par contre, vu les objets du décor y a moyen que je se me sois gouré de film...
 
-Surtout que je l'ai regardé pour une scène en particulier que je n'ai pas vue, donc si vous voyez un deuxième Krampus dans la liste ne vous affolez pas. Ps : je me suis bel et bien trompé
+Surtout que je l'ai regardé pour une scène en particulier que je n'ai pas vue, donc si vous voyez un deuxième Krampus dans la liste ne vous affolez pas.
+
+PS : je me suis bel et bien trompé
 
 ---
 

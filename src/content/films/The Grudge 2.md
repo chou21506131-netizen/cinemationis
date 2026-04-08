@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Takashi Shimizu
 resume_court: Aubrey apprend que sa sœur Karen est hospitalisée au Japon.
-image: https://static.wixstatic.com/media/31f424_5aa2fc6d02fe4ad6a39557649a0c7af8~mv2.jpg/The%20grudge%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/jWbDUyV6MbFN2WycsI0VJESyOsn.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=GwcQYZkpZ-w
 score_alo: 4.9
@@ -24,7 +24,7 @@ Aubrey apprend que sa sœur Karen est hospitalisée au Japon. Peu de temps aprè
 
 Fidèle au poste le The Grudge 2 ! Si vous avez besoin de perdre 1h42 précisément de votre vie vous pouvez compter sur ce film. Dans la continué du premier : c'est de la merde. La palme du truc le plus pourri est pour le coup décernée au scénario : y en a pas.
 
-Juste une série de personnes qui meurent trucidées sans raison. On précise que l'esprit a le pouvoir de dégommer n'importe qui quand il veut mais il préfère galérer à essayer de les piéger. Je suis un peu mauvaise langue quand même parce qu'il y a un truc de FOU : on apprend l'origine de The Grudge.
+Juste une série de personnes qui meurent trucidées sans raison. On précise que l'esprit a le pouvoir de dégommer n'importe qui quand il veut mais il préfère galérer à essayer de les piéger. Je suis un peu mauvaise langue quand même parce qu'il y a un truc de FOU : on apprend l'origine de [[The Grudge]].
 
 Quel bonheur ! On notera aussi l'effort du réalisateur (RIP à toi) qui a réussi, malgré lui,  à nous offrir certains moments hilarants. A noter également la présence du tristement célèbre chat-enfant-nul-qu'on-sait-pas-ce-qu'il-fout-là : merci à toi.#vivementlasuite.
 

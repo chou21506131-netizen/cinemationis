@@ -9,7 +9,7 @@ genres:
   - Horreur
 realisateur: Adam Schindler
 resume_court: Atteinte d’agoraphobie sévère, Annavit depuis 10 ans recluse dans une ancienne maison victorienne à la périphérie d'une ville de Louisiane.
-image: https://static.wixstatic.com/media/31f424_5345a333df3b49a1b56311a4681c364d~mv2.jpg/Intruders.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/5zRiFh5d1hWmYDqcYKz6uSUXKnl.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=H4TvXCp1y7s
 score_alo: 5.8

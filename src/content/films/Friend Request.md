@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Simon Verhoeven
 resume_court: Laura, étudiante branchée, partage sa vie sur Facebook avec ses 800 amis.
-image: https://static.wixstatic.com/media/31f424_80165b86d9c74841ba53ef4888c4f6b6~mv2.jpg/Friend%20request.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/rugZuMNLGnaFqvyFJ9RbwhIFoTB.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=NLmWWnjy_ps
 score_alo: 5.3

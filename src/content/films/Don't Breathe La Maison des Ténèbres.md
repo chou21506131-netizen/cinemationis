@@ -1,5 +1,5 @@
 ---
-titre: Don't Breathe
+titre: Don't Breathe La Maison des Ténèbres
 annee: 2016
 note: 13/20
 recommandation: Pas mal
@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Fede Alvarez
 resume_court: Pour échapper à la violence de sa mère et sauver sa jeune sœur d’une existence sans avenir, Rocky est prête à tout.
-image: https://static.wixstatic.com/media/31f424_d0caaa23c3d4450f9229078df4553556~mv2.jpg/Don't%20breathe.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/r3DxjbmVhstKJjQsf3PfafnpQHd.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=WnJ1BPjnoww
 score_alo: 7.1
@@ -24,7 +24,7 @@ Pour échapper à la violence de sa mère et sauver sa jeune sœur d’une exist
 
 Bon, bien que la tension et l'atmosphère ne soient pas des plus convaincantes, il faut le dire, le film se regarde plutôt bien. L’ambiguïté du personnage principal permet de s'investir un peu dans l'histoire et de comprendre sa façon d'agir, ses valeurs...
 
-La fin est cependant beaucoup trop banale et nous laisse sur notre faim. Je regarderai sûrement pas le 2, déso.
+La fin est cependant beaucoup trop banal et nous laisse sur notre faim. Je regarderai sûrement pas le 2, déso.
 
 ---
 

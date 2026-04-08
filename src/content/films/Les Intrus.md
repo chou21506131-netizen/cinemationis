@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Charles Guard
 resume_court: Après un séjour en clinique psychiatrique, Anna revient chez elle, décidée à éclaircir les étranges circonstances entourant la mort de sa mère.
-image: https://static.wixstatic.com/media/31f424_90692bb78ca144d6a5e1a15f82708248~mv2.jpg/Les%20Intrus.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/fcNJQOJgppAb7q8VDzxTBPSq404.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=0SDSuP1NU3Y
 score_alo: 6.3

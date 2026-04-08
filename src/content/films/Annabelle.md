@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: John R. Leonetti
 resume_court: John Form est certain d'avoir déniché le cadeau de ses rêves pour sa femme Mia, qui attend un enfant.
-image: https://static.wixstatic.com/media/31f424_d83fa794cae84d24b46a57843df38d32~mv2.jpg/Annabelle.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/yLsuU2P2SpDYFwtZQ7dtfVAf6TE.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=AA2pFq9pFTA
 score_alo: 5.4
@@ -24,7 +24,9 @@ John Form est certain d'avoir déniché le cadeau de ses rêves pour sa femme Mi
 
 A part les 15 premières minutes tout le reste est à jeter. C'est la dure réalité d'un film d'horreur avec des passages d'horreur ratés. En plus de ça les personnages sont plats comme la Terre et même complètement débiles à l'occasion. Je ne pige pas comment le personnage d'Annabelle a pu devenir aussi célèbre avec une bouse pareille.
 
-Annabelle est bien plus qu'un classique, c'est un classique de merde ! Ps : la scène de l'ascenseur est quand même bien drôle.
+Annabelle est bien plus qu'un classique, c'est un classique de merde !
+
+PS : la scène de l'ascenseur est quand même bien drôle.
 
 ---
 

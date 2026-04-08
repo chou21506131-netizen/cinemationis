@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Pascal Laugier
 resume_court: Suite au décès de sa tante, Pauline et ses 2 filles héritent d’une maison.
-image: https://static.wixstatic.com/media/31f424_1f390a37ef63407aa9db10e8b7eb5217~mv2.jpg/Ghostland.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/48GWpOhl1s5hUciV7pvVMHkJnvv.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=DyRSYcurNJw
 score_alo: 6.4

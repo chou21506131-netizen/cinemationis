@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Leigh Whannell
 resume_court: Parce qu’elle a l’impression que sa mère défunte cherche à entrer en contact avec elle, la jeune Quinn Brenner se tourne vers Elise, un médium qui possède un véritable don mais refuse de l’utiliser...
-image: https://static.wixstatic.com/media/31f424_e113d828f331488c8baff07fe8f0bdd0~mv2.jpg/Insidious%203.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/rkanPmOWSTztjXY2JTvPSuNuB5o.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=-jkqfjtbHoE
 score_alo: 6.1

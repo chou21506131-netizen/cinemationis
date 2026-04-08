@@ -7,7 +7,7 @@ genres:
   - Thriller
 realisateur: Branden Kramer
 resume_court: Une étudiante se retrouve traquée par un stalker qui hack son ordinateur et enregistre la moindre de ses actions.
-image: https://static.wixstatic.com/media/31f424_1749e1437d9d41e28b105d8ff4892793~mv2.jpg/Ratter.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/xWFz8gH0b7k8W2wOK0BsKn0RR4U.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=DMD4xc8a6Pg
 score_alo: 4.5

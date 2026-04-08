@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: F. Javier Gutierrez
 resume_court: Une jeune femme s’inquiète pour son petit ami lorsqu’ il commence à s’intéresser aux mystères entourant une vidéo censée tuer celui qui la regarde 7 jours après l’avoir visionnée.
-image: https://static.wixstatic.com/media/31f424_68c2a45e5eb340dcb07bd3d3ac3e5e0e~mv2.jpg/Rings.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/c9fhi0L32b43q0lMzHWLSqvbuqP.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=s3BpRyA8yaA
 score_alo: 4.5

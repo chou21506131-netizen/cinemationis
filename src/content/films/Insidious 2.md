@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: James Wan
 resume_court: Après tout ce qu’elle a affronté, la famille Lambert s’efforce de reprendre une vie normale, mais le monde des esprits semble en avoir décidé autrement.
-image: https://static.wixstatic.com/media/31f424_828e63d264a04bb9803b91ce7587d52a~mv2.jpg/Insidious%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/hOlxmQeHtsbOcVZOdiyg3g7smaf.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=UucsATvNK6Q
 score_alo: 6.5

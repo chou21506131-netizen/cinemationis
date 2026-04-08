@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Will Canon
 resume_court: Le Détective Mark Lewis et le Dr.
-image: https://static.wixstatic.com/media/31f424_b9e91cc5e8d0484abb985976a470d23d~mv2.jpg/Demonic.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/ne0wAvbmzk72svslxjuFySrXEKw.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=pvyPmbBpBWw
 score_alo: 4.7

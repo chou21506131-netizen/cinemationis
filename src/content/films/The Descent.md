@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Neil Marshall
 resume_court: En plein milieu du massif des Appalaches, 6 jeunes femmes se donnent rendez-vous pour une expédition spéléologique.Soudain, un éboulement bloque le chemin du retour.
-image: https://static.wixstatic.com/media/31f424_02a6b528269445b2897c22b26485e922~mv2.jpg/The%20descent.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/hUZbZj7yb16tokai802DmawqUxE.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=CSYg7Z1KS_I
 score_alo: 7.2

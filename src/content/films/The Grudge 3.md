@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Toby Wilkins
 resume_court: Une jeune femme japonaise détient le secret qui pourrait mettre fin à la malédiction des Saeki.
-image: https://static.wixstatic.com/media/31f424_f713f66b84404a87afd1c0b2e5feacb0~mv2.jpg/The%20grudge%203.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/ilqLZK0gQSg4y4GL7wEMx4qA7Yz.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=VjzP0i0sBeE
 score_alo: 4.4
@@ -22,7 +22,7 @@ Une jeune femme japonaise détient le secret qui pourrait mettre fin à la malé
 
 ## Commentaire
 
-On l'attendait en grinçant des dents celui-là (lisez mon avis sur The Grudge 1 et The Grudge 2, histoire de rigoler)… Mais finalement il remonte la moyenne des 2 autres ! Enfin une vraie histoire ! Ou plutôt enfin une histoire… Un scénario clair, compréhensible, fluide et logique.
+On l'attendait en grinçant des dents celui-là (lisez mon avis sur [[The Grudge]] et [[The Grudge 2]], histoire de rigoler)… Mais finalement il remonte la moyenne des 2 autres ! Enfin une vraie histoire ! Ou plutôt enfin une histoire… Un scénario clair, compréhensible, fluide et logique.
 
 La première partie du film est clairement trop longue : on sait d'avance que The Grudge est là et qu'elle va péter des dents mais on retarde l'action sûrement parce qu'il n'y avait plus d'idée pour rallonger (encore) l'histoire. Cette partie est donc à oublier (d'ailleurs je m'en souviens plus) et à remplacer par la deuxième.
 

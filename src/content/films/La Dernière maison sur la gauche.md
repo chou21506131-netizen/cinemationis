@@ -9,7 +9,7 @@ genres:
   - Horreur
 realisateur: Dennis Iliadis
 resume_court: Les Collingwood possèdent une maison isolée, sur les berges d'un paisible lac.
-image: https://static.wixstatic.com/media/31f424_6f81132a77af4ad19dc10f0b3713f7d0~mv2.jpg/La%20derni%C3%A8re%20maison%20sur%20la%20gauche.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/3KtD9bJ3hvIO65BmkikbbeS4mkE.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=xBvMxgHJ_SE
 score_alo: 6.5

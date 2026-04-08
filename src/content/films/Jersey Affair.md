@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Michael Pearce
 resume_court: Sur l'île de Jersey, une jeune femme tombe amoureuse d'un homme mystérieux.
-image: https://static.wixstatic.com/media/31f424_21c6f223ed8443eeb2b8a6a74b7b13f2~mv2.jpg/Jersey%20affair.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/4fmOPbhYOfCb2wGFk0AKuxYZIFP.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=FOY66j5PH8I
 score_alo: 6.7

@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Guillermo del Toro
 resume_court: Au début du siècle dernier, Edith Cushing, une jeune romancière en herbe, vit avec son père Carter Cushing à Buffalo, dans l’État de New York.
-image: https://static.wixstatic.com/media/31f424_4a1e59a3b5ff4e0ebc785954e680ab08~mv2.jpg/Crimson%20peak.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/sTfk9qcg4YE1Svl0854bxnSl3Mx.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=vu03lqAwKqE
 score_alo: 6.5
@@ -22,7 +22,7 @@ Au début du siècle dernier, Edith Cushing, une jeune romancière en herbe, vit
 
 ## Commentaire
 
-Vraiment immersif, le film se dévoile petit à petit, et on ne peut qu'apprécier ! Bien que l'histoire n'avance pas bien vite, le personnage principal ainsi que l'évolution du 2ème personnage principal arrive à nous maintenir focus tout du long. Je recommande.
+Vraiment immersif, le film se dévoile petit à petit, et on ne peut qu'apprécier ! Bien que l'histoire n'avance pas bien vite, le personnage principal ainsi que l'évolution du deuxième personnage principal arrive à nous maintenir focus tout du long. Je recommande.
 
 ---
 

@@ -10,7 +10,7 @@ genres:
   - Gore
 realisateur: David Robert Mitchell
 resume_court: Après une expérience sexuelle apparemment anodine, Jay se retrouve confrontée à d'étranges visions et  l'inextricable impression que quelqu'un, ou quelque chose, la suit.
-image: https://static.wixstatic.com/media/31f424_4cfad7d48d914a62b57db4ba6a251ab2~mv2.jpg/It%20follows.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/jh8bol1N8COAGSj4ksrcUNo8xxc.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=wmCXO0ANpxk
 score_alo: 6.8

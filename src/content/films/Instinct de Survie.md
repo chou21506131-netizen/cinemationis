@@ -7,7 +7,7 @@ genres:
   - Action
 realisateur: Jaume Collet-Serra
 resume_court: Nancy surfe en solitaire sur une plage isolée lorsqu’elle est attaquée par un grand requin blanc.
-image: https://static.wixstatic.com/media/31f424_6f0d633b977f4b0785fb1f81ee308a2f~mv2.jpg/Instinct%20de%20survie.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/3ElLjT2TWtE0SrmtRfXeUIGzEdM.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=Nwie2GAycq4
 score_alo: 6.3

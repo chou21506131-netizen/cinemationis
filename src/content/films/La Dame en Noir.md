@@ -9,7 +9,7 @@ genres:
   - Surnaturel
 realisateur: James Watkins
 resume_court: Arthur Kipps, jeune notaire à Londres, est obligé de se rendre dans le petit village perdu de Crythin Gifford pour régler la succession d’une cliente récemment décédée.
-image: https://static.wixstatic.com/media/31f424_69ef64d17e9742dd958560b17633c603~mv2.jpg/La%20dame%20en%20noir.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/oKRnHo8ZqHEMpwLWLTjedbPmX30.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=7bOQeJ2kq7E
 score_alo: 6.4

@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Corin Hardy
 resume_court: Quand on apprend le suicide d'une jeune nonne dans une abbaye roumaine, la stupéfaction est totale dans l'Église catholique.
-image: https://static.wixstatic.com/media/31f424_72a0fdb4454047528a881c6e33c4bd3a~mv2.jpg/La%20nonne.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/e0XDl1xHWvtwmIQXVadQpiB7YN0.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=AzeAEmt-yno
 score_alo: 5.3

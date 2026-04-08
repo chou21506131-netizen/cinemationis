@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Robert Eggers
 resume_court: 1630, en Nouvelle-Angleterre.
-image: https://static.wixstatic.com/media/31f424_e8e5f062d519496fa3f222bb920f01a7~mv2.jpg/The%20witch.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/cO6EPLw3YfC700TS4JfUaRTGXaZ.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=MXLPTcCNwWY
 score_alo: 6.9

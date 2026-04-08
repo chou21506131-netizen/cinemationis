@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Alexandre Aja
 resume_court: Soupçonné d’avoir assassiné sa fiancée, rejeté par tous ceux qu’il connaît, Ignatius a sombré dans le désespoir.
-image: https://static.wixstatic.com/media/31f424_80b3bfa93a7f4e53a4ebe85497f4bbe4~mv2.jpg/Horns.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/rSe3ll8qjcILryalmqiNy0kWUaY.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=wOgaC3L47zU
 score_alo: 6.5
@@ -23,7 +23,7 @@ Soupçonné d’avoir assassiné sa fiancée, rejeté par tous ceux qu’il conn
 
 ## Commentaire
 
-♫ Daniel sait faire un bon café, Daniel sait faire un bon café ! ♫Un genre d'enquête policière dans un style fantastique. Une histoire très sérieuse qui arrive à mélanger des moments assez forts émotivement avec une bonne dose d'humour ! Le scénario est assez simple mais il n'y a rien de négatif dessus et le film est très agréable à regarder.
+♫ Daniel sait faire un bon café, Daniel sait faire un bon café ! ♫ Un genre d'enquête policière dans un style fantastique. Une histoire très sérieuse qui arrive à mélanger des moments assez forts émotivement avec une bonne dose d'humour ! Le scénario est assez simple mais il n'y a rien de négatif dessus et le film est très agréable à regarder.
 
 Les acteurs sont tous bons dans leur personnage, la musique colle bien au thème, les passages un peu plus romantiques ne sont pas trop longs tout comme ceux moins sérieux. Au final, un bon petit film sympa !
 

@@ -7,7 +7,7 @@ genres:
   - Horreur
 realisateur: Mike Flanagan
 resume_court: Après avoir passé 10 ans en institut psychiatrique, Tim, 21 ans, retrouve la liberté.
-image: https://static.wixstatic.com/media/31f424_adc03c9381a64174b1b704b4484e42b7~mv2.jpg/The%20mirror.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/pzq1IZPx6w7eGtbmzrWPo9wZHV9.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=dYJrxezWLUk
 score_alo: 6.5

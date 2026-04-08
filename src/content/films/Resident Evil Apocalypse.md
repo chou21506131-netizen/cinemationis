@@ -9,7 +9,7 @@ genres:
   - Zombie
 realisateur: Alexander Witt
 resume_court: Alice a survécu à l'effroyable cauchemar qui a dévasté le complexe scientifique ultrasecret d'Umbrella Corporation, mais elle n'est pas la seule à en être ressortie...
-image: https://static.wixstatic.com/media/31f424_c51ec57a235e4d99b76dfd9afe4a282f~mv2.jpg/Resident%20evil%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/lBjOhyJC9OO6ZBiSayWeCQURi8x.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=nzF3yoF7N_E
 score_alo: 5.4

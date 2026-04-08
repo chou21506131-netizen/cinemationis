@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Jason Zada
 resume_court: Une jeune américaine enquête sur la disparition mystérieuse de sa sœur jumelle.
-image: https://static.wixstatic.com/media/31f424_82f2b7f7a7474087a0400db6fe097df8~mv2.jpg/The%20forest.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/oWoIox3785cx1NoekDBBoKBw7r8.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=mCuh23RNRUE
 score_alo: 4.8

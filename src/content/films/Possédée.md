@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Ole Bornedal
 resume_court: Clyde et Stephanie Brenek ne voient pas de raison de s’inquiéter lorsque leur fille cadette Em devient étrangement obsédée par un petit coffre en bois acheté lors d’un vide grenier.
-image: https://static.wixstatic.com/media/31f424_c03147d9ac7b48e081d7eda7afd34ba6~mv2.jpg/Poss%C3%A9d%C3%A9e.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/dgZFqnTJtz6dwoTXfRp2gBjPbbT.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=bXIotJeP3bI
 score_alo: 5.9

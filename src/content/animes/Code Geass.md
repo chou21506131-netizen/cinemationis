@@ -14,6 +14,7 @@ genres:
   - Fantastique
   - Drame
   - Psychologique
+  - Mecha
 studios:
   - Sunrise
 realisateur: Goro Taniguchi

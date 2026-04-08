@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Pierre Morel
 resume_court: Riley North est une jeune mère de famille dont le mari et la petite fille viennent d’être assassinés par un gang.
-image: https://static.wixstatic.com/media/31f424_95e46a4cb90844bd8585d95664029cdf~mv2.jpg/Peppermint.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/viYbEf4eOYoQ7L4PraTpysuMMBy.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=OkvIL5hbV0s
 score_alo: 6.5

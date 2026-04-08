@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Xavier Gens
 resume_court: Été 2024, Paris accueille pour la première fois les championnats du monde de triathlon sur la Seine.
-image: https://static.wixstatic.com/media/31f424_81454868af8f4ce28cd94f1e9da514ae~mv2.jpg/Sous%20la%20Seine.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/ad2rkFBCqrQJ2VbxRNkDgkzJMgT.jpg
 date_ajout: 2024-06-17
 bande_annonce: https://www.youtube.com/watch?v=HPfkQ9gMLMY
 score_alo: 4.8

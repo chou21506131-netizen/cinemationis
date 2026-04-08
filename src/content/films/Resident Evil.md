@@ -9,7 +9,7 @@ genres:
   - Zombie
 realisateur: Paul W.S. Anderson
 resume_court: Dans un immense laboratoire souterrain, ont lieu des recherches ultras secrètes, supervisées par des centaines de scientifiques.
-image: https://static.wixstatic.com/media/31f424_0abeef614db04962b291bda1bc6e58b1~mv2.jpg/Resident%20evil.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/yUXSFovaoJMrwbIhUrZi3lcT6cl.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=amWEDXmkoXo
 score_alo: 6.6
@@ -23,7 +23,7 @@ Dans un immense laboratoire souterrain, ont lieu des recherches ultras secrètes
 
 ## Commentaire
 
-C'était pas mal du tout ! A force de voir "Resident Evil" proposé de partout je me suis dit que j'allais le voir, histoire d'être tranquille, mais c'est une bonne surprise au final. Ça ressemble très beaucoup à du Alien 2 mélangé avec The Descent dans l'atmosphère et le déroulement de l'histoire et même les personnages ont l'air d'être grandement inspirés.
+C'était pas mal du tout ! A force de voir "Resident Evil" proposé de partout je me suis dit que j'allais le voir, histoire d'être tranquille, mais c'est une bonne surprise au final. Ça ressemble très beaucoup à du Alien 2 mélangé avec [[The Descent]] dans l'atmosphère et le déroulement de l'histoire et même les personnages ont l'air d'être grandement inspirés.
 
 Sinon, niveau qualité, les combats sont assez peu nombreux mais suffisamment présents pour maintenir un bon rythme. Les persos sont sympathiques, même si certains sont complètement useless. Un peu d'humour aussi ça fait toujours plaisir. Bon, la musique pue la merde et au final on ne comprend pas trop ce qu'il s'est passé pour en arriver à ce moment de l'histoire.
 

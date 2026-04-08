@@ -38,7 +38,7 @@ Bon, en plus de faire chialer le spectateur ça vous aura coûté des années de
 
 Si on m'avait dit un jour que je serai ému en regardant un dessin animé dans lequel un poulpe cosmique jaune meurt, j'aurais dit que ça m'aurait pas étonné plus que ça. Initialement présenté comme un monstre cataclysmique, on se met très vite à l'apprécier cette vieille méduse. Du coup sa mort à l'avant-dernier épisode précédée par une très longue, solennelle et douloureuse série d'aurevoirs adressés à ses chers enfants qu'il a protégés coûte que coûte, et ben elle fait mal au kokoro. Le pauvre hère a fait tout ce qu'il a pu pour aider ceux qui devaient le tuer, et eux comme nous l'aimons pour ça. Fort heureusement, elle était nécessaire pour pouvoir parfaitement conclure l'animé. Encore une poussière dans l'œil ? Chiant un peu...
 
-## 3. Le requiem de Yuko ([[Tasogare Otome x Amnesia]] -- saison 1 épisode 12)
+## 3. Le requiem de Yuko ([[Tasogare Otome X Amnesia]] -- saison 1 épisode 12)
 
 On arrive sur le podium : place au grandiose.
 

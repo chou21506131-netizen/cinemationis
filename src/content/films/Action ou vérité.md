@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Jeff Wadlow
 resume_court: Un simple jeu innocent d’Action ou Vérité entre amis se transforme en cauchemar sanglant quand quelqu’un – ou quelque chose – commence à punir ceux qui mentent – ou refusent de jouer.
-image: https://static.wixstatic.com/media/31f424_57133c349183476eb6c6089ac4167a12~mv2.jpg/Action%20ou%20v%C3%A9rit%C3%A9.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/rKDPapQ38mkcAjcUIINeAklBXI7.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=LCN_JkZx5sw
 score_alo: 5.3

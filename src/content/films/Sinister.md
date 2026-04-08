@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Scott Derrickson
 resume_court: Ellison est un auteur de romans policiers inspirés de faits réels.
-image: https://static.wixstatic.com/media/31f424_85352b1d2ea045769fedd0f8472c7021~mv2.jpg/Sinister.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/qKXxPnsnVbtxFSwhxvKGZTUd5mm.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=bXfw4ZFbK5Y
 score_alo: 6.8
@@ -22,7 +22,7 @@ Ellison est un auteur de romans policiers inspirés de faits réels. Dans l’es
 
 ## Commentaire
 
-Peut-être le meilleur film d'horreur de la liste. Un scénario en béton, une atmosphère étouffante, des bruitages parfaits : tous les ingrédients pour effrayer sont réunis et correctement utilisés. Contrairement aux séries Conjuring et Insidious, on ne se focalise pas sur le paranormal pour mettre des screamers dans tous les sens en espérant qu'il y ait un qui fonctionne (je suis méchant, ils ne sont pas comme ça).
+Peut-être le meilleur film d'horreur de la liste. Un scénario en béton, une atmosphère étouffante, des bruitages parfaits : tous les ingrédients pour effrayer sont réunis et correctement utilisés. Contrairement aux séries [[Conjuring 1]] et [[Insidious 1]], on ne se focalise pas sur le paranormal pour mettre des screamers dans tous les sens en espérant qu'il y ait un qui fonctionne (je suis méchant, ils ne sont pas comme ça).
 
 Ici, tout est calculé pour nous offrir une angoisse constante qui est parfaitement mise en œuvre. Certains éléments scénaristiques rythment intelligemment le film du début à la fin tout en posant des repères pour le spectateur qui saura alors à quels moments l'intrigue avance et à quels moments il aura la pétouille.
 

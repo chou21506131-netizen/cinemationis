@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: Oren Peli
 resume_court: Un jeune couple suspecte leur maison d'être hantée par un esprit démoniaque.
-image: https://static.wixstatic.com/media/31f424_8583d48155044d30863a8d66974c1cc1~mv2.jpg/Paranormal%20activity.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/1Kxhdm6up44BzZoVGAGuD5zYxYY.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=F_cUNvD6BJQ
 score_alo: 6.3

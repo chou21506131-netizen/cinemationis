@@ -8,7 +8,7 @@ genres:
   - Comédie
 realisateur: Christopher Landon
 resume_court: Prisonnière d'une boucle temporelle, Tree, étudiante, revit sans cesse le jour de son meurtre. Finira-t-elle par découvrir l'identité de son tueur ?
-image: https://static.wixstatic.com/media/31f424_68ae6ea0c11e4f27ae1f99148d4f2586~mv2.jpg/Happy%20birthdead.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/3T1ZkYURrIbUSVQ1d0m1vEsizg3.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=QvvKRXquDoM
 score_alo: 6.6

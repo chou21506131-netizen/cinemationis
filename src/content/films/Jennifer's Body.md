@@ -9,7 +9,7 @@ genres:
   - Horreur
 realisateur: Karyn Kusama
 resume_court: Lycéenne dans une petite ville américaine, Jennifer est une beauté fatale à qui aucun garçon ne résiste.
-image: https://static.wixstatic.com/media/31f424_d9aaf26c4e7d4222aef49f1274055da6~mv2.jpg/Jennifer's%20body.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/pYsVhvnptxwHRvGbznm0OwpyfpW.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=4pwrw7CQtPE
 score_alo: 5.2

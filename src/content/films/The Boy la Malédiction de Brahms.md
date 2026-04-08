@@ -8,7 +8,7 @@ genres:
   - Horreur
 realisateur: William Brent Bell
 resume_court: Recherchant un environnement calme pour leur fils et ignorant tout de son funeste passé, un couple s'installe dans le Manoir Heelshire.
-image: https://static.wixstatic.com/media/31f424_8a8cdc7d73054272b67351ca77e89750~mv2.jpg/The%20boy%202.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/8TxKuNwrNc580XU1PhBCA27oxAe.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=UGMHOzQ7R2U
 score_alo: 5.5

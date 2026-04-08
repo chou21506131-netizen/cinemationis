@@ -8,7 +8,7 @@ genres:
   - Surnaturel
 realisateur: Franck Khalfoun
 resume_court: Une mère célibataire emménage avec ses 3 enfants dans la célèbre maison hantée sans connaître l'histoire du lieu...
-image: https://static.wixstatic.com/media/31f424_52d9a5ef503a4529929bb97c6f57e26d~mv2.jpg/Amityville.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/8RARiCdOZPuBgJZkjFBYVu1U9WZ.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=TGViWzbl7B8
 score_alo: 4.8

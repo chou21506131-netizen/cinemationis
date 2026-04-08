@@ -9,7 +9,7 @@ genres:
   - Thriller
 realisateur: Jennifer Kent
 resume_court: Depuis la mort brutale de son mari, Amelia lutte pour ramener à la raison son fils de 6 ans, Samuel, devenu complètement incontrôlable et qu'elle n'arrive pas à aimer.
-image: https://static.wixstatic.com/media/31f424_04f405c5bd9649daaec605cb07f0aba5~mv2.jpg/Mister%20babadook.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/wg2RSUyvBsKjjZhEoyePkEiOrUZ.jpg
 date_ajout: 2022-02-26
 bande_annonce: https://www.youtube.com/watch?v=OJO4YBh9E8w
 score_alo: 6.8

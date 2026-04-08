@@ -8,7 +8,7 @@ genres:
   - Thriller
 realisateur: Sergio G. Sanchez
 resume_court: Pour ne pas être séparés, Jack, 20 ans, et ses frères et sœurs plus jeunes, décident de cacher à tout le monde le décès de leur mère qui les élevait seule.
-image: https://static.wixstatic.com/media/31f424_b27abf75038b4818a7fcfcbf1090ecc5~mv2.jpg/Le%20secret%20des%20marrowbone.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/tSe3L7n9U7TLDEld4lfoMkD0TyZ.jpg
 date_ajout: 2022-02-28
 bande_annonce: https://www.youtube.com/watch?v=ryMAYXh6DOM
 score_alo: 6.7

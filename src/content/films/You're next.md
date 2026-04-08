@@ -9,7 +9,7 @@ genres:
   - Action
 realisateur: Adam Wingard
 resume_court: La famille Davison est réunie dans sa maison de campagne pour célébrer l’anniversaire de mariage des parents.
-image: https://static.wixstatic.com/media/31f424_b4c32dcd60454233a64b458a4708a249~mv2.jpg/You're%20next.jpg
+image: https://media.themoviedb.org/t/p/w600_and_h900_face/aYWHPCVgchnFW9z1B265kFVcARe.jpg
 date_ajout: 2022-02-27
 bande_annonce: https://www.youtube.com/watch?v=LMh4E2xAkLo
 score_alo: 6.5
