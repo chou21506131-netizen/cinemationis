@@ -29,26 +29,36 @@ const titleIndex = [
     const container = document.querySelector(selector);
     if (!container) return;
 
-    // Map pour accès rapide titre → href
+    // Map normalisée pour accès rapide
     const titleMap = new Map();
     titleIndex.forEach(item => {
-      titleMap.set(item.titre.toLowerCase(), item);
+      titleMap.set(item.titre.toLowerCase().trim(), item);
     });
+
+    // Fonction de recherche tolérante (trim, normalize, espaces multiples)
+    function findTitle(text) {
+      const key = text.trim().toLowerCase().replace(/\s+/g, ' ');
+      const exact = titleMap.get(key);
+      if (exact) return exact;
+      // Fallback : chercher dans toutes les clés
+      for (const [mapKey, item] of titleMap) {
+        if (mapKey.replace(/\s+/g, ' ') === key) return item;
+      }
+      return null;
+    }
 
     const alreadyLinked = new Set();
 
-    // Étape 1 : Remplacer tous les [[titre]] par des liens (ou juste retirer les crochets)
-    // On travaille sur le HTML brut pour attraper les [[ ]] même s'ils sont répartis
+    // Étape 1 : Remplacer tous les [[titre]] par des liens (partout, y compris headings)
     let html = container.innerHTML;
 
     html = html.replace(/\[\[([^\]]+)\]\]/g, (match, innerText) => {
-      const key = innerText.trim().toLowerCase();
-      const item = titleMap.get(key);
-      if (item && !alreadyLinked.has(key)) {
-        alreadyLinked.add(key);
-        return `<a href="${item.href}" title="Voir la fiche : ${item.titre}">${innerText}</a>`;
+      const item = findTitle(innerText);
+      if (item) {
+        alreadyLinked.add(item.titre.toLowerCase().trim());
+        return '<a href="' + item.href + '" title="Voir la fiche : ' + item.titre + '">' + innerText.trim() + '</a>';
       }
-      // Pas de fiche trouvée → retirer juste les crochets
+      // Pas de fiche → retirer juste les crochets
       return innerText;
     });
 
@@ -58,8 +68,7 @@ const titleIndex = [
     function walkTextNodes(node) {
       if (node.nodeType === Node.TEXT_NODE) return [node];
       const tag = node.tagName;
-      if (tag === 'A' || tag === 'H1' || tag === 'H2' || tag === 'H3' ||
-          tag === 'CODE' || tag === 'PRE') return [];
+      if (tag === 'A' || tag === 'CODE' || tag === 'PRE') return [];
       const nodes = [];
       node.childNodes.forEach(child => nodes.push(...walkTextNodes(child)));
       return nodes;
@@ -73,7 +82,7 @@ const titleIndex = [
       if (!text || text.trim().length < 3) continue;
 
       for (const item of titleIndex) {
-        if (alreadyLinked.has(item.titre.toLowerCase())) continue;
+        if (alreadyLinked.has(item.titre.toLowerCase().trim())) continue;
 
         const idx = text.toLowerCase().indexOf(item.titre.toLowerCase());
         if (idx === -1) continue;
@@ -83,7 +92,6 @@ const titleIndex = [
         const endIdx = idx + item.titre.length;
         if (endIdx < text.length && !wordBoundary.test(text[endIdx])) continue;
 
-        // Créer le fragment : texte avant + lien + texte après
         const fragment = document.createDocumentFragment();
         if (idx > 0) {
           fragment.appendChild(document.createTextNode(text.substring(0, idx)));
@@ -91,14 +99,14 @@ const titleIndex = [
         const link = document.createElement('a');
         link.href = item.href;
         link.textContent = text.substring(idx, endIdx);
-        link.title = `Voir la fiche : ${item.titre}`;
+        link.title = 'Voir la fiche : ' + item.titre;
         fragment.appendChild(link);
         if (endIdx < text.length) {
           fragment.appendChild(document.createTextNode(text.substring(endIdx)));
         }
 
         textNode.parentNode.replaceChild(fragment, textNode);
-        alreadyLinked.add(item.titre.toLowerCase());
+        alreadyLinked.add(item.titre.toLowerCase().trim());
         break;
       }
     }
