@@ -43,7 +43,7 @@ const sameStudio = d.studios?.length > 0
       {d.image && <img src={d.image} alt={d.titre} class="fiche-poster" />}
       <div class="fiche-info">
         <h1>{d.titre}</h1>
-        <p class="meta-line"><strong>Note :</strong> {d.note} {d.score_mal ? `(MAL : ${d.score_mal})` : ''}</p>
+        <p class="meta-line"><strong>Note :</strong> {d.note} {d.score_mal ? `(MAL : ${d.score_mal}/10)` : ''}</p>
         <p class="meta-line"><strong>Année :</strong> {d.annee}</p>
         {d.saisons && <p class="meta-line"><strong>Saisons :</strong> {d.saisons}</p>}
         {d.episodes && <p class="meta-line"><strong>Épisodes :</strong> {d.episodes}</p>}

@@ -9,11 +9,12 @@ interface Props {
   recommandation?: string;
   noteNum?: number;
   dateAjout?: string;
+  mtime?: string;
   studios?: string[];
   realisateur?: string;
 }
 
-const { titre, image, note, annee, href, genres = [], recommandation = '', noteNum = 0, dateAjout = '', studios = [], realisateur = '' } = Astro.props;
+const { titre, image, note, annee, href, genres = [], recommandation = '', noteNum = 0, dateAjout = '', mtime = '', studios = [], realisateur = '' } = Astro.props;
 
 const recoClass = recommandation === 'A voir' ? 'reco--top'
   : recommandation === 'Pas mal' ? 'reco--ok'
@@ -34,6 +35,7 @@ const noteClass = noteNum >= 16 ? 'note--high'
   data-note={noteNum}
   data-annee={annee}
   data-date={dateAjout}
+  data-mtime={mtime}
   data-studios={studios.join(',')}
   data-realisateur={realisateur?.toLowerCase() || ''}
 >
