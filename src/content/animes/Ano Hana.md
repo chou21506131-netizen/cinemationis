@@ -1,6 +1,7 @@
 ---
 titre: Ano Hana
 annee: 2011
+titre_mal: Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai
 type: série
 saisons: 1
 episodes: 11
@@ -17,7 +18,7 @@ studios:
   - A-1 Pictures
 realisateur: Tatsuyuki Nagai
 resume_court: Un lycéen réalise qu'il est le seul à voir le fantôme d'une amie disparue.
-image: "https://myanimelist.net/images/anime/5/79697l.jpg"
+image: https://myanimelist.net/images/anime/5/79697l.jpg
 date_ajout: 2022-06-07
 videos:
   - 

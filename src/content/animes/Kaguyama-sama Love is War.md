@@ -1,5 +1,6 @@
 ---
 titre: "Kaguyama-sama: Love is War"
+titre_mal: "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen"
 annee: 2019
 type: série
 saisons: 3
@@ -17,7 +18,7 @@ studios:
   - A-1 Pictures
 realisateur: Mamoru Hatakeyama
 resume_court: Un garçon et une fille se font la guerre afin que l'autre dévoile ses sentiments en premier.
-image: "https://myanimelist.net/images/anime/1295/106551l.jpg"
+image: https://myanimelist.net/images/anime/1295/106551l.jpg
 date_ajout: 2022-07-10
 videos:
   - 

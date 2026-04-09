@@ -1,5 +1,6 @@
 ---
 titre: Arknights
+titre_mal: "Arknights: Prelude to Dawn"
 annee: 2022
 type: série
 saisons: 2
@@ -22,7 +23,7 @@ date_ajout: 2024-09-15
 videos:
   - 
 score_mal:
-mal_id: 44936
+mal_id: 42163
 ---
 
 ## Résumé

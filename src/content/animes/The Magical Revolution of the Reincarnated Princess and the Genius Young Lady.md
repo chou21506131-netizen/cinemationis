@@ -1,5 +1,6 @@
 ---
 titre: The Magical Revolution of the Reincarnated Princess and the Genius Young Lady
+titre_mal: Tensei Oujo to Tensai Reijou no Mahou Kakumei
 annee: 2023
 type: série
 saisons: 6
@@ -20,8 +21,8 @@ realisateur: Shingo Tamaki
 resume_court: La princesse d'un royaume se détourne du trône pour étudier la magie.
 image: https://myanimelist.net/images/anime/1050/139641l.jpg
 date_ajout: 2023-05-01
-score_mal: 8.52
-mal_id: 53223
+score_mal: 7.46
+mal_id: 52736
 ---
 
 ## Résumé

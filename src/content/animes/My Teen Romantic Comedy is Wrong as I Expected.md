@@ -1,5 +1,6 @@
 ---
 titre: My Teen Romantic Comedy is Wrong as I Expected
+titre_mal: Yahari Ore no Seishun Love Comedy wa Machigatteiru.
 annee: 2013
 type: série
 saisons: 3
@@ -19,7 +20,7 @@ studios:
   - Brain's Base
 realisateur: Ai Yoshimura
 resume_court: Un lycéen misanthrope est forcé d'intégrer un club de son école.
-image: "https://myanimelist.net/images/anime/1786/120117l.jpg"
+image: https://myanimelist.net/images/anime/1786/120117l.jpg
 date_ajout: 2023-06-07
 videos:
   - 

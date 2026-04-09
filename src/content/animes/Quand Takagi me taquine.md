@@ -1,5 +1,6 @@
 ---
 titre: Quand Takagi me taquine
+titre_mal: Karakai Jouzu no Takagi-san
 annee: 2018
 type: série
 saisons: 3
@@ -17,7 +18,7 @@ studios:
   - Shin-Ei Animation
 realisateur: Hiroaki Akagi
 resume_court: Elèves et camarades de classe, Nishikata et Takagi passent leur temps à se taquiner.
-image: "https://myanimelist.net/images/anime/1591/95091l.jpg"
+image: https://myanimelist.net/images/anime/1591/95091l.jpg
 date_ajout: 2022-08-03
 videos:
   - 

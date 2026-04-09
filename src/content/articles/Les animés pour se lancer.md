@@ -161,7 +161,7 @@ Habituellement destiné aux jeunes filles, les magical girls montrent des collé
 
 -   [[Puella Magi Madoka Magica]]
 
--   [[Yuna Yuki is a Hero]]
+-   [[Yuki Yuna is a Hero]]
 
 -   [[Magical Girl Raising Project]]
 

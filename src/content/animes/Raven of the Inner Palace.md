@@ -1,5 +1,6 @@
 ---
 titre: Raven of the Inner Palace
+titre_mal: Koukyuu no Karasu
 annee: 2022
 type: série
 saisons: 1
@@ -16,12 +17,12 @@ studios:
   - BN Pictures
 realisateur: Chizuru Miyawaki
 resume_court: Un empereur décide de faire appel à une mystérieuse sorcière aux pouvoirs inconnus.
-image: "https://myanimelist.net/images/anime/1462/125397l.jpg"
+image: https://myanimelist.net/images/anime/1462/125397l.jpg
 date_ajout: 2023-04-01
 videos:
   - 
-score_mal: 7.98
-mal_id: 50593
+score_mal: 7.53
+mal_id: 50590
 ---
 
 ## Résumé

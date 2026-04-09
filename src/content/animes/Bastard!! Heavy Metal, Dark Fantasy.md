@@ -22,8 +22,8 @@ image: "https://myanimelist.net/images/anime/1256/128714l.jpg"
 date_ajout: 2022-07-23
 videos:
   - 
-score_mal: 6.88
-mal_id: 50923
+score_mal: 6.82
+mal_id: 54141
 ---
 
 ## Résumé

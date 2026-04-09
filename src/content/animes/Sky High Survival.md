@@ -1,6 +1,7 @@
 ---
 titre: Sky High Survival
 annee: 2021
+titre_mal: Tenkuu Shinpan
 type: série
 saisons: 3
 episodes: 38
@@ -17,12 +18,12 @@ studios:
   - Zero-G
 realisateur: Masahiro Takata
 resume_court: Une lycéenne se réveille dans une ville moderne où des tueurs masqués traquent les humains.
-image: "https://myanimelist.net/images/anime/1015/138006l.jpg"
+image: https://myanimelist.net/images/anime/1015/138006l.jpg
 date_ajout: 2022-10-12
 videos:
   - 
 score_mal: 9.11
-mal_id: 52991
+mal_id: 13375
 ---
 
 ## Résumé

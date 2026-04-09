@@ -19,8 +19,8 @@ realisateur: Ryotaro Makihara
 resume_court: Tandis que vampires et humains se livrent une guerre dans un monde ravagé, une représentante de chacune des espèces se mettent en quête d'un lieu où cohabiter pacifiquement.
 image: https://myanimelist.net/images/anime/1180/113713l.jpg
 date_ajout: 2022-07-18
-score_mal: 5.94
-mal_id: 48566
+score_mal: 7.16
+mal_id: 39518
 ---
 
 ## Résumé

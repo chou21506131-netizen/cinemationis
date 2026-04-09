@@ -22,8 +22,8 @@ image: "https://myanimelist.net/images/anime/13/68185l.jpg"
 date_ajout: 2023-09-02
 videos:
   - 
-score_mal: 6
-mal_id: 16159
+score_mal: 7.26
+mal_id: 14345
 ---
 
 ## Résumé

@@ -1,5 +1,6 @@
 ---
 titre: Tomo-chan est une fille !
+titre_mal: Tomo-chan wa Onnanoko!
 annee: 2023
 type: série
 saisons: 1

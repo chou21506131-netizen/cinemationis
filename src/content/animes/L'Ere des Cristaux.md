@@ -1,5 +1,6 @@
 ---
 titre: L'Ere des Cristaux
+titre_mal: Houseki no Kuni
 annee: 2017
 type: série
 saisons: 1

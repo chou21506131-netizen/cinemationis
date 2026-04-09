@@ -1,5 +1,6 @@
 ---
 titre: Suzume
+titre_mal: Suzume no Tojimari
 annee: 2022
 type: film
 saisons: 2
@@ -18,12 +19,12 @@ studios:
   - CoMix Wave Films
 realisateur: Makoto Shinkai
 resume_court: Une jeune fille doit protéger le Japon d'un catastrophe imminente.
-image: "https://myanimelist.net/images/anime/1873/139792l.jpg"
+image: https://myanimelist.net/images/anime/1873/139792l.jpg
 date_ajout: 2025-04-27
 videos:
   - 
-score_mal: 6.84
-mal_id: 53488
+score_mal: 8.24
+mal_id: 50594
 ---
 
 ## Résumé

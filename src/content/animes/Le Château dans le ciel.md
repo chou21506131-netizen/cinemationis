@@ -1,5 +1,6 @@
 ---
 titre: Le Château dans le ciel
+titre_mal: Tenkuu no Shiro Laputa
 annee: 1986
 type: film
 saisons:

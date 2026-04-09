@@ -1,5 +1,6 @@
 ---
 titre: La Mélodie du Ciel
+titre_mal: So Ra No Wo To
 annee: 2010
 type: série
 saisons: 1
@@ -17,7 +18,7 @@ studios:
   - A-1 Pictures
 realisateur: Mamoru Kanbe
 resume_court: Une jeune fille entre dans l'armée pour apprendre à jouer de la trompette.
-image: "https://myanimelist.net/images/anime/7/81654l.jpg"
+image: https://myanimelist.net/images/anime/7/81654l.jpg
 date_ajout: 2022-02-21
 videos:
   - https://www.youtube.com/watch?v=yP1FW6JJkTQ

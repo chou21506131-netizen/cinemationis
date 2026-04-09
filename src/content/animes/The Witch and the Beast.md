@@ -1,5 +1,6 @@
 ---
 titre: The Witch and the Beast
+titre_mal: Majo to Yajuu
 annee: 2024
 type: série
 saisons: 1
@@ -21,8 +22,8 @@ image: https://myanimelist.net/images/anime/1637/137188l.jpg
 date_ajout: 2025-05-22
 videos:
   - 
-score_mal: 6.32
-mal_id: 55909
+score_mal: 7.46
+mal_id: 52816
 ---
 
 ## Résumé

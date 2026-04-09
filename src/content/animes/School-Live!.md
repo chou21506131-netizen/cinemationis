@@ -1,5 +1,6 @@
 ---
-titre: "School-Live!"
+titre: School-Live!
+titre_mal: Gakkougurashi!
 annee: 2015
 type: série
 saisons: 1
@@ -20,12 +21,12 @@ studios:
   - Lerche
 realisateur: Masaomi Ando
 resume_court: 4 lycéennes sont les seules survivantes d'une épidémie de zombies.
-image: "https://myanimelist.net/images/anime/6/80039l.jpg"
+image: https://myanimelist.net/images/anime/6/80039l.jpg
 date_ajout: 2025-04-24
 videos:
   - 
-score_mal: 7.5
-mal_id: 31376
+score_mal: 7.61
+mal_id: 24765
 ---
 
 ## Résumé

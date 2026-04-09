@@ -1,5 +1,6 @@
 ---
 titre: The Civilization Blaster
+titre_mal: Blast of Tempest
 annee: 2012
 type: série
 saisons: 1
@@ -19,12 +20,12 @@ studios:
   - Kinema Citrus
 realisateur: Seiji Kishi
 resume_court: Après avoir disparu suite à la mort de sa soeur, un garçon revient doté de pouvoirs.
-image: "https://myanimelist.net/images/anime/1338/103754l.jpg"
+image: https://myanimelist.net/images/anime/1338/103754l.jpg
 date_ajout: 2025-03-22
 videos:
   - 
-score_mal: 6.89
-mal_id: 12957
+score_mal: 7.89
+mal_id: 14075
 ---
 
 ## Résumé

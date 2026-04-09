@@ -1,5 +1,6 @@
 ---
 titre: Moi, quand je me réincarne en Slime
+titre_mal: Tensei shitara Slime Datta Ken
 annee: 2018
 type: série
 saisons: 6

@@ -1,5 +1,6 @@
 ---
 titre: Les Carnets de l'Apothicaire
+titre_mal: Kusuriya no Hitorigoto
 annee: 2023
 type: série
 saisons: 4

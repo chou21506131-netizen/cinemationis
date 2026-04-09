@@ -62,26 +62,38 @@ async function searchMALByTitle(titre) {
 async function verifyOrFixMALId(malId, titre) {
   await sleep(DELAY);
   const data = await fetchJSON(`${JIKAN_BASE}/anime/${malId}`);
-  if (!data?.data) return { id: parseInt(malId), changed: false, malTitle: '?' };
 
-  const malTitle = data.data.title;
-  const allTitles = [malTitle, ...(data.data.titles || []).map(t => t.title)];
+  if (data?.data) {
+    const malTitle = data.data.title;
+    const allTitles = [malTitle, ...(data.data.titles || []).map(t => t.title)];
 
-  // Vérifier si le titre MAL correspond au titre de la fiche
-  if (allTitles.some(t => titlesMatch(t, titre))) {
-    return { id: parseInt(malId), changed: false, malTitle };
+    // L'ID correspond au titre → tout est bon
+    if (allTitles.some(t => titlesMatch(t, titre))) {
+      return { id: parseInt(malId), changed: false, malTitle };
+    }
+
+    // L'ID existe mais ne correspond pas au titre → chercher le bon
+    console.log(`  ⚠️  ${titre} : l'ID ${malId} correspond à "${malTitle}" sur MAL`);
+  } else {
+    // L'ID n'existe pas sur MAL
+    console.log(`  ⚠️  ${titre} : l'ID ${malId} n'existe pas sur MAL`);
   }
 
-  // L'ID ne correspond pas → chercher le bon par le titre
-  console.log(`  ⚠️  ${titre} : l'ID ${malId} correspond à "${malTitle}" sur MAL`);
+  // Chercher le bon ID par le titre
   const found = await searchMALByTitle(titre);
   if (found) {
     console.log(`  🔄 Nouvel ID trouvé : ${found.mal_id} ("${found.title}")`);
     return { id: found.mal_id, changed: true, oldId: parseInt(malId), malTitle: found.title };
   }
 
+  // Pas trouvé par recherche → garder l'ID actuel
+  if (data?.data) {
+    console.log(`  ℹ️  Recherche infructueuse, ID conservé (vérifier titre_mal)`);
+    return { id: parseInt(malId), changed: false, malTitle: data.data.title };
+  }
+
   console.log(`  ❌ Impossible de trouver "${titre}" sur MAL, ID conservé`);
-  return { id: parseInt(malId), changed: false, malTitle };
+  return { id: parseInt(malId), changed: false, malTitle: '?' };
 }
 
 // ── Collecte de toutes les entrées liées (saisons, films, etc.) ──
@@ -184,12 +196,14 @@ async function main() {
     let newRaw = parsed.raw;
     let changed = false;
     const titre = getValue(parsed.raw, 'titre') || file;
+    const titreMal = getValue(parsed.raw, 'titre_mal');
+    const titreRecherche = titreMal || titre;
     const malId = getValue(parsed.raw, 'mal_id');
 
     // ── Score MAL : vérification ID + moyenne de toutes les oeuvres liées ──
     if (malId) {
       // Étape 1 : Vérifier que le mal_id correspond bien au titre
-      const check = await verifyOrFixMALId(malId, titre);
+      const check = await verifyOrFixMALId(malId, titreRecherche);
       let effectiveId = check.id;
 
       if (check.changed) {
@@ -212,7 +226,7 @@ async function main() {
           changed = true;
         }
 
-        // Affichage détaillé
+        // Affichage
         if (scoreChanged || check.changed) {
           console.log(`  ──── ${titre} ────`);
           if (check.changed) {
@@ -221,8 +235,14 @@ async function main() {
           console.log(`    Note : ${current || '?'} → ${rounded}`);
           console.log(`    Calcul (${entries.length} oeuvres) :`);
           entries.forEach(e => console.log(`      • ${e.title} (${e.type}) : ${e.score}`));
+        } else {
+          console.log(`  ${titre} : RAS (${rounded})`);
         }
+      } else {
+        console.log(`  ${titre} : aucun score trouvé sur MAL`);
       }
+    } else {
+      console.log(`  ${titre} : pas de mal_id`);
     }
 
     // ── YouTube ──

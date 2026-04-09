@@ -25,7 +25,7 @@ Je ne sais pas si ça vient de la musique, du personnage, de l'œuvre en génér
   <figcaption><em>Oui, elle a 13 ans</em></figcaption>
 </figure>
 
-## 6. Le sacrifice de Karin ([[Yuna Yuki is a Hero]] -- saison 1 épisode 11)
+## 6. Le sacrifice de Karin ([[Yuki Yuna is a Hero]] -- saison 1 épisode 11)
 
 Ce passage-là, il m'est tombé dessus comme une merde sur une planche ! Les 5 héroïnes de Yuki Yuna is a Hero font face à des monstres venus anéantir l'humanité. Dans un ultime combat perdu d'avance, Karin, la moins bien intégrée au groupe, s'élance seule pour offrir une ouverture à ses compères et prouver sa valeur. Le problème ? Utiliser trop de pouvoir blesse gravement les filles. Et là, la pauvre enfant n'échappe pas à la règle. Son combat se termine sur une lourde chute qui annonce la suite. Colorimétrie du visage terne. Musique glauque. Gestes hésitants. Une phrase : « Je crois que je suis devenue aveugle et sourde. ». Paf ! Et là j'peux vous dire que ça fout un coup. La petite fille de 12 ans grand max qui annonce ça d'une voix tremblante, pouah...
 
