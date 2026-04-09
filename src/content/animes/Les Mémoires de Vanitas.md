@@ -1,5 +1,6 @@
 ---
 titre: Les Mémoires de Vanitas
+titre_mal: Vanitas no Karte
 annee: 2021
 type: ""
 saisons:

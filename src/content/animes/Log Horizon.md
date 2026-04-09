@@ -1,5 +1,6 @@
 ---
 titre: Log Horizon
+titre_mal: Log Horizon
 annee: 2013
 type: ""
 saisons:

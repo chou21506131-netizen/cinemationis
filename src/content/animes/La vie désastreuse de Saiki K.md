@@ -21,6 +21,7 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/1973/142750.jpg
 date_ajout: 2025-06-22
 score_mal: 8.41
+titre_mal: Saiki Kusuo no Ψ-nan
 ---
 
 ## Résumé

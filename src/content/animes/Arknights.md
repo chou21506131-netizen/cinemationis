@@ -1,6 +1,6 @@
 ---
 titre: Arknights
-titre_mal: "Arknights: Prelude to Dawn"
+titre_mal: '"Arknights: Prelude to Dawn"'
 annee: 2022
 type: série
 saisons: 2

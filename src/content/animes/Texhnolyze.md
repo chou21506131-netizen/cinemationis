@@ -1,5 +1,6 @@
 ---
 titre: Texhnolyze
+titre_mal: Texhnolyze
 annee: 2003
 type: ""
 saisons:
@@ -22,6 +23,7 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/1027/131977.jpg
 date_ajout: 2025-03-15
 score_mal: 7.76
+mal_id: 26
 ---
 
 ## Résumé

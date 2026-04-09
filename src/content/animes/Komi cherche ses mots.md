@@ -1,5 +1,6 @@
 ---
 titre: Komi cherche ses mots
+titre_mal: '"Komi-san wa, Comyushou desu."'
 annee: 2021
 type: ""
 saisons:

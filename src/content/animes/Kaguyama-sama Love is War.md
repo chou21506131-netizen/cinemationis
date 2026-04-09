@@ -1,6 +1,6 @@
 ---
 titre: "Kaguyama-sama: Love is War"
-titre_mal: "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen"
+titre_mal: '"Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen"'
 annee: 2019
 type: série
 saisons: 3

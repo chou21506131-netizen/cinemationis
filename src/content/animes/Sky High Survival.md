@@ -22,8 +22,8 @@ image: https://myanimelist.net/images/anime/1015/138006l.jpg
 date_ajout: 2022-10-12
 videos:
   - 
-score_mal: 9.11
-mal_id: 13375
+score_mal: 6.68
+mal_id: 43690
 ---
 
 ## Résumé

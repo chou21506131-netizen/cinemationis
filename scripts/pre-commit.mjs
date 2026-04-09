@@ -242,7 +242,7 @@ async function main() {
         console.log(`  ${titre} : aucun score trouvé sur MAL`);
       }
     } else {
-      console.log(`  ${titre} : pas de mal_id`);
+      console.log(`  ❌ ${titre} : pas de mal_id`);
     }
 
     // ── YouTube ──

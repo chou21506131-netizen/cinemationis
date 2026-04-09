@@ -1,6 +1,7 @@
 ---
 titre: The Qwaser of Stigmata
 annee: 2010
+titre_mal: Seikon no Qwaser
 type: ""
 saisons:
 episodes:
@@ -20,6 +21,7 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/1212/97589.jpg
 date_ajout: 2025-02-15
 score_mal: 6.31
+mal_id: 6500
 ---
 
 ## Résumé

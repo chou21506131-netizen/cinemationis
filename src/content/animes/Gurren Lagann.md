@@ -1,5 +1,6 @@
 ---
 titre: Gurren Lagann
+titre_mal: Tengen Toppa Gurren Lagann
 annee: 2007
 type: ""
 saisons:
@@ -22,6 +23,7 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/4/5123.jpg
 date_ajout: 2024-11-16
 score_mal: 8.64
+mal_id: 2001
 ---
 
 ## Résumé
