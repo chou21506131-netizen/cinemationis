@@ -11,19 +11,77 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ANIMES_DIR = path.join(__dirname, '..', 'src', 'content', 'animes');
 const JIKAN_BASE = 'https://api.jikan.moe/v4';
-const DELAY = 400;
+const DELAY = 600;
+const MAX_RETRIES = 5;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-async function fetchJSON(url) {
+async function fetchJSON(url, retries = 0) {
   const res = await fetch(url);
   if (res.status === 429) {
-    console.log('  ⏳ Rate limit, attente 2s...');
-    await sleep(2000);
-    return fetchJSON(url);
+    if (retries >= MAX_RETRIES) return null;
+    await sleep(2000 + retries * 1000);
+    return fetchJSON(url, retries + 1);
   }
   if (!res.ok) return null;
   return res.json();
+}
+
+// ── Vérification et correction du mal_id ──
+
+function normalizeTitle(s) {
+  return s.toLowerCase()
+    .replace(/[!:;,.\-–—'"'"«»]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function titlesMatch(a, b) {
+  const na = normalizeTitle(a);
+  const nb = normalizeTitle(b);
+  // Match exact ou l'un contient l'autre (pour les sous-titres)
+  return na === nb || na.includes(nb) || nb.includes(na);
+}
+
+async function searchMALByTitle(titre) {
+  await sleep(DELAY);
+  const query = encodeURIComponent(titre);
+  const data = await fetchJSON(`${JIKAN_BASE}/anime?q=${query}&limit=5`);
+  if (!data?.data || data.data.length === 0) return null;
+
+  // Chercher une correspondance exacte d'abord
+  for (const result of data.data) {
+    const titles = [result.title, ...(result.titles || []).map(t => t.title)];
+    if (titles.some(t => titlesMatch(t, titre))) {
+      return result;
+    }
+  }
+  return null;
+}
+
+async function verifyOrFixMALId(malId, titre) {
+  await sleep(DELAY);
+  const data = await fetchJSON(`${JIKAN_BASE}/anime/${malId}`);
+  if (!data?.data) return { id: parseInt(malId), changed: false, malTitle: '?' };
+
+  const malTitle = data.data.title;
+  const allTitles = [malTitle, ...(data.data.titles || []).map(t => t.title)];
+
+  // Vérifier si le titre MAL correspond au titre de la fiche
+  if (allTitles.some(t => titlesMatch(t, titre))) {
+    return { id: parseInt(malId), changed: false, malTitle };
+  }
+
+  // L'ID ne correspond pas → chercher le bon par le titre
+  console.log(`  ⚠️  ${titre} : l'ID ${malId} correspond à "${malTitle}" sur MAL`);
+  const found = await searchMALByTitle(titre);
+  if (found) {
+    console.log(`  🔄 Nouvel ID trouvé : ${found.mal_id} ("${found.title}")`);
+    return { id: found.mal_id, changed: true, oldId: parseInt(malId), malTitle: found.title };
+  }
+
+  console.log(`  ❌ Impossible de trouver "${titre}" sur MAL, ID conservé`);
+  return { id: parseInt(malId), changed: false, malTitle };
 }
 
 // ── Collecte de toutes les entrées liées (saisons, films, etc.) ──
@@ -128,20 +186,41 @@ async function main() {
     const titre = getValue(parsed.raw, 'titre') || file;
     const malId = getValue(parsed.raw, 'mal_id');
 
-    // ── Score MAL : moyenne de toutes les oeuvres liées ──
+    // ── Score MAL : vérification ID + moyenne de toutes les oeuvres liées ──
     if (malId) {
-      const entries = await collectAllMALIds(parseInt(malId));
+      // Étape 1 : Vérifier que le mal_id correspond bien au titre
+      const check = await verifyOrFixMALId(malId, titre);
+      let effectiveId = check.id;
+
+      if (check.changed) {
+        newRaw = setValue(newRaw, 'mal_id', check.id);
+        changed = true;
+      }
+
+      // Étape 2 : Collecter les scores de toutes les oeuvres liées
+      const entries = await collectAllMALIds(effectiveId);
 
       if (entries.length > 0) {
         const avg = entries.reduce((sum, e) => sum + e.score, 0) / entries.length;
-        const rounded = Math.round(avg * 100) / 100; // arrondi à 2 décimales
+        const rounded = Math.round(avg * 100) / 100;
 
         const current = getValue(newRaw, 'score_mal');
-        if (String(rounded) !== current) {
+        const scoreChanged = String(rounded) !== current;
+
+        if (scoreChanged || check.changed) {
           newRaw = setValue(newRaw, 'score_mal', rounded);
-          const details = entries.map(e => `${e.title}: ${e.score}`).join(', ');
-          console.log(`  📝 ${titre} : ${current || '?'} → ${rounded} (${entries.length} oeuvres: ${details})`);
           changed = true;
+        }
+
+        // Affichage détaillé
+        if (scoreChanged || check.changed) {
+          console.log(`  ──── ${titre} ────`);
+          if (check.changed) {
+            console.log(`    ID : ${check.oldId} → ${check.id}`);
+          }
+          console.log(`    Note : ${current || '?'} → ${rounded}`);
+          console.log(`    Calcul (${entries.length} oeuvres) :`);
+          entries.forEach(e => console.log(`      • ${e.title} (${e.type}) : ${e.score}`));
         }
       }
     }
