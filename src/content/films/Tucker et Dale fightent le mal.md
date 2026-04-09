@@ -1,5 +1,5 @@
 ---
-titre: Tucker & Dale fightent le mal
+titre: Tucker et Dale fightent le mal
 annee: 2012
 note: 15/20
 recommandation: A voir

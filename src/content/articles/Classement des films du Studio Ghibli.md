@@ -3,15 +3,19 @@ titre: Classement des films du Studio Ghibli
 tags:
   - animés
   - top
-  - studio ghibli
 date_publication: 2022-08-27
 resume: Quand on parle de classiques de la japanimation, on se tourne forcément vers le Studio Ghibli. Mais quel est donc le plus classique des classiques ?
-image: ""
+image: /images/articles/Classement_des_films_studio_ghibli/Minia_pc.gif
 ---
 
-Qu'on regarde ou non de la japanimation, des noms comme Totoro, [[Princesse Mononoké]] et quelques autres nous font tilt. Leur point commun ? Tous viennent du Studio Ghibli, fondé en 1985 par Miyazaki et Takahata, deux bougres qui ont par la suite produit pépite sur pépite. Perso, j'ai vu tous les principaux, et voici mon classement par ordre d'antépréférence (ça ne veut rien dire).
+Qu'on regarde ou non de la japanimation, des noms comme Totoro, [[Princesse Mononoké]] et quelques autres nous font tilt. Leur point commun ? Tous viennent du Studio Ghibli, fondé en 1985 par Miyazaki et Takahata, deux bougres qui ont par la suite produit pépite sur pépite. Perso, j'ai vu "tous les principaux" (en fait il m'en manque beaucoup au moment où j'écris ça mais tant pis), et voici mon classement par ordre d'antépréférence (ça ne veut rien dire).
 
 ## [[Le Château dans le ciel]] (H. Miyazaki)
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Classement_des_films_studio_ghibli/6.gif" alt="Le Château dans le ciel" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>La jupe magique qui ne tombait jamais</em></figcaption>
+</figure>
 
 Sans hésitation le film le moins pertinent de ce classement, [[Le Château dans le ciel]] est sorti en 1986 au Japon et en 2003 en France, et franchement ce n'est trop grave. Contrairement aux autres classiques, celui-là ne propose pas de contenu suffisamment profond pour qu'un adulte s'y retrouve. On a bel et bien le droit à la romance discrète, l'action et... c'est tout. Tous les personnages sont plats et collent à une étiquette simpliste : le méchant, le débile, le héros etc. et l'humour ne dépasse pas la chute ridicule d'un random crétin.
 
@@ -19,11 +23,21 @@ Rien à redire par contre du côté de la musique ! Mais bon, si vous cherchez 
 
 ## [[Mon voisin Totoro]] (H. Miyazaki)
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Classement_des_films_studio_ghibli/5.jpg" alt="Mon voisin Totoro" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Totoro et Satsuki prennent leur douche ensemble</em></figcaption>
+</figure>
+
 Avec [[Mon voisin Totoro]] on reste dans une ambiance plutôt légère mais avec beaucoup plus de profondeur ! Sorti en 1988, le dindon-ours-magique en surcharge pondérale est aujourd'hui le personnage le plus connu du studio et fait même office de logo.
 
 Bon, honnêtement, votre vie ne sera pas bouleversée par le visionnage de ce bon vieux Totoro, mais ça reste à regarder, ça passe tout seul. L'histoire jongle bien entre légèreté et sérieux, ce qui m'a particulièrement plu et surpris, je l'avoue, car je m'attendais à un truc cucul et chiant. Tout le monde peut se tromper, non ? Quoi qu'il en soit, le film ne dure pas longtemps, le rythme est parfaitement dosé, l'histoire est belle et le petit suspens qui tient suffisamment en haleine met bien. C'est un oui !
 
 ## [[Le Château ambulant]] (H. Miyazaki)
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Classement_des_films_studio_ghibli/4.jpg" alt="Le Château ambulant" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>La Château ambubulant ?</em></figcaption>
+</figure>
 
 A partir de là mon choix fut plus délicat.
 
@@ -33,15 +47,25 @@ Finalement, c'est un film un peu comme les Disney, mais avec tout de mieux et su
 
 ## [[Princesse Mononoké]] (H. Miyazaki)
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Classement_des_films_studio_ghibli/3.jpg" alt="Princesse Mononoké" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Une Princesse dégueu qui sait pas manger</em></figcaption>
+</figure>
+
 La 3ème marche du podium revient à [[Princesse Mononoké]], sorti en 1997 au Japon (3 ans plus tard en France). De tout le classement, je trouve qu'il s'agit de l'œuvre de fiction la plus mature car la plus neutre. On suit 5 voire 6 protagonistes, de plus ou moins loin, avec des intérêts qui leur sont tous propres et surtout, qui sont légitimes et cohérents. Ici, pas de méchant qui veut détruire le monde ou autre ineptie : chacun prêche pour sa paroisse d'une façon réaliste. Ajoutez à ces intrigues une bonne grosse dose d'action, de l'excellente musique, des doublages bien badass (surtout ceux des animaux) et vous obtenez l'un des plus grands classiques de l'animation japonaise.
 
 A mon humble avis, bien qu'il reste tout public, [[Princesse Mononoké]] s'octroie la palme du Miyazaki le plus dur/cru pour les enfants, avec notamment un peu d'hémoglobine à droite à gauche.
 
-Ps : je voudrais bien qu'on m'explique le titre parce qu'au final elle ne fait rien de bien intéressant la dame.
+PS : je voudrais bien qu'on m'explique le titre parce qu'au final elle ne fait rien de bien intéressant la dame.
 
 ## [[Le Tombeau des lucioles]] (I. Takahata)
 
-Avec [[Le Tombeau des lucioles]], dans les salles à partir de 1998, fini la rigolade et place à la cruelle et triste réalité. L'histoire se déroule au moment du bombardement du Japon par les USA pendant la Seconde Guerre mondiale, donc on a le droit aux morts, maladies et autres joyeusetés... sur des enfants. Je ne vais pas m'attarder sur le contenu du film en soi et ce pour une raison très simple : regardez-le ! Il est souvent considéré comme la meilleure œuvre de japanimation de l'histoire, à raison, donc rien à redire. Je préfère toutefois préciser qu'on parle de la mort lente et douloureuse de deux enfants livrés à eux-mêmes dans un pays ravagé par la guerre. Autrement dit, on y montre des scènes très dures, adaptées uniquement à un public averti.
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Classement_des_films_studio_ghibli/2.jpg" alt="Le Tombeau des lucioles" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Courrez, tant que vous avez des jambes</em></figcaption>
+</figure>
+
+Avec [[Le Tombeau des lucioles]], dans les salles à partir de 1998, fini la rigolade et place à la cruelle et triste réalité. L'histoire se déroule au moment du bombardement du Japon par les USA pendant la Seconde Guerre mondiale, donc on a le droit aux morts, maladies et autres joyeusetés... sur des enfants. Je ne vais pas m'attarder sur le contenu du film en soi et ce pour une raison très simple : regardez le ! Il est souvent considéré comme la meilleure œuvre de japanimation de l'histoire, à raison, donc rien à redire. Je préfère toutefois préciser qu'on parle de la mort lente et douloureuse de deux enfants livrés à eux-mêmes dans un pays ravagé par la guerre. Autrement dit, on y montre des scènes très dures, adaptées uniquement à un public averti.
 
 En revanche, j'aimerais revenir sur certains commentaires (issus de médias français de l'acabit du Figaro ou de Le Monde) que j'ai pu lire concernant [[Le Tombeau des lucioles]] :
 
@@ -54,6 +78,11 @@ En revanche, j'aimerais revenir sur certains commentaires (issus de médias fran
 Petite anecdote : le film apparaît dans les classements des « meilleurs films de guerre de l'histoire ».
 
 ## [[Le Voyage de Chihiro]] (H. Miyazaki)
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Classement_des_films_studio_ghibli/1.jpg" alt="Le Voyage de Chihiro" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Le métro de Paris est toujours aussi fun</em></figcaption>
+</figure>
 
 Oscar du meilleur film d'animation et Ours d'or du meilleur film 2002 (entre autres), plus grand succès de l'histoire du cinéma japonais jusqu'en 2020 et considéré comme l'un des meilleurs films de l'histoire tout court... ai-je besoin d'en rajouter ?
 

@@ -5,7 +5,7 @@ type: ""
 saisons:
 episodes:
 films:
-note: -/20
+note: /20
 recommandation: ""
 statut: ""
 suite:

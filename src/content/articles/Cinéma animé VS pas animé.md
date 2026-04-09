@@ -6,7 +6,7 @@ tags:
   - opinion
 date_publication: 2022-07-18
 resume: Une fois qu'on a goûté à la volupté du cinéma animé, les films et séries faites avec des vrais acteurs et tout le tremblement nous paraîssent bien fades... Découvre les causes se cachant derrière cet intrigant mystère !
-image: ""
+image: /images/articles/Cinema_anime_vs_pas_anime/1.png
 ---
 
 Le monde se divise en 2 catégories, ceux qui sont surchromosomés et ceux qui regardent de la japanimation. Maintenant que je suis tombé sous le charme des séries et films animés, il me coûte de retourner de l'autre côté. Pourquoi ? Je vais vous le dire ! Octogone entre le cinéma animé et celui pas animé (j'ai pas trouvé comment on l'appelait... en prise de vue réelle peut-être ? Trop long pour un titre en tout cas).
@@ -21,7 +21,7 @@ L'avantage des animés, c'est le fait que ce soit animé justement. Comme on se 
 
 ## Le casting qui casse tout
 
-Quand on a un casting, on cherche souvent à essayer de caler un nom ou deux de stars un peu connues. Parfois ça donne un bon résultat, et parfois... Suicide Squad, Pirates des Caraïbes 5, Terminator Genisys, Batman Forever, Cool World... Je continue la liste ? Si Will Smith est devenu maître du « je monopolise un film afin d'en faire un navet », on ne m'enlèvera plus jamais l'idée que pour être sûr d'avoir des bons acteurs, autant ne pas avoir !
+Quand on a un casting, on cherche souvent à essayer de caler un nom ou deux de stars un peu connues. Parfois ça donne un bon résultat, et parfois... Suicide Squad, Pirates des Caraïbes 5, Terminator Genesys, Batman Forever, Cool World... Je continue la liste ? Si Will Smith est devenu maître du « je monopolise un film afin d'en faire un navet », on ne m'enlèvera plus jamais l'idée que pour être sûr d'avoir des bons acteurs, autant ne pas avoir !
 
 ## L'art de ne pas savoir s'arrêter
 

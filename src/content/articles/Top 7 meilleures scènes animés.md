@@ -6,7 +6,7 @@ tags:
   - scènes
 date_publication: 2022-07-14
 resume: Occasionnellement, les animés me mettent une grosse quiche dans la tête le temps d'une scène. Petit tour des passages les plus incroyables que j'ai eu la chance de voir jusqu'ici !
-image: ""
+image: /images/articles/Meilleures_scenes_animes/Cover.gif
 ---
 La vie est injuste. Vous comptez vous détendre tranquillou devant votre animé du moment et vous voilà pris par surprise par une scène que vous n'avez pas vu venir ! Pas la petite scène en mode « Oh je m'y attendais pas » hein, celle qui te fait te sentir comme une loque des heures ou des jours durant et dont tu ne remets parfois jamais. Ca faut pas le dire, ça pète l'ambiance. Tantôt fous rires, tantôt pleurs, voici mon top 7 des meilleures scènes d'animés que j'ai eu la chance de voir.
 
@@ -20,11 +20,23 @@ Je n'avais pas d'autres choix que de mettre une scène de [[Puella Magi Madoka M
 
 Je ne sais pas si ça vient de la musique, du personnage, de l'œuvre en général ou d'un mélange de tout ça, mais Homura me sera toujours sympathique, comme un vrai être humain que j'aurais rencontré.
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Akemi_homura.png" alt="Akemi Homura" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Oui, elle a 13 ans</em></figcaption>
+</figure>
+
 ## 6. Le sacrifice de Karin ([[Yuna Yuki is a Hero]] -- saison 1 épisode 11)
 
 Ce passage-là, il m'est tombé dessus comme une merde sur une planche ! Les 5 héroïnes de Yuki Yuna is a Hero font face à des monstres venus anéantir l'humanité. Dans un ultime combat perdu d'avance, Karin, la moins bien intégrée au groupe, s'élance seule pour offrir une ouverture à ses compères et prouver sa valeur. Le problème ? Utiliser trop de pouvoir blesse gravement les filles. Et là, la pauvre enfant n'échappe pas à la règle. Son combat se termine sur une lourde chute qui annonce la suite. Colorimétrie du visage terne. Musique glauque. Gestes hésitants. Une phrase : « Je crois que je suis devenue aveugle et sourde. ». Paf ! Et là j'peux vous dire que ça fout un coup. La petite fille de 12 ans grand max qui annonce ça d'une voix tremblante, pouah...
 
-Un peu comme le n°7 avec la thématique du sacrifice. Karin donne de sa personne, même elle donne sa personne tout court, et les autres comprennent bien mieux qu'avec des mots. Là on ne parle pas d'une promesse en l'air faite à la zob en bouffant des chips, place aux actes immuables avec toutes les conséquences qu'ils impliquent. De toute façon, comme l'a dit la copine de Batman dans Le Chevalier Noir avant qu'il n'opte pour une actrice moche pour The Dark Knight : « Qui que nous soyons au fond de nous, nous ne sommes définis que par nos actes. ». Karin se définit donc aujourd'hui comme un légume, mais vu la puissance de l'épisode on lui pardonne.
+Un peu comme le n°7 avec la thématique du sacrifice. Karin donne de sa personne, même elle donne sa personne tout court, et les autres comprennent bien mieux qu'avec des mots. Là on ne parle pas d'une promesse en l'air faite à la zob en bouffant des chips, place aux actes immuables avec toutes les conséquences qu'ils impliquent.
+
+De toute façon, comme l'a dit la copine de Batman dans Le Chevalier Noir avant qu'il n'opte pour une actrice moche pour The Dark Knight : « Qui que nous soyons au fond de nous, nous ne sommes définis que par nos actes. ». Karin se définit donc aujourd'hui comme un légume, mais vu la puissance de l'épisode on lui pardonne.
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Karin_post_mankai.jpg" alt="Karin post Mnaki" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Maintenant elle va marcher beaucoup moins bien</em></figcaption>
+</figure>
 
 ## 5. « *I love you* » ([[Your Name]])
 
@@ -34,9 +46,19 @@ Ce bon vieux Taki a fait le choix d'écrire ce qu'il avait sur le cœur au détr
 
 Bon, en plus de faire chialer le spectateur ça vous aura coûté des années de recherches et de dépression par la suite, mais comme je dis toujours : choisir c'est renoncer.
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Your_name.jpg" alt="Your Name" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Tu pouvais juste lui dire sinon</em></figcaption>
+</figure>
+
 ## 4. La disparition de Koro-sensei ([[Assassination Classroom]] -- saison 2 épisode 25)
 
 Si on m'avait dit un jour que je serai ému en regardant un dessin animé dans lequel un poulpe cosmique jaune meurt, j'aurais dit que ça m'aurait pas étonné plus que ça. Initialement présenté comme un monstre cataclysmique, on se met très vite à l'apprécier cette vieille méduse. Du coup sa mort à l'avant-dernier épisode précédée par une très longue, solennelle et douloureuse série d'aurevoirs adressés à ses chers enfants qu'il a protégés coûte que coûte, et ben elle fait mal au kokoro. Le pauvre hère a fait tout ce qu'il a pu pour aider ceux qui devaient le tuer, et eux comme nous l'aimons pour ça. Fort heureusement, elle était nécessaire pour pouvoir parfaitement conclure l'animé. Encore une poussière dans l'œil ? Chiant un peu...
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Mort_koro_sensei.png" alt="Assassination Classroom" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Sayonara, tête de poulpe</em></figcaption>
+</figure>
 
 ## 3. Le requiem de Yuko ([[Tasogare Otome X Amnesia]] -- saison 1 épisode 12)
 
@@ -44,7 +66,12 @@ On arrive sur le podium : place au grandiose.
 
 Kirie a fait le con en tombant amoureux de Yuko puisque c'est un fantôme condamné à disparaître de ce monde. Après vu que c'est réciproque c'est déjà pas mal. Bref, son amour pour elle le pousse à l'aider à accomplir son destin et donc à la faire quitter ce plan d'existence. Et voilà la dernière journée à passer ensemble. Je peux vous dire que regardant le passage on se sent rapidement très pas bien. La tristesse monte. Encore, encore et encore. Ils se disent adieu, en se promettant de ne pas céder aux larmes. Tu parles... Elle commence à s'évaporer, lui ne la voit ni ne l'entends plus. Un crayon, un carnet et voilà que notre homme peut continuer de dire qu'il ne pleure pas alors qu'il sent le sel à l'autre bout du pays... Une scène courte de quelques minutes qui semble pourtant interminable pour le pauvre quidam derrière son écran.
 
-Franchement, si cette scène, déjà incroyable de base, nous prend autant aux tripes ça vient surtout de la musique. Requiem, de Nao Hiiragi. L'une des plus belles musiques de films/séries qui existe. On partait sur un animé léger avec de l'humour, de l'action et un soupçon d'horreur, voilà qu'on doit sortir les mouchoirs et utiliser la fonction « Lire en boucle » de YouTube... Chienne de vie...
+Franchement, si cette scène, déjà incroyable de base, nous prend autant aux tripes ça vient surtout de la musique : [Requiem, de Nao Hiiragi](https://www.youtube.com/watch?v=Y_JvMU33lAQ). L'une des plus belles musiques de films/séries qui existe. On partait sur un animé léger avec de l'humour, de l'action et un soupçon d'horreur, voilà qu'on doit sortir les mouchoirs et utiliser la fonction « Lire en boucle » de YouTube... Chienne de vie...
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Reqiuem.jpg" alt="Requiem" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>La position la moins naturelle pour dire aurevoir</em></figcaption>
+</figure>
 
 ## 2. La rencontre entre Arima et Kaori ([[Your Lie in April]] -- saison 1 épisode 1)
 
@@ -52,13 +79,12 @@ Si aujourd'hui j'ai commencé la musique en achetant un mélodica, c'est à caus
 
 Si la scène est si belle c'est par sa symbolique. En finissant l'animé on comprend que les 2 persos viennent en fait d'accomplir leur destin. D'un côté Arima retombe amoureux de la musique grâce à cette inconnue, de l'autre Kaori vient enfin de rencontrer son idole de toujours, et ce quelques semaines avant de mourir de sa maladie. Regardez cet animé au moins une fois, sinon vous êtes des imbéciles malheureux.
 
-Ps : nom de la musique : ♫ *A morning in slag ravine* ♫
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Rencontre_kaori_arima.png" alt="Your Lie in April" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Une musique, des arbres, une collégienne en culotte...</em></figcaption>
+</figure>
 
-## 1. Zero Requiem ([[Code Geass]] -- saison 2 épisode 25)
-
-[[Code Geass]] est à mes yeux l'un des meilleurs animés. La fin de [[Code Geass]] est la meilleure fin d'animé. Durant toute la saison 2 Lelouch devient détestable. Il finit par devenir un bon gros tyran bien autoritaire. Et en fait, il avait planifié sa mort depuis le début. Logique : si tout le monde le haït et qu'il se fait tuer, tout le monde est heureux. Le petit hic, et c'est sa qui fait que la scène est absolument hors du temps, c'est la petite sœur. En l'espace de 30 secondes, elle apprend que son connard de dictateur de frère a volontairement pourri la vie de millions de personnes, qu'il est en fait le héros que personne ne soupçonnera jamais, et qu'il a fait tout ça pour permettre à sa chère sœur de vivre librement dans un monde qu'elle devra rebâtir. Rien que ça.
-
-Comme toujours, que serait un grand animé sans grande musique ? Merci à *Continued Story* d'avoir joué ce rôle de moment légendaire qui fera pleurer des millions de personnes. En fait cette scène ne se commente pas : elle se regarde. Alors filez, mécréants.
+PS : la musique vient de là : ♫ [*A morning in slag ravine*](https://www.youtube.com/watch?v=Ap_AzM0HRjA&list=RDAp_AzM0HRjA&start_radio=1) ♫
 
 ## Mentions honorables
 
@@ -66,10 +92,22 @@ Comme toujours, que serait un grand animé sans grande musique ? Merci à *Conti
 
     -   Quand on un enfant de même pas 10 ans meurt d'une maladie devant toute sa famille, et ben c'est triste.
 
--   Holo met fin à la poursuite ([[Spice & Wolf]] -- saison 1 épisode 12)
+-   Holo met fin à la poursuite ([[Spice and Wolf]] -- saison 1 épisode 12)
 
     -   Le loup se rapproche dangereusement du cheval de Lawrence et de Holo, cette dernière se retourne avec un gros plan sur son visage transformé par la colère : « Va-t'en ! ». Cette classe... Jouissif.
 
 -   L'exécution de Mitty ([[Made in Abyss]] -- saison 1 épisode 13)
 
     -   Devenu un tas de chair pathétique mais attachant, Mitty souffre continuellement. Nanachi demande à Legu de mettre fin à la vie de son compagnon de toujours.
+
+## 1. Zero Requiem ([[Code Geass]] -- saison 2 épisode 25)
+
+[[Code Geass]] est à mes yeux l'un des meilleurs animés. La fin de [[Code Geass]] est la meilleure fin d'animé. Durant toute la saison 2 Lelouch devient détestable. Il finit par devenir un bon gros tyran bien autoritaire. Et en fait, il avait planifié sa mort depuis le début. Logique : si tout le monde le haït et qu'il se fait tuer, tout le monde est heureux. Le petit hic, et c'est sa qui fait que la scène est absolument hors du temps, c'est la petite sœur. En l'espace de 30 secondes, elle apprend que son connard de dictateur de frère a volontairement pourri la vie de millions de personnes, qu'il est en fait le héros que personne ne soupçonnera jamais, et qu'il a fait tout ça pour permettre à sa chère sœur de vivre librement dans un monde qu'elle devra rebâtir. Rien que ça.
+
+Comme toujours, que serait un grand animé sans grande musique ? Merci à [*Continued Story*](https://youtu.be/s9wsRRlTL3s) d'avoir joué ce rôle de moment légendaire qui fera pleurer des millions de personnes. En fait cette scène ne se commente pas : elle se regarde. Alors filez, mécréants.
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Meilleures_scenes_animes/Zero_Requiem.jpg" alt="Zero Reqiuem" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>La mort de l'homme aux bras de phasme</em></figcaption>
+</figure>
+

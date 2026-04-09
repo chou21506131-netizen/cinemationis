@@ -1,5 +1,5 @@
 ---
-titre: "Mushoku Tensei: Jobless Reincarnation"
+titre: Mushoku Tensei
 annee: 2021
 type: série
 saisons: 5

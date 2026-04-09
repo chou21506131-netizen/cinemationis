@@ -6,12 +6,17 @@ tags:
   - japon
 date_publication: 2022-08-27
 resume: Les animés, c'est chouette. Mais pas que. Depuis le début des années 2000, le Japon utilise leur succès pour développer son influence dans le monde entier. Je vous jure que c'est vrai et ça s'appelle le "Cool Japan" !
-image: ""
+image: /images/articles/Les_animes_arme_ultime_du_soft_power_japonais/Cover_pc.gif
 ---
 
-Et si je vous disais que la japanimation constitue aujourd'hui une véritable arme pleinement employée par le Japon comme une variante des missiles, bombes et autres sarbacanes à air comprimé... Ou presque. 4 000 000 de touristes étrangers au pays du Soleil-Levant en 2000 contre 32 000 000 en 2020. Pourquoi ? Comment ? Mesdames et messieurs, dites bonjour au soft-power nippon et au « Cool Japan » !
+Et si je vous disais que la japanimation constitue aujourd'hui une véritable arme pleinement employée par le Japon comme une variante des missiles, bombes et autres sarbacanes à air comprimé... Ou presque. 4 000 000 de touristes étrangers au pays du Soleil Levant en 2000 contre 32 000 000 en 2020. Pourquoi ? Comment ? Mesdames et messieurs, dites bonjour au *soft power* nippon et au « Cool Japan » !
 
-J'ai eu la chance (et le courage) de réaliser un mémoire de recherche de quelque 90 pages sur les animés et mangas dans le cadre de mon Master 2 et ce faisant j'ai pu découvrir avec un plaisir non dissimulé que les animés (je mets les mangas de côté parce que je fais ce que je veux) ne se limitaient pas à de simples séries, aussi qualitatives fussent-elles. Eh oui, en 2002, un gentil monsieur américain nommé Douglas McGray sort un joli dossier expliquant, en gros, que le Japon est un pays qui claque et qui possède une jolie communauté de fans un peu partout dans le monde. Aujourd'hui ça nous semble évident, mais à l'époque « Japon » connote plutôt « sévérité, menace, froideur, crise économique » et autres (l'article de ce cher Douglas s'appelle Japan's Gross National Cool, si jamais).
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_animes_arme_ultime_du_soft_power_japonais/Cover_RS.png" alt="Tokyo" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Le Japon, ou l'enfer des épileptiques</em></figcaption>
+</figure>
+
+J'ai eu la chance (et le courage) de réaliser un mémoire de recherche de quelque 90 pages sur les animés et mangas dans le cadre de mon Master 2 et ce faisant j'ai pu découvrir avec un plaisir non dissimulé que les animés (je mets les mangas de côté parce que je fais ce que je veux) ne se limitaient pas à de simples séries, aussi qualitatives fussent-elles. Eh oui, en 2002, un gentil monsieur américain nommé Douglas McGray sort un joli dossier expliquant, en gros, que le Japon est un pays qui claque et qui possède une jolie communauté de fans un peu partout dans le monde. Aujourd'hui ça nous semble évident, mais à l'époque « Japon » connote plutôt « sévérité, menace, froideur, crise économique » et autres (l'article de ce cher Douglas s'appelle *Japan's Gross National Cool*, si jamais).
 
 En fait, le petit Doug-Doug nous fait comprendre qu'avec la gastronomie, le sport, les jeux vidéo, la musique et surtout les animés/mangas, y a moyen de rendre le pays vraiment attractif... pour les jeunes. Ok, à l'époque ça concernait plutôt les 5-20 ans, mais 10/15 ans plus tard, les nenfants pourraient être toujours intéressés par le pays, ce qui implique : propager la culture, étudier la langue, acheter les produits des marques nationales ou même visiter l'île.
 
@@ -21,7 +26,7 @@ Faites-moi confiance sur la fiabilité des données qui suivront, j'ai suffisamm
 
 ## Quelques chiffres
 
-Histoire de comprendre un peu l'efficacité du plan, je vais poser là quelques chiffres avant d'expliquer un peu comment ça fonctionne :
+Histoire de comprendre un peu l'efficacité du plan, je vais poser là quelques chiffres avant d'expliquer un peu comment ça fonctionne (attention, ça date de 2022) :
 
 -   Ventes des mangas de [[L'Attaque des Titans]] dans le monde : 100 millions d'exemplaires. En comparaison, Astérix et le Griffon (un des derniers albums) : 5 millions.
 
@@ -63,4 +68,4 @@ En fait, c'est affreusement compliqué.
 
 Par contre, une fois que la machine est en place, et toute perturbation viruso-covidienne mise à part, ça devient difficile de la freiner ou de rivaliser. Il suffit de voir comment les blockbusters américains se font déglinguer tandis que les films d'animation japonais montent en puissance pour se rendre compte que le Japon a bel et bien réussi son pari vieux de 20 ans maintenant.
 
-Qu'est-ce qu'on dit ? Merci 
+Qu'est-ce qu'on dit ? Merci Douglas !

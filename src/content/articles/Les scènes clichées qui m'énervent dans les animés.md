@@ -6,18 +6,29 @@ tags:
   - opinion
 date_publication: 2023-05-15
 resume: Certaines scènes se retrouvent inévitablement dans les animés, quand bien elles sont inutiles et inintéressantes. Je me sacrifie pour vous les présenter !
-image: ""
+image: /images/articles/Les_scenes_clichees_qui_m_enervent_dans_les_animes/0.jpg
 ---
 
 Tous les genres cinématiques du monde ont leurs petits trucs à eux, et c'est d'ailleurs ce qui permet de les démarquer les uns des autres. Alors parfois, souvent même, les moments signatures s'intègrent parfaitement dans les œuvres et leurs deviennent utiles, tels que le coup du méchant qui apparaît dans le miroir pour les films d'horreur : classique mais efficace. Malheureusement, il arrive que ces gimmicks de réalisation deviennent lourdingues comme pas permis à force d'être utilisés à tout bout de champ. Je vous propose donc maintenant de découvrir les scènes les plus clichées des animés (et qui me donnent de l'aérophagie soit dit en passant).
+
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_scenes_clichees_qui_m_enervent_dans_les_animes/0.jpg" alt="La maladresse" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Oui, on parlera des culottes</em></figcaption>
+</figure>
 
 Je précise que je n'amuse pas à noter chaque scène qui me déplaît lorsque je regarde un animé. Cette petite liste que je présente ne parle que des scènes vraiment vues, revues et rerevues, je suis sûr qu'en cherchant on peut en trouver d'autres, mais j'ai pas envie de le faire.
 
 ## La plage (et ses maillots de bain)
 
-Je mets au défi n'importe quel être humain de me citer un animé romance/comédie/*school life* qui ne comporte aucune scène se passant sur une fucking plage. Même des animés plus sérieux ou qui se déroulent dans un monde médiéval en guerre et sans plage arrivent à en pondre une de temps en temps, parfois sans OAV (cf. [[Danmachi]] ou Akame ga kill). J'ai bien compris que le Japon étant un état insulaire la mer y occupe une place fondamentale dans la culture, l'économie, l'énergie, la mythologie et tout un tas d'autres secteurs. Par contre, de là à l'utiliser systématiquement comme prétexte pour foutre ses personnages féminins à moitié à poil (plutôt ¾ d'ailleurs), je suis tout de suite moins convaincu. Il s'agit souvent de l'incontournable sortie scolaire entre amis et du moment où on a le droit à une attention particulière sur la différence de volume des attributs mammaires des susmentionnés personnages. Quand on débute les animés on trouve ça rigolo, au bout de la 1548ème occurrence, ça l'est moins.
+Je mets au défi n'importe quel être humain de me citer un animé romance/comédie/*school life* qui ne comporte aucune scène se passant sur une fucking plage. Même des animés plus sérieux ou qui se déroulent dans un monde médiéval en guerre et sans plage arrivent à en pondre une de temps en temps, parfois sans OAV (cf. [[Danmachi]] ou [[Red Eyes Sword Akame ga Kill!]]). J'ai bien compris que le Japon étant un état insulaire la mer y occupe une place fondamentale dans la culture, l'économie, l'énergie, la mythologie et tout un tas d'autres secteurs. Par contre, de là à l'utiliser systématiquement comme prétexte pour foutre ses personnages féminins à moitié à poil (plutôt ¾ d'ailleurs), je suis tout de suite moins convaincu. Il s'agit souvent de l'incontournable sortie scolaire entre amis et du moment où on a le droit à une attention particulière sur la différence de volume des attributs mammaires des susmentionnés personnages. Quand on débute les animés on trouve ça rigolo, au bout de la 1548ème occurrence, ça l'est moins.
 
-Après, relativisons : si le Japon avait été un pays arctique, les bikinis arrogants auraient laissé place à des combinaisons multi-couches comprenant notamment doudoune, imperméable et coupe-vent. Dans ce cas, l'expression scientifique appropriée parle de « caché c'est gâché ».
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_scenes_clichees_qui_m_enervent_dans_les_animes/1.jpeg" alt="La plage" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Vous la sentez la dangerosité du donjon de Danmachi là ?</em></figcaption>
+</figure>
+
+Après, relativisons : si le Japon avait été un pays arctique, les bikinis arrogants auraient laissé place à des combinaisons multicouches comprenant notamment doudoune, imperméable et coupe-vent. Dans ce cas, l'expression scientifique appropriée parle de « caché c'est gâché ».
 
 ## Le festival culturel -- ou de l'école -- et son feu d'artifice
 
@@ -27,6 +38,11 @@ Avec la team « festival de la ville », direction le kimono ! Enfin, on voit so
 
 Personnellement, je pense qu'il faudrait rendre ces passages un poil plus drôle, par exemple en faisant en sorte que les cheveux de la fille prennent feu à cause d'un dysfonctionnement d'une fusée et qu'elle finisse par faire une greffe de peau parce que son visage est brûlé au 3ème degrés. Non ? Ça ou elle tombe dans une crotte de chien.
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_scenes_clichees_qui_m_enervent_dans_les_animes/2.jpg" alt="Le feu d'artifice" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Wow, original dis donc !</em></figcaption>
+</figure>
+
 Dans le cas où il s'agit d'un festival d'école, c'est encore pire ! Pourquoi ? Parce que maison hantée et maid café. J'ai l'impression que tous les collèges et lycées de ce pays ne font que les 2 mêmes putains d'attractions de merde depuis que leur système éducatif existe. Au-delà du manque total d'originalité et donc du problème de créativité des enfants japonais que cela soulève, je note un inconvénient majeur pour chacune de ces attractions. La première : qui peut avoir peur d'un manège grand comme une salle de classe et réalisé à l'arrache avec des cartons et du scotch par des lycéens ? Et la seconde : des parents qui viennent manger un goûter servi par des gamines de 15 ans habillées en soubrette, je suis désolé mais je trouve ça légèrement étrange (attention, peut-être que ça ne me dérangerait pas d'y aller aussi, ne me faites pas écrire ce que je n'ai pas dit !). Quand j'étais en primaire et que j'allais à la kermesse de mon école je me contentais de jouer 2 parties d'un chamboule-tout fait à partir de boîtes de converses vides avant de me tirer parce que c'était trop chiant. Et puis c'était les parents qui géraient tout, faut pas déconner.
 
 ## The culotte time !
@@ -34,6 +50,11 @@ Dans le cas où il s'agit d'un festival d'école, c'est encore pire ! Pourquoi ?
 Certainement LE cliché le plus connu de la culture japonaise dans le monde entier : mesdames et messieurs, acclamez comme il se doit le moment de la culotte ! Honnêtement, n'importe quel être humain comprend la raison d'existence de ces scènes (et de celles de plages/piscines vues plus haut soit dit en passant) dans les animés : le cul, ça fait vendre. Soit. Par contre, il faudrait se pencher un peu sur le déroulement de ces scènes car c'est ici que ça pêche selon moi. Au bout d'un moment, le coup du « machine est maladroite et tombe sur machin (ou inversement) qui finit invariablement avec les mains sur ses miches et la tête entre les cuisses, suivi de la réaction ultra gênée des 2 (compréhensible pour une fois) elle-même précédant l'énervement de la fille qui frappe le gars alors qu'en fait elle a bien aimé et qu'elle est tombe un peu plus amoureux de lui... » ~reprend sa respiration~ finit par être légèrement redondant.
 
 Personnellement, je voterais plutôt pour une scène où les 2 commencent à se rapprocher dans un endroit un peu intime avant de changer d'avis pour une raison un peu drôle et voilà. On voit toujours la culotte, les personnages sont gênés tout pareil, ils peuvent se frapper mais la scène devient plus réaliste, plus originale et rigolote. Sinon faudrait penser à investir dans des pantalons ou des crampons.
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_scenes_clichees_qui_m_enervent_dans_les_animes/4.jpg" alt="La maladresse encore" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Quel maladroit celui-là, oh la la.</em></figcaption>
+</figure>
 
 ## Les combats « entretiens d'embauche »
 
@@ -75,9 +96,14 @@ Le schéma classique du scénario d'aventure/action avec un héros qui n'a rien 
 
 Derrière ce titre pas très clair se cache une terrible vérité. Ce dernier point de l'article ne parle pas véritablement d'une scène typique mais plutôt d'un plan.
 
-Contexte : 2 personnages principaux (un homme et une femme le plus souvent mais pas systématiquement) se retrouvent en présence d'un méchant, de racailles, d'une foule de randoms ou tout autre situation propice à la moquerie. Il vient forcément un moment où l'un des personnages principaux (pour ne pas dire la fille) se fait dénigrer, provoquant chez elle un début de pleurs avec la tête basse car tout le monde semble se liguer contre elle, y compris son/sa meilleur(e) ami(e) ou amoureux/se. Mais non ! Ce-dernier, contre toute attente, la défend et clame haut et fort que cette personne a peut-être des défauts mais qu'elle n'en demeure pas moins l'individu le plus précieux à ses yeux ! C'est déjà bien pourri comme scène, mais MAINTENANT ça devient encore plus relou : la tête de la victime se relève, les yeux toujours mouillés mais désormais grands ouverts, écarquillés par la surprise que quelqu'un s'abaisse à défendre et aimer une merde comme elle...
+Contexte : 2 personnages principaux (un homme et une femme le plus souvent mais pas systématiquement) se retrouvent en présence d'un méchant, de racailles, d'une foule de randoms ou tout autre situation propice à la moquerie. Il vient forcément un moment où l'un des personnages principaux (pour ne pas dire la fille) se fait dénigrer, provoquant chez elle un début de pleurs avec la tête basse car tout le monde semble se liguer contre elle, y compris son/sa meilleur(e) ami(e) ou amoureux/se. Mais non ! Ce dernier, contre toute attente, la défend et clame haut et fort que cette personne a peut-être des défauts mais qu'elle n'en demeure pas moins l'individu le plus précieux à ses yeux ! C'est déjà bien pourri comme scène, mais MAINTENANT ça devient encore plus relou : la tête de la victime se relève, les yeux toujours mouillés mais désormais grands ouverts, écarquillés par la surprise que quelqu'un s'abaisse à défendre et aimer une merde comme elle...
 
 Eh bien ce petit plan, là, avec la tête qui se relève et les yeux qui s'ouvrent comme des soucoupes, je le déteste.
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_scenes_clichees_qui_m_enervent_dans_les_animes/3.jpg" alt="L'émotion nulle" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Et voilà, je fais de l'aérophagie...</em></figcaption>
+</figure>
 
 Tout le monde, que ce soient les spectateurs ou les personnages, sait que Jean-qui-chiale est apprécié, tout comme on sait que le gentil ami va intervenir pour défendre Jean-qui-chiale des quolibets, de la même manière qu'on sait que Jean-qui-chiale va être surpris d'être défendu. Je n'ai jamais vu le héros dire « Oui, oui, cette personne est une grosse bouse. », donc ça m'énerve, comme tout ce qui n'est pas original.
 

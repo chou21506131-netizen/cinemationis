@@ -1,12 +1,12 @@
 ---
-titre: "Les mots japonais récurrents dans les animés"
+titre: Les mots japonais récurrents dans les animés
 tags:
   - animés
   - culture
   - japon
 date_publication: 2023-02-06
-resume: "Quiconque ayant regardé plus de 3 animés en VOSTFR a forcément remarqué la présence récurrente de certains mots ou expressions. Au-delà du « yamete kudasai », qui peut-être parfaitement maîtrisé même par les non-initiés à la japanimation (on vous voit), laissez-moi vous dresser une petite liste des idiomatismes nippons les plus couramment repris dans les animés."
-image: ""
+resume: Quiconque ayant regardé plus de 3 animés en VOSTFR a forcément remarqué la présence récurrente de certains mots ou expressions. Au-delà du « yamete kudasai », qui peut-être parfaitement maîtrisé même par les non-initiés à la japanimation (on vous voit), laissez-moi vous dresser une petite liste des idiomatismes nippons les plus couramment repris dans les animés.
+image: /images/articles/Vocabulaire/Cover.gif
 ---
 
 Quiconque ayant regardé plus de 3 animés en VOSTFR a forcément remarqué la présence récurrente de certains mots ou expressions. Au-delà du « yamete kudasai », qui peut-être parfaitement maîtrisé même par les non-initiés à la japanimation (on vous voit), laissez-moi vous dresser une petite liste des idiomatismes nippons les plus couramment repris dans les animés.
@@ -15,13 +15,13 @@ Avant toute chose, je préfère vous avertir que je n'ai jamais pris aucun cours
 
 ## Les suffixes
 
-| Mot | Traduction / Explication |
-|---|---|
-| -chan | Attention, ça se complique : suffixe utilisé par les adultes envers les jeunes (surtout les filles), les filles entre elles ou par les jeunes garçons envers du même âge ou plus jeunes mais avec une connotation affectueuse. Il fait aussi des massages ce suffixe ? |
-| -kun/-san | Utilisé envers un garçon plus jeune ou entre garçons du même âge |
-| -sama | Suffixe à ajouter pour montrer un profond respect |
-| -senpai | Encore un suffixe, cette fois-ci employé lorsqu'on s'adresse à un « mentor », ou au moins quelqu'un qui a plus d'expérience que soi. Je me demande si ça marche envers les péripatéticiennes, tiens... |
-| -sensei | Plus simple celui-là : à utiliser pour désigner un maître : prof, médecin, artiste ou art martial |
+| Mot       | Traduction / Explication                                                                                                                                                                                                                                               |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -chan     | Attention, ça se complique : suffixe utilisé par les adultes envers les jeunes (surtout les filles), les filles entre elles ou par les jeunes garçons envers du même âge ou plus jeunes mais avec une connotation affectueuse. Il fait aussi des massages ce suffixe ? |
+| -kun/-san | Utilisé envers un garçon plus jeune ou entre garçons du même âge                                                                                                                                                                                                       |
+| -sama     | Suffixe à ajouter pour montrer un profond respect                                                                                                                                                                                                                      |
+| -senpai   | Encore un suffixe, cette fois-ci employé lorsqu'on s'adresse à un « mentor », ou au moins quelqu'un qui a plus d'expérience que soi. Je me demande si ça marche envers les péripatéticiennes, tiens...                                                                 |
+| -sensei   | Plus simple celui-là : à utiliser pour désigner un maître : prof, médecin, artiste ou art martial                                                                                                                                                                      |
 
 ## Les expressions courantes
 

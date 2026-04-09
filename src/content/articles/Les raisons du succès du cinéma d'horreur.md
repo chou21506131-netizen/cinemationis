@@ -6,7 +6,7 @@ tags:
   - analyse
 date_publication: 2022-11-18
 resume: Si personne n'aime avoir peur dans la vie, comment cela se fait-il que l'on regarde des films d'horreur ? Ben moi je sais !
-image: ""
+image: /images/articles/Les_raisons_du_succes_du_cinema_d_horreur/Cover.gif
 ---
 Avant que je ne débute mes études supérieures, j'avais *horreur* des films d'*horreur*. Mais visionnage après visionnage, j'ai commencé à les apprécier pour, au final, ne regarder plus que ça pendant presque 2 ans. Pendant ce temps, mon frère en a une peur bleue et refuse catégoriquement d'en approcher un à 30 ans passés. Même éducation, expériences similaires dans notre jeunesse... alors pourquoi cette aversion d'un côté et cet amour de l'autre ?
 
@@ -22,6 +22,11 @@ Heureusement pour nous, sinon personne ne pourrait regarder le moindre film de c
 
 En version courte : voir un film d'horreur déclenche une réaction chimique identique à celle d'une peur réelle, tout en étant modérée par le côté rassurant du cadre. On a peur, mais on sait que c'est bidon.
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_raisons_du_succes_du_cinema_d_horreur/3.jpg" alt="Forêt" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>On serait pas bien là pour se mater un p'tit film ?</em></figcaption>
+</figure>
+
 D'ailleurs, le cinéma horrifique cible majoritairement les ados et jeunes adultes parce que ces catégories d'âges sont celles où la production d'hormones est la plus forte. Maintenant, rien ne vous empêche d'en montrer un à votre arrière-grand-père en vue de toucher un héritage particulièrement intéressant... à vous de voir, mais je ne pourrai pas être tenu responsable.
 
 Bon, je n'ai rien contre les réactions hormonales, mais, personnellement, je n'ai jamais eu réellement peur devant un film et j'ai pourtant continué d'en regarder à la pelle. Complot ? Cette transition nous permet d'aborder la deuxième raison qui pousse les gens à apprécier le cinéma d'horreur : la catharsis.
@@ -30,15 +35,25 @@ Bon, je n'ai rien contre les réactions hormonales, mais, personnellement, je n'
 
 On entend par catharsis, ou effet cathartique, la possibilité de se libérer de ses tracas et de nous faire nous sentir mieux. La semaine de travail s'est transformée en enfer à cause de la sale glandeuse de Pénélope qui passe son temps à se curer le pif → plutôt que de faire 1h30 de badminton on regarde [[The Grudge 2]]. Pas sûr que l'on soit gagnant au change, mais au moins on se concentre sur le film -- avec celui-là ça risque d'être délicat mais vous comprenez le principe -- qui fait office de décharge à mauvaises humeurs. La colère et la fatigue accumulées récemment dans la vie réelle s'est transformée en colère et en fatigue à l'encontre de ces incompétents de scénaristes de [[The Grudge]] qui passent sûrement le temps à se curer le pif... Vive le cinéma !
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_raisons_du_succes_du_cinema_d_horreur/4.jpg" alt="The Grudge" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Coucou, je m'appelle The Grudge et je suis un film nul</em></figcaption>
+</figure>
+
 Plus sérieusement, je tiens à préciser que je ne suis pas tout à fait convaincu par cet argument. Pourquoi un film d'horreur nous défoulerait mieux qu'une comédie ou un film de guerre ? A mon avis... c'est bidon ! Par contre, je pense que le point suivant soulève quelque chose d'intéressant.
 
 ## Les raisons transgressives
 
-Un peu comme certains hentaïs constituent un moyen pour les détraqués sexuels d'évacuer (et j'insiste sur ce mot) leurs pulsions (un point abordé ici), les films d'horreur représenteraient pour les Hommes une façon d'assouvir des fantasmes interdits par la loi.
+Un peu comme certains hentaïs constituent un moyen pour les détraqués sexuels d'évacuer (et j'insiste sur ce mot) leurs pulsions ([[La règle sur les mineures dans les hentaïs|un point abordé ici]]), les films d'horreur représenteraient pour les Hommes une façon d'assouvir des fantasmes interdits par la loi.
 
 Vous avez toujours rêvé de vous défendre contre des enfoirés de cambrioleurs en leur mettant tarot ? Pas de problème, [[Intruders]] le fait pour vous, et ça vous fait du bien ! Plutôt que de partir vous-même outrepasser toutes les lois pour vous livrer à quelques actes immoraux, le cinéma (et l'art en général) vous libère de ces désirs en vous les faisant vivre d'une manière relativement réaliste.
 
 Pour le dire de manière un peu classe, la subversivité du cinéma horrifique nous offre une transgression des lois apte à nous libérer de nos pulsions. Ça ou acheter un animal de compagnie.
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les_raisons_du_succes_du_cinema_d_horreur/5.gif" alt="Shrek" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Merlin extériorise grâce à la thérapie du cri primal</em></figcaption>
+</figure>
 
 ## Et selon moi...
 

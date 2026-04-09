@@ -1,11 +1,11 @@
 ---
-titre: Les animés pour se lancer
+titre: Les animés pour se lancer dans la japanimation
 tags:
   - animés
   - guide
 date_publication: 2022-09-20
 resume: Pour se lancer dans le monde des animés, vaut mieux être un minimum guidé que ce soit au niveau des titres à voir ou des genres existants. Ça tombe bien, je vous présente les deux !
-image: ""
+image: /images/articles/Les animes_pour_se_lancer/Minia.gif
 ---
 
 La japanimation, c'est sacrément vaste. Je ne sais pas combien d'œuvres cela représente au total, mais je suis certain qu'on est bien au-dessus de 42. Alors quand il s'agit de se lancer soi-même dans cet univers ou de conseiller quelqu'un, pas facile facile (surtout quand certaines catégories comportent des noms japonais). Fantastique, comédie, isekai, shonen... Posons les bases avec ce guide des animés pour ~~gros nuls~~ débutants.
@@ -22,11 +22,16 @@ Voici une petite liste non exhaustive des principaux genres existant dans la jap
 
 Quand ça pète sans faire prout.
 
--   [[Le Voyage de Chihiro]] (film)
+-   [[Le Voyage de Chihiro]] (un peu action, mais bon)
 
--   [[Vampire in the Garden]]
+-   [[Chainsaw Man]]
 
 -   [[Rokka No Yuusha]]
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Action.gif" alt="Combat" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Vziou Vziou (Danmachi)</em></figcaption>
+</figure>
 
 ### Aventure
 
@@ -34,39 +39,51 @@ La différence avec le genre « action » vient du côté exploration/découve
 
 -   [[Made in Abyss]]
 
--   [[Spice & Wolf]]
+-   [[Spice and Wolf]]
 
--   [[Gosick]]
+-   [[Frieren]]
 
 ### Comédie
 
-Pas besoin de vous faire un dessin pour celui-là. Une précision néanmoins : tous les sites (le mien y compris) rangent des animés dans comédie, à tort, uniquement parce que certains personnages/situations amènent une touche drôle de manière récurrente, sans pour autant que l'ambiance principale n'en devienne moins grave. Ex : [[Your Lie in April]]. → souvent rigolo, vous chialerez devant quand même.
+Pas besoin de vous faire un dessin pour celui-là. Une précision néanmoins : tous les sites (le mien y compris) rangent des animés dans comédie, à tort, uniquement parce que certains personnages/situations amènent une touche drôle de manière récurrente, sans pour autant que l'ambiance principale n'en devienne moins grave.
+
+Exemple : [[Your Lie in April]] → souvent rigolo, vous chialerez devant quand même.
 
 -   [[Prison School]]
 
--   Kaguya-sama : Love is War
+-   [[Kaguyama-sama Love is War]]
 
 -   [[Grand Blue]]
 
-### Drame/ Gekiga
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Comedie.png" alt="Comédie" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Désolé, mais c'est la meilleure réplique ever</em></figcaption>
+</figure>
+
+### Drame/Gekiga
 
 Peu importe le ton de l'animé, la fin nous laisse sur notre séant.
 
--   [[Puella Magi Madoka Magica]]
+-   [[Phantom Requiem for the Phantom]]
 
--   Another
+-   [[Another]]
 
 -   [[Code Geass]]
 
 ### Ecchi
 
-Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un genre hmm... pas pour enfants. Attention, ce n'est pas un hentai (=porno) et il n'y a aucune scène de Q ! Mais disons que les situations, les chara designs et autres visuels laissent une place plus ou moins forte à la suggestion de la sexualité, ou à la romance niveau ++ sans jamais rien dévoiler. Désolé pour vous. Un certain nombres d'animés ont par exemple un côté ecchi, sans que cela soit le cœur du propos. On parle alors de fan service.
+Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un genre hmm... pas pour enfants. Attention, ce n'est pas un hentai (=porno) et il n'y a aucune scène de cul ! Mais disons que les situations, les chara designs et autres visuels laissent une place plus ou moins forte à la suggestion de la sexualité, ou à la romance niveau ++ sans jamais rien dévoiler. Désolé pour vous. Un certain nombres d'animés ont par exemple un côté ecchi, sans que cela soit le cœur du propos. On parle alors de fan service, ça donne bonne conscience.
 
 -   [[Gambling School]]
 
--   [[Shimoseka]]
+-   [[High School DxD]]
 
 -   [[No Game, No Life]]
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Ecchi.gif" alt="Ecchi" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>On voit rien, donc c'est ok</em></figcaption>
+</figure>
 
 ### Harem
 
@@ -80,7 +97,7 @@ Les animés de type « harem » sont presque toujours des hentais ou des ecchi
 
 ### Ecole
 
-Simple à comprendre : le scénario se déroule intégralement ou en partie avec des écoliers ou dans une école (accueillant souvent lesdits écoliers). Enormément d'animés pourraient être placés dans cette catégorie, donc je vous en donne 3 qui insistent spécifiquement sur l'aspect « école ».
+Simple à comprendre : le scénario se déroule intégralement ou en partie avec des écoliers ou dans une école (accueillant souvent lesdits écoliers d'ailleurs). Enormément d'animés pourraient être placés dans cette catégorie, donc je vous en donne 3 qui insistent spécifiquement sur l'aspect « école ».
 
 -   [[Tasogare Otome X Amnesia]]
 
@@ -90,9 +107,9 @@ Simple à comprendre : le scénario se déroule intégralement ou en partie ave
 
 ### Fantastique
 
-Créatures, magie, sorcellerie et autres trucs bizarres sont courants dans les animés fantastiques, au contraire de ceux « surnaturels » qui ont plutôt tendance, d'une part, à se passer dans un monde où la magie ça n'existe pas mon garçon, et, d'autre part, à être horrifiques.
+Créatures, magie, sorcellerie et autres trucs bizarres sont courants dans les animés fantastiques, au contraire de ceux « surnaturels » qui ont plutôt tendance, d'une part, à se passer dans un monde où la magie ça n'existe pas mon garçon, et, d'autre part, à être horrifiques. De manière plus propre, on parle de "fantastique" quand les éléments qui sont présents dedans mais pas dans notre vrai monde à nous sont normaux ; "surnaturel", c'est pour les oeuvres dont une partie des événements sont anormaux, même dans le lore. T'AS COMPRIS ?
 
--   [[Princesse Mononoké]] (film)
+-   [[Princesse Mononoké]]
 
 -   [[Noragami]]
 
@@ -100,19 +117,19 @@ Créatures, magie, sorcellerie et autres trucs bizarres sont courants dans les a
 
 ### Hentai
 
-Vous connaissez les pornos ? Vous connaissez les animés ? Mélangez les deux et vous obtenez les hentais. Je vous préviens, on trouve de tout ! Même des gosses.
+Vous connaissez les pornos ? Vous connaissez les animés ? Mélangez les deux et vous obtenez les hentais. Je vous préviens, on trouve de tout ! Même [[La règle sur les mineures dans les hentaïs|des gosses]].
 
 -   Personne ne saura jamais si j'en ai déjà vu ou non
 
 ### Historique
 
-Sans avoir valeur de documentaire, on parle là d'animés qui mettent en scène des lieux, personnages ou époques révolues depuis un certain temps. Je n'ai jamais cherché des animés appartenant spécifiquement à ce genre, mais comme je suis gentil :
+Sans avoir valeur de documentaire, on parle là d'animés réalistes qui mettent en scène des lieux, personnages ou époques révolues depuis un certain temps. Je n'ai jamais cherché des animés appartenant spécifiquement à ce genre, mais comme je suis gentil :
 
--   Baccano !
+-   [[Baccano!]]
 
--   [[Le Tombeau des lucioles]] (film)
+-   [[Le Tombeau des lucioles]]
 
--   C'est tout lol
+-   [[Les Carnets de l'Apothicaire]]
 
 ### Horreur
 
@@ -120,19 +137,23 @@ Pas facile d'avoir les miquettes devant un animé, mais certains titres instille
 
 -   [[Danganronpa]]
 
--   Another
+-   [[Devilman Crybaby]]
 
 -   [[Mirai Nikki]]
 
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Horreur.jpg" alt="Horreur" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>Attention, un parapluie peut en cacher un autre</em></figcaption>
+</figure>
 ### Isekai
 
-Cela signifie littéralement « autre monde ». Le principe est simple : le (parfois les) héros se retrouve(nt) dans un univers qui n'a rien à voir avec notre réalité actuelle. L'exemple le plus connu est l'isekai médiéval, mais c'est looooiiiin d'être le seul genre.
+Cela signifie littéralement « autre monde ». Le principe est simple : le (parfois les) héros se retrouve(nt) dans un univers qui n'a rien à voir avec notre réalité actuelle. L'exemple le plus connu est l'isekai médiéval, mais c'est looooiiiin d'être le seul genre. D'ailleurs, des isekai random qui sentent le fromage sont légion en ce moment.
 
--   Angel Beats
+-   [[Mushoku Tensei]]
 
 -   [[Skeleton Knight in Another World]]
 
--   [[The Rising of the Shield Hero]] (saison 1 surtout)
+-   [[Overlord]]
 
 ### Magical Girl/Mahou Shoujo
 
@@ -142,11 +163,22 @@ Habituellement destiné aux jeunes filles, les magical girls montrent des collé
 
 -   [[Yuna Yuki is a Hero]]
 
+-   [[Magical Girl Raising Project]]
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Magical_girl.jpg" alt="Magical Girl" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>bah alors, on s'amuse ou bien ?</em></figcaption>
+</figure>
+
 ### Mécha
 
-Je ne vais pas m'étaler dessus car j'en n'ai jamais regardé, mais en gros ça met en scène des robots qui se battent, voilà voilà. Après je suppute que les robots se placent en soutien d'une intrigue principale plus élaborée, comme les zombies dans The Walking Dead, sinon ça serait vraiment daubique.
+Je ne vais pas m'étaler dessus car j'en n'ai jamais vraiment regardé, mais en gros ça met en scène des robots qui se battent, voilà voilà. Après, les robots se placent en soutien d'une intrigue principale plus élaborée, comme les zombies dans The Walking Dead, sinon ça serait vraiment daubique.
 
--   [[Code Geass]]
+- [[Code Geass]]
+
+- [[Neon Genesis Evangelion]]
+
+- [[Gurren Lagann]] (que j'ai ragequit)
 
 ### Musique
 
@@ -156,31 +188,33 @@ Là encore, rien de sorcier : l'intrigue est liée d'une façon ou d'une autre 
 
 -   [[La Mélodie du Ciel]]
 
--   [[Love Live! School Idol Project]] (pas incroyable du tout)
+-  [[Sound! Euphonium]]
 
 ### Psychologique
 
-Les animés de cette catégorie s'intéressent de près aux valeurs, réflexions et choix des différents personnages. Contrairement à ce que ça laisse entendre, il y a souvent pas mal d'action car le côté psychologique sert surtout à justifier un comportement étrange ou considéré comme inadapté (du genre manger des gens, ce qui est tout à fait inadapté du point de vue d'une personne occidentale -- normalement). A titre purement personnel, je pense que beaucoup des meilleurs animés existants relèvent de ce genre (n'est-ce pas mon animé préféré à moi ?).
+Les animés de cette catégorie s'intéressent de près aux valeurs, réflexions et choix des différents personnages. Contrairement à ce que ça laisse entendre, il y a souvent pas mal d'action car le côté psychologique sert surtout à justifier un comportement, parfois étrange ou considéré comme inadapté (du genre manger des gens). A titre purement personnel, je pense que beaucoup des meilleurs animés existants relèvent de ce genre ([[Pourquoi Madoka Magica est un chef-d'oeuvre|n'est-ce pas mon animé préféré à moi]] ?).
 
--   [[Danganronpa]]
+-   [[Classroom of the Elite]]
 
--   [[Fate/Zero]]
+-   [[animes/Death Note|Death Note]]
 
--   [[Death Parade]]
+-   [[Nana]]
 
--   [[Charlotte]]
 
 ### Romance
 
-Histoire d'amour, je t'aime moi non plus, je t'aime moi aussi, j'aime les biscuits tout ça tout ça.
+Histoire d'amour, je t'aime moi non plus, je t'aime moi aussi, j'aime les biscuits, tout ça tout ça.
 
 -   [[Violet Evergarden]]
 
--   Toradora!
+-   [[Toradora!]]
 
--   [[Noragami]] 
+-   [[Your Name]]
 
--   [[Your Name]]. (film)
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Romance.jpeg" alt="Romance" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>C'est mignon tout plein y a même le soleil qui se couche</em></figcaption>
+</figure>
 
 ### Slice of life
 
@@ -196,7 +230,7 @@ Histoire d'amour, je t'aime moi non plus, je t'aime moi aussi, j'aime les biscui
 
 Une fois encore, rien à expliquer ici puisqu'on suit un personnage ou une équipe d'un sport pratiquant... bah un sport.
 
--   Débrouille-toi
+-   Débrouille-toi, j'en ai jamais vu.
 
 ### Surnaturel
 
@@ -204,9 +238,14 @@ Lorsque les histoires de fantômes, démons, invocations et autres légendes hum
 
 -   [[Tasogare Otome X Amnesia]]
 
--   Angel Beasts!
+-   [[Dandadan]]
 
--   Another
+-   [[Bokurano]]
+
+<figure style="text-align: center; margin: 30px 0">
+  <img src="/images/articles/Les animes_pour_se_lancer/Thriller.jpg" alt="JSurnaturel" width="90%" style="display: block; margin: 0 auto" />
+  <figcaption><em>PRANKED !</em></figcaption>
+</figure>
 
 ### Thriller
 
@@ -216,9 +255,8 @@ Nous voilà arrivés à l'avant dernier arrêt de notre voyage, un arrêt qui tr
 
 -   [[The Promised Neverland]]
 
--   Steins:Gate
+-   [[Tomodachi Game]]
 
--   [[Your Name]]. (film)
 
 ### Yaoi/Yuri
 
@@ -226,7 +264,7 @@ Pour finir, 2 sous-genres que vous avez peut-être déjà croisés si vous êtes
 
 ## Mes recommandations selon les cibles
 
-Une autre manière de classer les animés consiste à regarder la cible visée pour un titre donné. En gros, contrairement aux classiques que l'on a l'habitude de voir en Occident (comme Astérix, Tintin etc.) qui se destinent aussi bien aux très jeunes qu'aux fossiles édentés, la japanimation a historiquement décidé de fortement catégoriser son marché selon l'âge et le sexe des consommateurs.
+Une autre manière de classer les animés consiste à regarder la cible visée pour un titre donné. En gros, contrairement aux classiques que l'on a l'habitude de voir en occident (comme Astérix, Tintin etc.) qui se destinent aussi bien aux très jeunes qu'aux fossiles édentés, la japanimation a historiquement décidé de fortement catégoriser son marché selon l'âge et le sexe des consommateurs.
 
 Globalement, la plupart des œuvres peuvent être réparties au sein des 6 catégories suivantes (attention, âges approximatifs en vue) :
 
@@ -244,10 +282,10 @@ L'équivalent pour filles (de 7 à 14 ans donc) où l'on aborde l'amour (mais en
 
 ### Seinens
 
-Un poil plus mature que les shonens, la cible des seinens correspond aux garçons de 15 ans et plus. En gros, place aux titres les plus en vogue de ces dernières années : SNK, [[Tokyo Ghoul]], [[films/Death Note]]...
+Un poil plus mature que les shonens, la cible des seinens correspond aux garçons de 15 ans et plus. En gros, place aux titres les plus en vogue de ces dernières années : [[Chainsaw Man]], [[Monster]]...
 
 Attention, c'est aussi dans cette catégorie que l'on trouve les animés avec des scènes un peu plus... crues, dirons-nous. Donc un gros poil plus mature.
 
 ### Joseis
 
-Les joseis sont le penchant féminin d
+Les joseis sont le penchant féminin des seinens, avec, en l’occurrence, des thématiques sérieuses et réalistes tournant autour du drame, de la romance ou du cucul. Mesdames, je vous pensais plus ingénues que cela.

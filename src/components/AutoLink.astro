@@ -29,22 +29,35 @@ const titleIndex = [
     const container = document.querySelector(selector);
     if (!container) return;
 
-    // Map normalisée pour accès rapide
+    // Normalise un titre pour comparaison tolérante :
+    // - apostrophes courbes → droites
+    // - supprime :  ;  !  et espaces multiples
+    // - minuscules
+    function normalizeKey(s) {
+      return s
+        .replace(/[\u2018\u2019\u02BC]/g, "'")  // apostrophes courbes → droites
+        .replace(/&#\d+;/g, '')                  // entités HTML numériques
+        .replace(/&amp;/g, '&')                  // &amp; → &
+        .replace(/[!:;]/g, '')                   // ponctuation problématique
+        .toLowerCase()
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    // Normalise uniquement les apostrophes (pour l'étape 2)
+    function normalizeApos(s) {
+      return s.replace(/[\u2018\u2019\u02BC]/g, "'");
+    }
+
+    // Map normalisée pour recherche rapide
     const titleMap = new Map();
     titleIndex.forEach(item => {
-      titleMap.set(item.titre.toLowerCase().trim(), item);
+      titleMap.set(normalizeKey(item.titre), item);
     });
 
-    // Fonction de recherche tolérante (trim, normalize, espaces multiples)
+    // Fonction de recherche tolérante
     function findTitle(text) {
-      const key = text.trim().toLowerCase().replace(/\s+/g, ' ');
-      const exact = titleMap.get(key);
-      if (exact) return exact;
-      // Fallback : chercher dans toutes les clés
-      for (const [mapKey, item] of titleMap) {
-        if (mapKey.replace(/\s+/g, ' ') === key) return item;
-      }
-      return null;
+      return titleMap.get(normalizeKey(text)) || null;
     }
 
     const alreadyLinked = new Set();
@@ -52,14 +65,30 @@ const titleIndex = [
     // Étape 1 : Remplacer tous les [[titre]] par des liens (partout, y compris headings)
     let html = container.innerHTML;
 
-    html = html.replace(/\[\[([^\]]+)\]\]/g, (match, innerText) => {
-      const item = findTitle(innerText);
+    function escHtml(s) { return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+    html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, ref, display) => {
+      const item = findTitle(ref);
+      const shown = (display || ref).trim();
       if (item) {
-        alreadyLinked.add(item.titre.toLowerCase().trim());
-        return '<a href="' + item.href + '" title="Voir la fiche : ' + item.titre + '">' + innerText.trim() + '</a>';
+        alreadyLinked.add(normalizeKey(item.titre));
+        return '<a href="' + item.href + '" title="Voir la fiche : ' + escHtml(item.titre) + '">' + escHtml(shown) + '</a>';
       }
       // Pas de fiche → retirer juste les crochets
-      return innerText;
+      return shown;
+    });
+
+    // Étape 1b : Récupérer les [[titre!]] cassés par le parser Markdown
+    // Markdown peut transformer "[[Titre!]]" en "[[Titre!" + image syntax
+    // On cherche les [[ orphelins restants
+    html = html.replace(/\[\[([^\]<]+?)!?\s*(?:\]\]|$)/g, (match, innerText) => {
+      if (match.includes('<a ')) return match; // déjà un lien
+      const item = findTitle(innerText) || findTitle(innerText + '!');
+      if (item) {
+        alreadyLinked.add(normalizeKey(item.titre));
+        return '<a href="' + item.href + '" title="Voir la fiche : ' + escHtml(item.titre) + '">' + escHtml(innerText.trim()) + '</a>';
+      }
+      return match;
     });
 
     container.innerHTML = html;
@@ -74,6 +103,19 @@ const titleIndex = [
       return nodes;
     }
 
+    // Titres trop génériques → linkés uniquement avec [[crochets]]
+    // (utiliser normalizeKey pour les clés)
+    const noAutoLink = new Set([
+      'les autres',
+      'another',
+      'monster',
+      'nana',
+      'k',
+      'ma',
+      '86',
+      'ca',
+    ]);
+
     const textNodes = walkTextNodes(container);
     const wordBoundary = /[\s.,;:!?()«»""'\-—\/\[\]]/;
 
@@ -82,9 +124,10 @@ const titleIndex = [
       if (!text || text.trim().length < 3) continue;
 
       for (const item of titleIndex) {
-        if (alreadyLinked.has(item.titre.toLowerCase().trim())) continue;
+        if (alreadyLinked.has(normalizeKey(item.titre))) continue;
+        if (noAutoLink.has(normalizeKey(item.titre))) continue;
 
-        const idx = text.toLowerCase().indexOf(item.titre.toLowerCase());
+        const idx = normalizeApos(text).toLowerCase().indexOf(normalizeApos(item.titre).toLowerCase());
         if (idx === -1) continue;
 
         // Vérifier les limites de mots
@@ -106,7 +149,7 @@ const titleIndex = [
         }
 
         textNode.parentNode.replaceChild(fragment, textNode);
-        alreadyLinked.add(item.titre.toLowerCase().trim());
+        alreadyLinked.add(normalizeKey(item.titre));
         break;
       }
     }
