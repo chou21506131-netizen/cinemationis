@@ -22,6 +22,7 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/1899/117237.jpg
 date_ajout: 2023-04-04
 score_mal: 7.79
+mal_id: 48926
 ---
 
 ## Résumé

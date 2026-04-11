@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Card from '../../components/Card.astro';
+import CustomSelect from '../../components/CustomSelect.astro';
 import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -37,27 +38,23 @@ function parseNote(note: string): number {
     <div class="filters-bar">
       <input type="text" id="search" placeholder="Rechercher un animé..." class="filter-input" />
       <div class="filter-row">
-        <select id="reco-filter" class="filter-select">
-          <option value="">Toutes les recos</option>
-          {allRecos.map(r => <option value={r}>{r}</option>)}
-        </select>
-        <select id="studio-filter" class="filter-select">
-          <option value="">Tous les studios</option>
-          {allStudios.map(s => <option value={s}>{s}</option>)}
-        </select>
-        <select id="realisateur-filter" class="filter-select">
-          <option value="">Tous les réalisateurs</option>
-          {allRealisateurs.map(r => <option value={r}>{r}</option>)}
-        </select>
-        <select id="sort" class="filter-select">
-          <option value="mtime-desc">Dernière modification</option>
-          <option value="date-desc">Date d'ajout</option>
-          <option value="titre">Titre A-Z</option>
-          <option value="note-desc">Meilleure note</option>
-          <option value="note-asc">Moins bonne note</option>
-          <option value="annee-desc">Plus récent</option>
-          <option value="annee-asc">Plus ancien</option>
-        </select>
+        <CustomSelect id="reco-filter" defaultLabel="Toutes les recos"
+          options={allRecos.map(r => ({ value: r, label: r }))} />
+        <CustomSelect id="studio-filter" defaultLabel="Tous les studios"
+          options={allStudios.map(s => ({ value: s, label: s }))} />
+        <CustomSelect id="realisateur-filter" defaultLabel="Tous les réalisateurs"
+          options={allRealisateurs.map(r => ({ value: r, label: r }))} />
+        <CustomSelect id="sort"
+          options={[
+            { value: 'mtime-desc', label: 'Dernière modification' },
+            { value: 'date-desc', label: "Date d'ajout" },
+            { value: 'titre', label: 'Titre A-Z' },
+            { value: 'titre-desc', label: 'Titre Z-A' },
+            { value: 'note-desc', label: 'Meilleure note' },
+            { value: 'note-asc', label: 'Moins bonne note' },
+            { value: 'annee-desc', label: 'Plus récent' },
+            { value: 'annee-asc', label: 'Plus ancien' },
+          ]} />
       </div>
     </div>
 
@@ -120,7 +117,12 @@ function parseNote(note: string): number {
 <style>
   .count { color: var(--text-muted); font-weight: 400; font-size: 1rem; }
 
-  .filters-bar { margin: 1.5rem 0 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .filters-bar {
+    margin: 1.5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
   .filter-input {
     width: 100%;
     background: var(--bg-card);
@@ -129,19 +131,21 @@ function parseNote(note: string): number {
     border-radius: var(--radius);
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
   }
-  .filter-input:focus { outline: none; border-color: var(--accent-2); }
-  .filter-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-  .filter-select {
-    background: var(--bg-card);
-    color: var(--text);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 0.5rem 0.75rem;
-    font-size: 0.85rem;
-    cursor: pointer;
+  .filter-input::placeholder { color: var(--text-muted); opacity: 0.6; }
+  .filter-input:focus {
+    outline: none;
+    border-color: var(--accent-2);
+    box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.15);
   }
-  .filter-select:focus { outline: none; border-color: var(--accent-2); }
+  .filter-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
 
   .genre-section { margin-bottom: 1.5rem; }
   .genre-label { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem; }
@@ -309,6 +313,7 @@ function parseNote(note: string): number {
         case 'mtime-desc': return (b.dataset.mtime || '').localeCompare(a.dataset.mtime || '');
         case 'date-desc': return (b.dataset.date || '').localeCompare(a.dataset.date || '');
         case 'titre': return (a.dataset.titre || '').localeCompare(b.dataset.titre || '', 'fr');
+        case 'titre-desc': return (b.dataset.titre || '').localeCompare(a.dataset.titre || '', 'fr');
         default: return 0;
       }
     });

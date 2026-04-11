@@ -23,6 +23,7 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/3/75617.jpg
 date_ajout: 2025-09-08
 score_mal: 8.47
+mal_id: 10165
 ---
 
 ## Résumé

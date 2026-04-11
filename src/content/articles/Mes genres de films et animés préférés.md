@@ -14,6 +14,7 @@ image: ""
 
 Petite précision avant de commencer. Je dresse une liste des genres dont le fond s'adapte parfaitement à une adaptation soit, mais ça ne veut pas dire que :
 1) cela rend forcément le film ou la série tirée de ce genre bon(ne) ;
+
 2) que les autres ne sont pas intéressants.
 
 En plus de ça, je suis de ceux qui aiment quand on mélange un peu les machins : une comédie horrifique, un thriller dramatique avec un brin d'ecchi etc.

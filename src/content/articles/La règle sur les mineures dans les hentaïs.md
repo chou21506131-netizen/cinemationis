@@ -27,10 +27,10 @@ Si les raisons à cela sont très certainement à chercher du côté du pouvoir 
 
 En gros, je pense que vous avez compris, les mecs grugent au maximum un peu comme ils peuvent. Pour faire simple, on s'approche du débat des armes à feu aux Etats-Unis. Mini compil des arguments que j'ai trouvés du côté de la défense des œuvres. Moi je ne prends pas partie, je suis la Suisse (le pognon en moins).
 
--   « Les animés et mangas ne sont pas réels. »
+-   *« Les animés et mangas ne sont pas réels. »*
 
--   « Tirer sur des gens avec des armes est interdit par la loi non ? Alors pourquoi autorise-t-on les films et jeux vidéo de guerre, de règlement de compte... montrant des meurtres ? »
+-   *« Tirer sur des gens avec des armes est interdit par la loi non ? Alors pourquoi autorise-t-on les films et jeux vidéo de guerre, de règlement de compte... montrant des meurtres ? »*
 
--   « Les images fictives permettent à ceux qui en ont besoin d'assouvir leurs fantasmes et donc ne pas passer à l'acte sur de vraies personnes »
+-   *« Les images fictives permettent à ceux qui en ont besoin d'assouvir leurs fantasmes et donc ne pas passer à l'acte sur de vraies personnes »*
 
-Alors ? Pour ou contre les *homo sapiens* ayant l'air peu âgés forniquant dans des bandes dessinées ou dessins animés ? Répondez dans la section « Commentaire » inexistante.
+Alors ? Pour ou contre les homo sapiens ayant l'air peu âgés forniquant dans des bandes dessinées ou dessins animés ? Répondez dans la section « Commentaire » inexistante.

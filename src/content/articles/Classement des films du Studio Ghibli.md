@@ -8,7 +8,7 @@ resume: Quand on parle de classiques de la japanimation, on se tourne forcément
 image: /images/articles/Classement_des_films_studio_ghibli/Minia_pc.gif
 ---
 
-Qu'on regarde ou non de la japanimation, des noms comme Totoro, [[Princesse Mononoké]] et quelques autres nous font tilt. Leur point commun ? Tous viennent du Studio Ghibli, fondé en 1985 par Miyazaki et Takahata, deux bougres qui ont par la suite produit pépite sur pépite. Perso, j'ai vu "tous les principaux" (en fait il m'en manque beaucoup au moment où j'écris ça mais tant pis), et voici mon classement par ordre d'antépréférence (ça ne veut rien dire).
+Qu'on regarde ou non de la japanimation, des noms comme [[Mon voisin Totoro|Totoro]], [[Princesse Mononoké]] et quelques autres nous font tilt. Leur point commun ? Tous viennent du Studio Ghibli, fondé en 1985 par Miyazaki et Takahata, deux bougres qui ont par la suite produit pépite sur pépite. Perso, j'ai vu "tous les principaux" (en fait il m'en manque beaucoup au moment où j'écris ça mais tant pis), et voici mon classement par ordre d'antépréférence (ça ne veut rien dire).
 
 ## [[Le Château dans le ciel]] (H. Miyazaki)
 

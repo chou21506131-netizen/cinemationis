@@ -21,11 +21,12 @@ resume_court: ""
 image: https://myanimelist.net/images/anime/3/21834.jpg
 date_ajout: 2026-04-06
 score_mal: 7.73
+mal_id: 1818
 ---
 
 ## Résumé
 
-J'ai ragequit, désolé.
+J'ai ragequit, désolé. En même temps il est très moche.
 
 
 ---

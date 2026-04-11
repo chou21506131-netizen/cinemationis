@@ -1,0 +1,170 @@
+---
+interface Props {
+  id: string;
+  options: { value: string; label: string }[];
+  defaultLabel?: string;
+  className?: string;
+}
+
+const { id, options, defaultLabel, className = '' } = Astro.props;
+const hasDefault = !!defaultLabel;
+---
+
+<div class={`cselect ${className}`} data-id={id}>
+  <button class="cselect-btn" type="button">
+    <span class="cselect-label">{hasDefault ? defaultLabel : options[0]?.label}</span>
+    <svg class="cselect-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none">
+      <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+  <ul class="cselect-menu">
+    {hasDefault && (
+      <li class="cselect-option active" data-value="">{defaultLabel}</li>
+    )}
+    {options.map(opt => (
+      <li class="cselect-option" data-value={opt.value}>{opt.label}</li>
+    ))}
+  </ul>
+  <!-- select caché pour la compatibilité JS -->
+  <select id={id} class="cselect-native" tabindex="-1" aria-hidden="true">
+    {hasDefault && <option value="">{defaultLabel}</option>}
+    {options.map(opt => <option value={opt.value}>{opt.label}</option>)}
+  </select>
+</div>
+
+<style>
+  .cselect {
+    position: relative;
+    display: inline-block;
+  }
+
+  .cselect-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bg-card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    white-space: nowrap;
+    user-select: none;
+  }
+  .cselect-btn:hover {
+    border-color: var(--text-muted);
+  }
+  .cselect.open .cselect-btn,
+  .cselect-btn:focus-visible {
+    border-color: var(--accent-2);
+    box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.15);
+    outline: none;
+  }
+
+  .cselect-arrow {
+    flex-shrink: 0;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+  }
+  .cselect.open .cselect-arrow {
+    transform: rotate(180deg);
+  }
+
+  .cselect-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    min-width: 100%;
+    max-height: 260px;
+    overflow-y: auto;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.3rem 0;
+    margin: 0;
+    list-style: none;
+    z-index: 50;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+  .cselect.open .cselect-menu {
+    display: block;
+  }
+
+  .cselect-option {
+    padding: 0.45rem 0.85rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background 0.1s, color 0.1s;
+    white-space: nowrap;
+  }
+  .cselect-option:hover {
+    background: var(--bg-hover);
+    color: var(--text);
+  }
+  .cselect-option.active {
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+
+  .cselect-native {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Scrollbar */
+  .cselect-menu::-webkit-scrollbar { width: 5px; }
+  .cselect-menu::-webkit-scrollbar-track { background: transparent; }
+  .cselect-menu::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.cselect').forEach(wrapper => {
+    const btn = wrapper.querySelector('.cselect-btn')!;
+    const label = wrapper.querySelector('.cselect-label')!;
+    const menu = wrapper.querySelector('.cselect-menu')!;
+    const nativeSelect = wrapper.querySelector('.cselect-native') as HTMLSelectElement;
+    const options = wrapper.querySelectorAll('.cselect-option');
+
+    // Toggle menu
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      // Fermer les autres
+      document.querySelectorAll('.cselect.open').forEach(el => {
+        if (el !== wrapper) el.classList.remove('open');
+      });
+      wrapper.classList.toggle('open');
+    });
+
+    // Sélection
+    options.forEach(opt => {
+      opt.addEventListener('click', () => {
+        const val = (opt as HTMLElement).dataset.value || '';
+        label.textContent = opt.textContent;
+        nativeSelect.value = val;
+        nativeSelect.dispatchEvent(new Event('change', { bubbles: true }));
+        options.forEach(o => o.classList.remove('active'));
+        opt.classList.add('active');
+        wrapper.classList.remove('open');
+      });
+    });
+
+    // Fermer au clic extérieur
+    document.addEventListener('click', () => {
+      wrapper.classList.remove('open');
+    });
+
+    // Empêcher la fermeture au clic dans le menu
+    menu.addEventListener('click', (e) => e.stopPropagation());
+  });
+</script>

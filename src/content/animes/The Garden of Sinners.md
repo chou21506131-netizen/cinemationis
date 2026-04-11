@@ -35,8 +35,6 @@ Chaque jour, des jeunes filles sans histoire se suicident en sautant du haut d'u
 
 ## Commentaire
 
-### Films 1-7
-
 Si on oublie le huitième film qui est juste un bonus nul avec un seul dialogue de 30 minutes sans intérêt, cette série est pas trop mal. Bon, j'avoue que ça peut être trop violent pour les fragiles, avec notamment quelques scènes de type viol, arrachage de membres en règle et tutti quanti.
 
 Mais finalement, le but du truc est de nous mettre dans une ambiance un peu glauque/étrange/morbide pour mieux faire ressortir les caractères des deux persos principaux, leur philosophie etc. D'un côté, on a la tueur en série version trouble dissociatif de l'identité, et de l'autre Jean Niais qui tout poli tout gentil tout pas violent.

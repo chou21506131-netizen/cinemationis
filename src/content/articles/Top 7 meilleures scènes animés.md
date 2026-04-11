@@ -94,7 +94,7 @@ PS : la musique vient de là : ♫ [*A morning in slag ravine*](https://www.yout
 
 -   Holo met fin à la poursuite ([[Spice and Wolf]] -- saison 1 épisode 12)
 
-    -   Le loup se rapproche dangereusement du cheval de Lawrence et de Holo, cette dernière se retourne avec un gros plan sur son visage transformé par la colère : « Va-t'en ! ». Cette classe... Jouissif.
+    -   Le loup se rapproche dangereusement du cheval de Lawrence et de Holo, cette dernière se retourne avec un gros plan sur son visage transformé par la colère : « *Recule !* ». Cette classe... Jouissif.
 
 -   L'exécution de Mitty ([[Made in Abyss]] -- saison 1 épisode 13)
 

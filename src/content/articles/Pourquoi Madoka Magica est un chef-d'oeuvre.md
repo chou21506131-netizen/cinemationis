@@ -23,7 +23,7 @@ Si PMMM (ça sera plus simple) fait aujourd'hui partie des références japonais
 
 Visionnez la bande-annonce : des collégiennes toutes kawai, des couleurs partout, une famille aimante, des sourires sur fond de musique guillerette. Bon, très bien. Passez à l'*opening *: une petite fille rose bonbon qui court à droite à gauche avec ses amies susmentionnées et qui se retrouve dans des situations qui semblent un peu rigodrôles. Maintenant l'épisode 1 : même schéma avec des camarades de classe s'amusant insouciamment en récré et s'ennuyant fermement en cours mais bon, leur vie est sommes toute assez belle et tranquille. Au cours du même épisode, elles accueillent la nouvelle arrivée de leur classe et là on entre rapidement dans le vif du sujet. Habituellement, les animés de ce genre montrent les efforts des enfants/jeunes pour intégrer tout le monde sans laisser personne sur le banc. Là non. Jalousie, méfiance, menaces, avertissements... Let's go la série démarre !
 
-A partir de là tous les codes y passent. La traditionnelle entre-aide entre *magical girls* se transforme en une lutte territoriale avec des combats à mort, les erreurs compensées par les camarades se payent cash, les tendres et innocents rêves qui finissent par se réaliser sont remplacés par des vœux tragiques etc. Savourez toute la mignonnerie de la bande-annonce, parce que la série va vous la fourrer où je pense !
+A partir de là tous les codes y passent. La traditionnelle entraide entre *magical girls* se transforme en une lutte territoriale avec des combats à mort, les erreurs compensées par les camarades se payent cash, les tendres et innocents rêves qui finissent par se réaliser sont remplacés par des vœux tragiques etc. Savourez toute la mignonnerie de la bande-annonce, parce que la série va vous la fourrer où je pense !
 
 <figure style="text-align: center; margin: 30px 0">
   <img src="/images/articles/Pourquoi_madoka_magica_est_un_chef_d_oeuvre/Kawai_episode_1.jpg" alt="Madoka" width="90%" style="display: block; margin: 0 auto" />
@@ -51,13 +51,21 @@ Nous arrivons maintenant au point le plus important de PMMM : les personnages. 
 
 Au-delà de ce que ces points, relativement négatifs on peut le dire, supposent, PMMM propose une véritable évolution de tous ses persos (sauf Kyubey, qui veut toujours faire différemment ce con). Voici un petit tour rapide de ce qu'il se fait de meilleur.
 
-Madoka : si tout le monde sera d'accord pour la qualifier de 5ème roue du carrosse (ou grosse glandue qui passe son temps à se curer le pif), elle finit par passer par-dessus, non pas la 3ème corde, mais sa peur d'être inutile et faible pour devenir... une déesse qui réécrit les lois de l'Univers. Rien que ça.
+### Madoka
 
-Akemi : meilleur personnage ever. Elle pète le style pendant 10 épisodes avec des apparitions stylées, des phrases énigmatiques mais qui semblent censées, des pouvoirs classes... Puis on en apprend un peu plus sur elle et là, c'est le drame. Initialement grande méchante dans l'esprit du pauvre spectateur manipulé, Akemi représente le pathétique à son paroxysme. Nous découvrons une fille à bout de force, seule, dont la lutte pour sauver celle qu'elle aime n'a aucune autre issue que sa propre mort ou la destruction du monde ou la perte définitive de cette même personne (ordre aléatoire et non contractuel).
+Si tout le monde sera d'accord pour la qualifier de 5ème roue du carrosse (ou grosse glandue qui passe son temps à se curer le pif), elle finit par passer par-dessus, non pas la 3ème corde, mais sa peur d'être inutile et faible pour devenir... une déesse qui réécrit les lois de l'Univers. Rien que ça.
 
-Kyoko : le personnage le plus égoïste de la série, qui ne pense à rien à part son propre intérêt (et manger, étrangement). Elle passe son temps à expliquer à Sayaka qu'elle doit arrêter de vouloir aider les autres parce que ça ne sert à rien, parfois en essayant de la mettre à mort. Mais comme la vie est parfois cocasse, à force de tout faire pour la convaincre de son idéologie, Kyoko se surprend elle-même à s'occuper du bonheur de Sayaka. Bilan : elle se fait tuer bien proprement... Par Sayaka.
+### Akemi 
 
-Kyubey : parlons-en rapidement. Vous voyez la peluche rigolote des *Magical Girls* qui donne habituellement les pouvoirs aux fifilles ? Ici il cherche simplement à les éliminer. Alors, oui, de base on dirait qu'il fait ça pour aider le bon peuple (et c'est pas tout à fait faux), sauf qu'il s'en bat la race de condamner des milliers de gamines...
+[[Makima vs Akemi Homura, duel pour la première place|Meilleur personnage]] ever. Elle pète le style pendant 10 épisodes avec des apparitions stylées, des phrases énigmatiques mais qui semblent censées, des pouvoirs classes... Puis on en apprend un peu plus sur elle et là, c'est le drame. Initialement grande méchante dans l'esprit du pauvre spectateur manipulé, Akemi représente le pathétique à son paroxysme. Nous découvrons une fille à bout de force, seule, dont la lutte pour sauver celle qu'elle aime n'a aucune autre issue que sa propre mort ou la destruction du monde ou la perte définitive de cette même personne (ordre aléatoire et non contractuel).
+
+### Kyoko 
+
+Le personnage le plus égoïste de la série, qui ne pense à rien à part son propre intérêt (et manger, étrangement). Elle passe son temps à expliquer à Sayaka qu'elle doit arrêter de vouloir aider les autres parce que ça ne sert à rien, parfois en essayant de la mettre à mort. Mais comme la vie est parfois cocasse, à force de tout faire pour la convaincre de son idéologie, Kyoko se surprend elle-même à s'occuper du bonheur de Sayaka. Bilan : elle se fait tuer bien proprement... par Sayaka.
+
+### Kyubey 
+
+Parlons-en rapidement. Vous voyez la peluche rigolote des *Magical Girls* qui donne habituellement les pouvoirs aux fifilles ? Ici il cherche simplement à les éliminer. Alors, oui, de base on dirait qu'il fait ça pour aider le bon peuple (et c'est pas tout à fait faux), sauf qu'il s'en bat la race de condamner des milliers de gamines...
 
 ## Scènes d'action contrastées
 

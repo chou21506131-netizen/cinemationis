@@ -3,16 +3,28 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const articles = (await getCollection('articles'))
-  .sort((a, b) => a.data.titre.localeCompare(b.data.titre, 'fr'));
+  .sort((a, b) => {
+    const da = a.data.date_publication ? new Date(a.data.date_publication).getTime() : 0;
+    const db = b.data.date_publication ? new Date(b.data.date_publication).getTime() : 0;
+    return db - da;
+  });
 ---
 
 <Base title="Articles" description="Articles et dossiers cinéma de Cinemationis">
   <div class="container">
     <h1 class="section-title">Articles <span class="count" id="count">({articles.length})</span></h1>
 
+    <div class="sort-bar">
+      <span class="sort-label">Trier par :</span>
+      <button class="sort-btn active" data-sort="date" data-order="desc">Date ▼</button>
+      <button class="sort-btn" data-sort="alpha" data-order="asc">A — Z ▲</button>
+    </div>
+
     <div class="articles-list" id="articles">
       {articles.map((article) => (
-        <a href={`/articles/${article.id}`} class="article-card">
+        <a href={`/articles/${article.id}`} class="article-card"
+           data-titre={article.data.titre}
+           data-date={article.data.date_publication ? new Date(article.data.date_publication).toISOString() : ''}>
           {article.data.image && (
             <img src={article.data.image} alt={article.data.titre} class="article-thumb" loading="lazy" />
           )}
@@ -30,6 +42,36 @@ const articles = (await getCollection('articles'))
 
 <style>
   .count { color: var(--text-muted); font-weight: 400; font-size: 1rem; }
+  .sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .sort-label {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-right: 0.25rem;
+  }
+  .sort-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.35rem 0.9rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+  .sort-btn:hover {
+    border-color: var(--accent-2);
+    color: var(--text);
+  }
+  .sort-btn.active {
+    background: var(--accent-2);
+    border-color: var(--accent-2);
+    color: #fff;
+  }
   .articles-list {
     display: flex;
     flex-direction: column;
@@ -74,10 +116,56 @@ const articles = (await getCollection('articles'))
 <script>
   const PER_PAGE = 10;
   let currentPage = 1;
+  let currentSort = 'date';
+  let currentOrder = 'desc';
 
   const list = document.getElementById('articles')!;
   const paginationEl = document.getElementById('pagination')!;
-  const items = Array.from(list.children) as HTMLElement[];
+  let items = Array.from(list.children) as HTMLElement[];
+
+  // Boutons de tri
+  const sortBtns = document.querySelectorAll('.sort-btn') as NodeListOf<HTMLElement>;
+  sortBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.dataset.sort === currentSort) {
+        // Même bouton → inverser l'ordre
+        currentOrder = currentOrder === 'asc' ? 'desc' : 'asc';
+      } else {
+        // Nouveau bouton → ordre par défaut
+        currentSort = btn.dataset.sort || 'date';
+        currentOrder = currentSort === 'date' ? 'desc' : 'asc';
+      }
+      btn.dataset.order = currentOrder;
+      sortBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Mettre à jour le texte du bouton
+      sortBtns.forEach(b => {
+        const arrow = b.dataset.order === 'desc' ? '▼' : '▲';
+        if (b.dataset.sort === 'date') b.textContent = 'Date ' + arrow;
+        else b.textContent = (b.dataset.order === 'asc' ? 'A — Z' : 'Z — A') + ' ' + arrow;
+      });
+
+      currentPage = 1;
+      sortAndPaginate();
+    });
+  });
+
+  function sortItems() {
+    const dir = currentOrder === 'asc' ? 1 : -1;
+    items.sort((a, b) => {
+      if (currentSort === 'alpha') {
+        const ta = a.dataset.titre || '';
+        const tb = b.dataset.titre || '';
+        return dir * ta.localeCompare(tb, 'fr');
+      } else {
+        const da = a.dataset.date || '';
+        const db = b.dataset.date || '';
+        return dir * da.localeCompare(db);
+      }
+    });
+    items.forEach(item => list.appendChild(item));
+  }
 
   function paginate() {
     const totalPages = Math.max(1, Math.ceil(items.length / PER_PAGE));
@@ -102,11 +190,16 @@ const articles = (await getCollection('articles'))
         if (p === 'prev') currentPage--;
         else if (p === 'next') currentPage++;
         else currentPage = parseInt(p!);
-        paginate();
+        sortAndPaginate();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     });
   }
 
-  paginate();
+  function sortAndPaginate() {
+    sortItems();
+    paginate();
+  }
+
+  sortAndPaginate();
 </script>
