@@ -1,5 +1,5 @@
 ---
-titre: "Bastard!! Heavy Metal, Dark Fantasy"
+titre: Bastard!! Heavy Metal, Dark Fantasy
 annee: 2022
 type: série
 saisons: 1
@@ -18,12 +18,13 @@ studios:
   - Liden Films
 realisateur: Takaharu Ozaki
 resume_court: A deux doigts de la destruction, les survivants du royaume de Meta-Licana décident d'invoquer le plus puissant sorcier du monde, au risque qu'il se retourne contre eux.
-image: "https://myanimelist.net/images/anime/1256/128714l.jpg"
+image: https://myanimelist.net/images/anime/1599/124228.jpg
 date_ajout: 2022-07-23
 videos:
   - 
 score_mal: 6.82
 mal_id: 54141
+date_modification: 2026-04-12
 ---
 
 ## Résumé

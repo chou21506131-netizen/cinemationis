@@ -1,11 +1,13 @@
 /**
  * Script pré-commit :
- * 1. Met à jour les scores MAL (moyenne de toutes les saisons/suites/films)
- * 2. Vérifie les URLs YouTube
+ * 1. Met à jour date_modification sur les fiches animés modifiées
+ * 2. Met à jour les scores MAL (moyenne de toutes les saisons/suites/films)
+ * 3. Vérifie les URLs YouTube
  */
 
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -180,7 +182,58 @@ async function checkYouTubeUrl(url) {
 
 // ── Main ──
 
+// ── date_modification automatique ──
+
+function updateDateModification() {
+  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
+  // Récupérer les fichiers animés modifiés dans le commit en cours
+  let staged;
+  try {
+    staged = execSync('git diff --cached --name-only -- src/content/animes/', { encoding: 'utf-8' })
+      .trim().split('\n').filter(Boolean);
+  } catch { return []; }
+
+  if (staged.length === 0) return [];
+
+  console.log(`📅 Mise à jour de date_modification (${staged.length} fiche(s))...\n`);
+  const updatedFiles = [];
+
+  for (const relPath of staged) {
+    const filePath = path.join(__dirname, '..', relPath);
+    if (!fs.existsSync(filePath)) continue;
+
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const parsed = parseFrontmatter(content);
+    if (!parsed) continue;
+
+    const current = getValue(parsed.raw, 'date_modification');
+    if (current === today) continue; // déjà à jour
+
+    const newRaw = setValue(parsed.raw, 'date_modification', today);
+    const newContent = `---\n${newRaw}\n---${parsed.body}`;
+    fs.writeFileSync(filePath, newContent, 'utf-8');
+    updatedFiles.push(path.basename(filePath, '.md'));
+
+    const titre = getValue(parsed.raw, 'titre') || path.basename(filePath, '.md');
+    console.log(`  📅 ${titre} → ${today}`);
+  }
+
+  // Re-stage les fichiers modifiés
+  if (updatedFiles.length > 0) {
+    try {
+      execSync('git add -- src/content/animes/', { cwd: path.join(__dirname, '..') });
+    } catch {}
+    console.log(`\n✅ ${updatedFiles.length} date(s) de modification mise(s) à jour\n`);
+  }
+
+  return updatedFiles;
+}
+
 async function main() {
+  // Étape 0 : Mettre à jour date_modification sur les fiches modifiées
+  updateDateModification();
+
   const files = fs.readdirSync(ANIMES_DIR).filter(f => f.endsWith('.md'));
   console.log(`📊 Mise à jour des scores MAL (${files.length} fiches)...\n`);
 

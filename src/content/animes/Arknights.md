@@ -22,8 +22,9 @@ image: https://myanimelist.net/images/anime/1030/127538l.jpg
 date_ajout: 2024-09-15
 videos:
   - 
-score_mal:
-mal_id: 42163
+score_mal: 7.07
+mal_id: 50205
+date_modification: 2026-04-12
 ---
 
 ## Résumé

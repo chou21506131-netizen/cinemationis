@@ -21,8 +21,9 @@ resume_court: "Un groupe de filles travaille comme espionnes pour protéger leur
 image: "https://myanimelist.net/images/anime/1623/95617l.jpg"
 date_ajout: 2022-02-14
 videos: []
-score_mal: 6.94
+score_mal: 6.95
 mal_id: 37221
+date_modification: 2026-04-12
 ---
 
 ## Résumé

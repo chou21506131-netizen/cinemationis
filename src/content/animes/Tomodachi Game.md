@@ -24,6 +24,7 @@ videos:
   - 
 score_mal: 7.7
 mal_id: 50273
+date_modification: 2026-04-12
 ---
 
 ## Résumé

@@ -33,6 +33,7 @@ const animes = defineCollection({
     resume_court: z.string().optional().nullable(),
     image: z.string().optional().nullable(),
     date_ajout: z.coerce.date(),
+    date_modification: z.coerce.date().optional().nullable(),
     videos: z.array(z.string().nullable()).optional().nullable(),
     score_mal: z.number().optional().nullable(),
     mal_id: z.number().optional().nullable(),

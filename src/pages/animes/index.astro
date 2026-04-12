@@ -3,19 +3,14 @@ import Base from '../../layouts/Base.astro';
 import Card from '../../components/Card.astro';
 import CustomSelect from '../../components/CustomSelect.astro';
 import { getCollection } from 'astro:content';
-import fs from 'node:fs';
-import path from 'node:path';
 
-// Tri par défaut : dernière modification du fichier
-const contentDir = path.resolve('src/content/animes');
+// Tri par défaut : date_modification si présente, sinon date_ajout
 const allAnimes = (await getCollection('animes'))
-  .map(a => {
-    const filePath = path.join(contentDir, `${a.id}.md`);
-    let mtime = a.data.date_ajout?.getTime() || 0;
-    try { mtime = fs.statSync(filePath).mtimeMs; } catch {}
-    return { ...a, mtime };
-  })
-  .sort((a, b) => b.mtime - a.mtime);
+  .sort((a, b) => {
+    const da = (a.data.date_modification ?? a.data.date_ajout)?.getTime() || 0;
+    const db = (b.data.date_modification ?? b.data.date_ajout)?.getTime() || 0;
+    return db - da;
+  });
 
 const animes = allAnimes.filter(a => String(a.data.note) !== '?/20');
 const ragequits = allAnimes.filter(a => a.data.raquequit === 'oui');
@@ -46,7 +41,7 @@ function parseNote(note: string): number {
           options={allRealisateurs.map(r => ({ value: r, label: r }))} />
         <CustomSelect id="sort"
           options={[
-            { value: 'mtime-desc', label: 'Dernière modification' },
+            { value: 'mod-desc', label: 'Dernière modification' },
             { value: 'date-desc', label: "Date d'ajout" },
             { value: 'titre', label: 'Titre A-Z' },
             { value: 'titre-desc', label: 'Titre Z-A' },
@@ -84,7 +79,7 @@ function parseNote(note: string): number {
           recommandation={anime.data.recommandation}
           noteNum={parseNote(anime.data.note)}
           dateAjout={anime.data.date_ajout?.toISOString() || ''}
-          mtime={new Date(anime.mtime).toISOString()}
+          dateMod={(anime.data.date_modification ?? anime.data.date_ajout)?.toISOString() || ''}
           studios={anime.data.studios}
           realisateur={anime.data.realisateur || ''}
         />
@@ -310,7 +305,7 @@ function parseNote(note: string): number {
         case 'note-asc': return parseFloat(a.dataset.note || '0') - parseFloat(b.dataset.note || '0');
         case 'annee-desc': return parseInt(b.dataset.annee || '0') - parseInt(a.dataset.annee || '0');
         case 'annee-asc': return parseInt(a.dataset.annee || '0') - parseInt(b.dataset.annee || '0');
-        case 'mtime-desc': return (b.dataset.mtime || '').localeCompare(a.dataset.mtime || '');
+        case 'mod-desc': return (b.dataset.mod || '').localeCompare(a.dataset.mod || '');
         case 'date-desc': return (b.dataset.date || '').localeCompare(a.dataset.date || '');
         case 'titre': return (a.dataset.titre || '').localeCompare(b.dataset.titre || '', 'fr');
         case 'titre-desc': return (b.dataset.titre || '').localeCompare(a.dataset.titre || '', 'fr');

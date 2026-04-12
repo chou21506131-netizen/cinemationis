@@ -18,12 +18,13 @@ studios:
   - Wit Studio
 realisateur: Yuichiro Hayashi
 resume_court: Une réinterpréation de 6 contes des frères Grimm.
-image: https://myanimelist.net/images/anime/1731/138861l.jpg
+image: https://myanimelist.net/images/anime/1095/142224.jpg
 date_ajout: 2024-09-17
 videos:
   - 
 score_mal: 6.74
 mal_id: 49210
+date_modification: 2026-04-12
 ---
 
 ## Résumé

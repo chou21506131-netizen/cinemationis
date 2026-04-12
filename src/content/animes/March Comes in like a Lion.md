@@ -16,12 +16,13 @@ studios:
   - Shaft
 realisateur: Akiyuki Shinbo
 resume_court: Un collégien devient professionnel de Shogi.
-image: "https://myanimelist.net/images/anime/3/82899l.jpg"
+image: https://myanimelist.net/images/anime/3/82899l.jpg
 date_ajout: 2026-03-14
 videos:
   - 
 score_mal: 8.64
 mal_id: 31646
+date_modification: 2026-04-12
 ---
 
 ## Résumé

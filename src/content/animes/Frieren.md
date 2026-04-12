@@ -21,11 +21,12 @@ date_ajout: 2024-06-03
 videos: []
 score_mal: 9.11
 mal_id: 52991
+date_modification: 2026-04-12
 ---
 
 ## Résumé
 
-Frieren est une elfe. Âgée de plusieurs siècles, cette puissante mage immortelle ne se soucie pas du temps qui passe. Malheureusement, les 3 compagnons avec lesquels elle a vaincu le Roi des Démons des dizaines d'années plus tôt n'ont pas le même pouvoir. À leur mort, Frieren doit donc reprendre le cours de sa longue vie.
+Frieren est une elfe. Âgée de plusieurs siècles, cette puissante mage immortelle ne se soucie pas du temps qui passe. Malheureusement, les 3 compagnons avec lesquels elle a vaincu le Roi des Démons des dizaines d'années plus tôt n'ont pas le même pouvoir. À leur mort, Frieren réalise qu'elle ne connaissait presque pas son équipe. Elle reprend le cours de sa longue vie, décidée à changer cela.
 
 ---
 
@@ -41,7 +42,7 @@ Attention tout de même aux sempiternels "C LE MAYEUR ANIMET DE TOU LES TAN !". 
 
 ### Saison 2
 
-La saison 2 est là, et elle est bien. Mais pas plus. Je trouve le tout un peu fade, avec 80% de la saison à base de quêtes secondaires du style : je veux que vous tuiez ce monstre, je veux que vous me trouviez mon machin perdu, etc. En tout cas, s'il y a un fil rouge (j'avoue avoir un peu oublié la première saison), je le vois pas, donc autant dire qu'il a pas avancé des masses. On a pas avancé non plus les relations entre les personnages, et même au niveau des combats et de l'animation, j'ai pas été convaincu plus que ça. Je dis pas que le tout est mauvais, mais je pense que si y avait pas le nom « Frieren » collé sur le machin, il aurait pas la MEILLEURE NOTE DE MAL.
+La saison 2 est là, et elle est bien. Mais pas plus. Je trouve le tout un peu fade, avec 80% de la saison à base de quêtes secondaires du style : je veux que vous tuiez ce monstre, je veux que vous me trouviez mon machin perdu, etc. En tout cas, s'il y a un fil rouge (j'avoue avoir un peu oublié la première saison), je le vois pas, donc autant dire qu'il a pas avancé des masses. On a pas avancé non plus les relations entre les personnages, et même au niveau des combats et de l'animation, j'ai pas été convaincu plus que ça. Je dis pas que le tout est mauvais, mais je pense que si y avait pas le nom « Frieren » collé sur le machin, il aurait pas la MEILLEURE NOTE DE MYANIMELIST !
 
 Les gens sont décidément bien niés. Bon, à voir si on a vu la première saison, mais j'ai pas de hype pour la suite.
 

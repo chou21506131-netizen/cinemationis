@@ -22,8 +22,9 @@ realisateur: Tatsuya Ishihara
 resume_court: ""
 image: https://myanimelist.net/images/anime/3/75617.jpg
 date_ajout: 2025-09-08
-score_mal: 8.47
+score_mal: 7.94
 mal_id: 10165
+date_modification: 2026-04-12
 ---
 
 ## Résumé
