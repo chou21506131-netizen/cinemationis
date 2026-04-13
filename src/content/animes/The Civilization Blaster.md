@@ -20,12 +20,13 @@ studios:
   - Kinema Citrus
 realisateur: Seiji Kishi
 resume_court: Après avoir disparu suite à la mort de sa soeur, un garçon revient doté de pouvoirs.
-image: https://myanimelist.net/images/anime/1338/103754l.jpg
+image: /images/animes/The_civilization_blaster.jpg
 date_ajout: 2025-03-22
 videos:
   - 
 score_mal: 7.89
 mal_id: 14075
+date_modification: 2026-04-13
 ---
 
 ## Résumé

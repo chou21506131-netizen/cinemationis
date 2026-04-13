@@ -74,36 +74,44 @@ const sameDirector = d.realisateur
     {sameGenre.length > 0 && (
       <section class="reco-section">
         <h3 class="reco-title">Du même genre...</h3>
-        <div class="reco-strip">
-          {sameGenre.map(f => (
-            <a href={`/films/${f.id}`} class="reco-item" title={f.data.titre}>
-              {f.data.image ? (
-                <img src={f.data.image} alt={f.data.titre} loading="lazy" />
-              ) : (
-                <div class="reco-placeholder"></div>
-              )}
-              <span class="reco-label">{f.data.titre}</span>
-            </a>
-          ))}
+        <button class="reco-arrow reco-arrow--left" aria-label="Défiler à gauche">&#8249;</button>
+        <div class="reco-track">
+          <div class="reco-strip">
+            {sameGenre.map(f => (
+              <a href={`/films/${f.id}`} class="reco-item" title={f.data.titre}>
+                {f.data.image ? (
+                  <img src={f.data.image} alt={f.data.titre} loading="lazy" />
+                ) : (
+                  <div class="reco-placeholder"></div>
+                )}
+                <span class="reco-label">{f.data.titre}</span>
+              </a>
+            ))}
+          </div>
         </div>
+        <button class="reco-arrow reco-arrow--right" aria-label="Défiler à droite">&#8250;</button>
       </section>
     )}
 
     {sameDirector.length > 0 && (
       <section class="reco-section">
         <h3 class="reco-title">Du même réalisateur ({d.realisateur})</h3>
-        <div class="reco-strip">
-          {sameDirector.map(f => (
-            <a href={`/films/${f.id}`} class="reco-item" title={f.data.titre}>
-              {f.data.image ? (
-                <img src={f.data.image} alt={f.data.titre} loading="lazy" />
-              ) : (
-                <div class="reco-placeholder"></div>
-              )}
-              <span class="reco-label">{f.data.titre}</span>
-            </a>
-          ))}
+        <button class="reco-arrow reco-arrow--left" aria-label="Défiler à gauche">&#8249;</button>
+        <div class="reco-track">
+          <div class="reco-strip">
+            {sameDirector.map(f => (
+              <a href={`/films/${f.id}`} class="reco-item" title={f.data.titre}>
+                {f.data.image ? (
+                  <img src={f.data.image} alt={f.data.titre} loading="lazy" />
+                ) : (
+                  <div class="reco-placeholder"></div>
+                )}
+                <span class="reco-label">{f.data.titre}</span>
+              </a>
+            ))}
+          </div>
         </div>
+        <button class="reco-arrow reco-arrow--right" aria-label="Défiler à droite">&#8250;</button>
       </section>
     )}
 
@@ -114,16 +122,48 @@ const sameDirector = d.realisateur
 </Base>
 
 <script>
-  document.querySelectorAll('.reco-strip').forEach(strip => {
+  document.querySelectorAll('.reco-section').forEach(section => {
+    const track = section.querySelector('.reco-track') as HTMLElement;
+    const strip = section.querySelector('.reco-strip') as HTMLElement;
+    const leftBtn = section.querySelector('.reco-arrow--left') as HTMLElement;
+    const rightBtn = section.querySelector('.reco-arrow--right') as HTMLElement;
+    if (!track || !strip) return;
+
     const items = Array.from(strip.children);
     if (items.length <= 3) {
-      (strip as HTMLElement).style.overflowX = 'auto';
+      track.style.overflowX = 'auto';
+      leftBtn?.remove();
+      rightBtn?.remove();
       return;
     }
+
+    // Dupliquer les items pour boucle infinie
     items.forEach(item => strip.appendChild(item.cloneNode(true)));
     const duration = items.length * 3;
-    (strip as HTMLElement).style.setProperty('--scroll-duration', `${duration}s`);
+    strip.style.setProperty('--scroll-duration', `${duration}s`);
     strip.classList.add('scrolling');
+
+    // Flèches : passer en mode scroll manuel
+    function enableManualScroll() {
+      strip.classList.remove('scrolling');
+      strip.style.animation = 'none';
+      strip.style.transform = 'none';
+      strip.style.width = '';
+      while (strip.children.length > items.length) {
+        strip.removeChild(strip.lastChild!);
+      }
+      track.style.overflowX = 'auto';
+      section.classList.add('manual');
+    }
+
+    leftBtn?.addEventListener('click', () => {
+      if (!section.classList.contains('manual')) enableManualScroll();
+      track.scrollBy({ left: -200, behavior: 'smooth' });
+    });
+    rightBtn?.addEventListener('click', () => {
+      if (!section.classList.contains('manual')) enableManualScroll();
+      track.scrollBy({ left: 200, behavior: 'smooth' });
+    });
   });
 </script>
 
@@ -138,7 +178,7 @@ const sameDirector = d.realisateur
   .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; }
   .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--radius); }
 
-  .reco-section { margin-top: 2rem; overflow: hidden; }
+  .reco-section { margin-top: 2rem; overflow: hidden; position: relative; }
   .reco-title {
     font-size: 0.9rem;
     font-weight: 600;
@@ -147,6 +187,38 @@ const sameDirector = d.realisateur
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
+
+  .reco-track {
+    overflow: hidden;
+  }
+  .reco-track::-webkit-scrollbar { height: 4px; }
+  .reco-track::-webkit-scrollbar-track { background: transparent; }
+  .reco-track::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .reco-arrow {
+    position: absolute;
+    top: calc(50% + 0.4rem);
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text);
+    font-size: 1.3rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s, background 0.15s, border-color 0.15s;
+  }
+  .reco-section:hover .reco-arrow { opacity: 1; }
+  .reco-arrow:hover { background: var(--bg-hover); border-color: var(--accent-2); }
+  .reco-arrow--left { left: 4px; }
+  .reco-arrow--right { right: 4px; }
 
   .reco-strip {
     display: flex;
@@ -199,5 +271,16 @@ const sameDirector = d.realisateur
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  /* Mobile : désactiver le scroll infini, permettre le swipe */
+  @media (max-width: 768px) {
+    .reco-track { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .reco-strip { width: max-content; }
+    .reco-strip.scrolling { animation: none; }
+    .reco-arrow { display: none; }
+    .reco-item { width: 80px; }
+    .reco-item img, .reco-placeholder { width: 80px; height: 112px; }
+    .reco-label { font-size: 0.75rem; }
   }
 </style>

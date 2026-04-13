@@ -19,10 +19,11 @@ studios:
   - Diomedea
 realisateur: Shingo Tamaki
 resume_court: La princesse d'un royaume se détourne du trône pour étudier la magie.
-image: https://myanimelist.net/images/anime/1050/139641l.jpg
+image: /images/animes/The_magical_revolution_of_the_reincarnated_princess_and_the_genius_young_lady.jpg
 date_ajout: 2023-05-01
 score_mal: 7.46
 mal_id: 52736
+date_modification: 2026-04-13
 ---
 
 ## Résumé

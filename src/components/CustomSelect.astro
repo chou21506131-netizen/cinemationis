@@ -126,6 +126,12 @@ const hasDefault = !!defaultLabel;
     background: var(--border);
     border-radius: 3px;
   }
+
+  /* Mobile : cibles tactiles plus grandes */
+  @media (max-width: 768px) {
+    .cselect-btn { padding: 0.6rem 0.85rem; font-size: 0.9rem; min-height: 44px; }
+    .cselect-option { padding: 0.6rem 0.85rem; font-size: 0.9rem; min-height: 44px; display: flex; align-items: center; }
+  }
 </style>
 
 <script>

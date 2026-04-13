@@ -296,10 +296,12 @@
 
   /* ===== Mobile ===== */
   @media (max-width: 768px) {
-    .panels { flex-direction: column; }
-    .panel { flex: 1 !important; }
-    .panels:hover .panel { flex: 1 !important; }
-    .panels:hover .panel:hover { flex: 2 !important; }
+    html, body { overflow: auto; height: auto; }
+    .home { height: auto; min-height: 100vh; }
+    .panels { flex-direction: column; height: auto; min-height: 100vh; }
+    .panel { flex: none !important; height: 33.4vh; min-height: 200px; }
+    .panels:hover .panel { flex: none !important; }
+    .panels:hover .panel:hover { flex: none !important; }
     .panel-content { opacity: 1; transform: translateY(0); }
     .panel-content p { opacity: 0.7; transform: translateY(0); }
     .panel-cta { opacity: 0.8; transform: translateY(0); }

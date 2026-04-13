@@ -25,14 +25,14 @@ image: https://myanimelist.net/images/anime/1301/110433.jpg
 date_ajout: 2026-04-12
 score_mal: 7.17
 mal_id: 41619
-date_modification: 2026-04-12
+date_modification: 2026-04-13
 ---
 
 ## Résumé
 
-Depuis quelques années, la Terre est attaquée par d'étranges créatures nommées les "Ennemis de l'humanité". Pour s'en défaire, les gouvernements décident de faire appel aux Prodiges. Ces êtres humains, bien que peu nombreux, disposent de pouvoirs surnaturels pouvant se révéler extrêmement puissants. Pour les former, ils sont envoyés sur île faisant office d'école, où ils peuvent apprendre à maîtriser leurs pouvoirs sans risque pour la population.
+Depuis quelques années, la Terre est attaquée par d'étranges créatures nommées les "Ennemis de l'humanité". Pour s'en défaire, le gouvernement japonais décide de faire appel aux Prodiges. Ces êtres humains, bien que peu nombreux, disposent de pouvoirs surnaturels pouvant se révéler extrêmement puissants. Pour les former, ils sont envoyés sur île faisant office d'école, où ils peuvent apprendre à maîtriser leurs pouvoirs sans risque pour la population.
 
-Fraîchement débarquée sur l'île, la jeune Nana, capable d'entendre les pensées des autres, va rapidement être confrontée à un terrible choix : assassiner ses camarades, ou laisser des centaines de milliers d'innocents mourir. 
+Fraîchement débarquée sur l'île, la jeune Nana, capable d'entendre les pensées des autres, va rapidement être confrontée à un terrible choix : assassiner ses camarades ou laisser des centaines de milliers d'innocents mourir. 
 
 ---
 

@@ -21,8 +21,9 @@ resume_court: Un civil est kidnappé et transformé en assassin par une organisa
 image: https://myanimelist.net/images/anime/8/22470l.jpg
 date_ajout: 2025-07-01
 videos: []
-score_mal: 7.91
+score_mal: 7.92
 mal_id: 5682
+date_modification: 2026-04-13
 ---
 
 ## Résumé

@@ -236,6 +236,24 @@ function parseNote(note: string): number {
     line-height: 1.2;
     text-align: center;
   }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    /* Cibles tactiles genre-tags */
+    .genre-tag { padding: 0.4rem 0.8rem; font-size: 0.85rem; min-height: 38px; display: inline-flex; align-items: center; }
+    .legend-item { font-size: 0.8rem; }
+    .genre-legend .legend-hint { font-size: 0.75rem; }
+    /* Ragequit responsive */
+    .ragequit-grid { justify-content: center; }
+    .ragequit-item { width: 85px; }
+    .ragequit-item img { width: 85px; height: 119px; }
+    .ragequit-placeholder { width: 85px; height: 119px; }
+  }
+  @media (max-width: 480px) {
+    .ragequit-item { width: 75px; }
+    .ragequit-item img { width: 75px; height: 105px; }
+    .ragequit-placeholder { width: 75px; height: 105px; }
+  }
 </style>
 
 <script>

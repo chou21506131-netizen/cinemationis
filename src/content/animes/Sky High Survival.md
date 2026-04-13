@@ -18,12 +18,13 @@ studios:
   - Zero-G
 realisateur: Masahiro Takata
 resume_court: Une lycéenne se réveille dans une ville moderne où des tueurs masqués traquent les humains.
-image: https://myanimelist.net/images/anime/1015/138006l.jpg
+image: /images/animes/Sky_high_survival.jpg
 date_ajout: 2022-10-12
 videos:
   - 
 score_mal: 6.68
 mal_id: 43690
+date_modification: 2026-04-13
 ---
 
 ## Résumé

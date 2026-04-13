@@ -19,13 +19,13 @@ studios:
   - Sunrise
 realisateur: Goro Taniguchi
 resume_court: Un lycéen se voit accorder le pouvoir de contrôler les gens qu'il regarde.
-image: https://myanimelist.net/images/anime/1644/128406.jpg
+image: /images/animes/Code_geass.jpg
 date_ajout: 2022-02-12
 videos:
   - https://www.youtube.com/watch?v=s9wsRRlTL3s
 score_mal: 8.82
 mal_id: 1575
-date_modification: 2026-04-12
+date_modification: 2026-04-13
 ---
 
 ## Résumé

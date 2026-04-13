@@ -131,6 +131,13 @@ function parseNote(note: string): number {
   .dot--exclude { background: var(--accent); }
   .genre-legend .legend-hint { font-size: 0.7rem; color: var(--text-muted); opacity: 0.7; }
 
+  /* Mobile */
+  @media (max-width: 768px) {
+    .genre-tag { padding: 0.4rem 0.8rem; font-size: 0.85rem; min-height: 38px; display: inline-flex; align-items: center; }
+    .legend-item { font-size: 0.8rem; }
+    .genre-legend .legend-hint { font-size: 0.75rem; }
+  }
+
   /* pagination dans global.css */
 </style>
 

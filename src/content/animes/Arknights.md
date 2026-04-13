@@ -18,13 +18,13 @@ studios:
   - Yostar Pictures
 realisateur: Yuki Watanabe
 resume_court: Une organisation paramilitaire tente de venir aux réfugiés à travers un monde en guerre.
-image: https://myanimelist.net/images/anime/1030/127538l.jpg
+image: /images/animes/Arknights.jpg
 date_ajout: 2024-09-15
 videos:
   - 
-score_mal: 7.07
+score_mal: 7.5
 mal_id: 50205
-date_modification: 2026-04-12
+date_modification: 2026-04-13
 ---
 
 ## Résumé

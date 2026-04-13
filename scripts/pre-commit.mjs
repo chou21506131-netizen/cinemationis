@@ -231,11 +231,13 @@ function updateDateModification() {
 }
 
 async function main() {
-  // Étape 0 : Mettre à jour date_modification sur les fiches modifiées
+  // Étape 0 (toujours) : Mettre à jour date_modification sur les fiches modifiées
   updateDateModification();
 
+  // Étape 1 : MAJ des scores MAL + check YouTube
+
   const files = fs.readdirSync(ANIMES_DIR).filter(f => f.endsWith('.md'));
-  console.log(`📊 Mise à jour des scores MAL (${files.length} fiches)...\n`);
+  console.log(`\n📊 Mise à jour des scores MAL (${files.length} fiches)...\n`);
 
   let updated = 0;
   const brokenVideos = [];
