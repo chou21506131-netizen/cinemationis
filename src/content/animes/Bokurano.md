@@ -13,16 +13,18 @@ genres:
   - Action
   - Drame
   - Surnaturel
+  - Mecha
 studios:
   - Gonzo
 realisateur: Hiroyuki Morita
 resume_court: 15 enfants sont désignés pour piloter un robot puissant.
-image: "https://myanimelist.net/images/anime/1690/97048l.jpg"
+image: https://myanimelist.net/images/anime/1690/97048l.jpg
 date_ajout: 2025-07-13
 videos:
   - 
 score_mal: 7.6
 mal_id: 1690
+date_modification: 2026-04-18
 ---
 
 ## Résumé

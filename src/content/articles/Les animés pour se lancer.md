@@ -4,25 +4,25 @@ tags:
   - animés
   - guide
 date_publication: 2022-09-20
-resume: Pour se lancer dans le monde des animés, vaut mieux être un minimum guidé que ce soit au niveau des titres à voir ou des genres existants. Ça tombe bien, je vous présente les deux !
+resume: Pour se lancer dans le monde des animés, vaut mieux être un minimum guidé, que ce soit au niveau des titres à voir ou des genres existants. Ça tombe bien, je vous présente les deux !
 image: /images/articles/Les animes_pour_se_lancer/Minia.gif
 ---
 
-La japanimation, c'est sacrément vaste. Je ne sais pas combien d'œuvres cela représente au total, mais je suis certain qu'on est bien au-dessus de 42. Alors quand il s'agit de se lancer soi-même dans cet univers ou de conseiller quelqu'un, pas facile facile (surtout quand certaines catégories comportent des noms japonais). Fantastique, comédie, isekai, shonen... Posons les bases avec ce guide des animés pour ~~gros nuls~~ débutants.
+La japanimation, c'est sacrément vaste. Je ne sais pas combien d'œuvres cela représente au total, mais je suis certain qu'on est bien au-dessus de 42. Alors, quand il s'agit de se lancer soi-même dans cet univers ou de conseiller quelqu'un, pas facile facile (surtout quand certaines catégories comportent des noms japonais). Fantastique, comédie, isekai, shonen... Posons les bases avec ce guide des animés pour ~~gros nuls~~ débutants.
 
-Comme tout bon courant cinématographique ou artistique qui se respecte, celui de la japanimation répond à un ensemble de codes en tout genre. Exactement de la même façon que vous ne faites pas découvrir le cinéma à un enfant de 7 ans en le mettant devant Il faut sauver le soldat Ryan (n'est-ce pas frère de moi ?), les animés et mangas se répartissent en de nombreuses catégories que l'on peut classer selon 2 méthodes : le genre de l'œuvre et la cible marketing.
+Comme tout bon courant cinématographique ou artistique qui se respecte, celui de la japanimation répond à un ensemble de codes en tout genre. Exactement de la même façon que vous ne faites pas découvrir le cinéma à un enfant de 7 ans en le mettant devant Il faut sauver le soldat Ryan (n'est-ce pas frère de moi ?), les animés et mangas se répartissent en de nombreuses catégories que l'on peut classer selon 2 méthodes : le genre de l'œuvre ou la cible marketing.
 
 *Attention, je préfère prévenir : en repassant sur cette liste des années plus tard, je lui accorde volontiers qu'elle pourrait être mise à jour.
 
 ## Mes recommandations selon les genres
 
-Voici une petite liste non exhaustive des principaux genres existant dans la japanimation selon le contenu. Ça se déroule exactement comme dans le cinéma normal, avec néanmoins de petites différences propres aux animés. Si jamais pour une raison ou une autre vous souhaitez dénicher des titres qui vous apporteront satisfaction à coup sûr, permettez-moi de vous proposer mon meilleur millésime ci-après.
+Voici une petite liste non exhaustive des principaux genres existant dans la japanimation selon le contenu. Ça se déroule exactement comme dans le cinéma normal, avec néanmoins de petites différences propres aux animés. Si jamais, pour une raison ou une autre, vous souhaitez dénicher des titres qui vous apporteront satisfaction à coup sûr, permettez-moi de vous proposer mon meilleur millésime ci-après. Enfin, plus ou moins le meilleur.
 
 ### Action
 
 Quand ça pète sans faire prout.
 
--   [[Le Voyage de Chihiro]] (un peu action, mais bon)
+-   [[Le Voyage de Chihiro]] (un peu action, mais bon, je devais le placer dans la liste)
 
 -   [[Chainsaw Man]]
 
@@ -30,7 +30,7 @@ Quand ça pète sans faire prout.
 
 <figure style="text-align: center; margin: 30px 0">
   <img src="/images/articles/Les animes_pour_se_lancer/Action.gif" alt="Combat" width="90%" style="display: block; margin: 0 auto" />
-  <figcaption><em>Vziou Vziou (Danmachi)</em></figcaption>
+  <figcaption><em>Vziou Vziou (dans Danmachi)</em></figcaption>
 </figure>
 
 ### Aventure
@@ -47,7 +47,7 @@ La différence avec le genre « action » vient du côté exploration/découve
 
 Pas besoin de vous faire un dessin pour celui-là. Une précision néanmoins : tous les sites (le mien y compris) rangent des animés dans comédie, à tort, uniquement parce que certains personnages/situations amènent une touche drôle de manière récurrente, sans pour autant que l'ambiance principale n'en devienne moins grave.
 
-Exemple : [[Your Lie in April]] → souvent rigolo, vous chialerez devant quand même.
+Exemple : [[Your Lie in April]] → souvent rigolo, vous chialerez quand même.
 
 -   [[Prison School]]
 
@@ -62,7 +62,7 @@ Exemple : [[Your Lie in April]] → souvent rigolo, vous chialerez devant quand
 
 ### Drame/Gekiga
 
-Peu importe le ton de l'animé, la fin nous laisse sur notre séant.
+Peu importe le ton de l'animé, la fin vous  laissera sur votre séant.
 
 -   [[Phantom Requiem for the Phantom]]
 
@@ -72,7 +72,7 @@ Peu importe le ton de l'animé, la fin nous laisse sur notre séant.
 
 ### Ecchi
 
-Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un genre hmm... pas pour enfants. Attention, ce n'est pas un hentai (=porno) et il n'y a aucune scène de cul ! Mais disons que les situations, les chara designs et autres visuels laissent une place plus ou moins forte à la suggestion de la sexualité, ou à la romance niveau ++ sans jamais rien dévoiler. Désolé pour vous. Un certain nombres d'animés ont par exemple un côté ecchi, sans que cela soit le cœur du propos. On parle alors de fan service, ça donne bonne conscience.
+Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un genre hmm... pas pour enfants. Attention, ce n'est pas un hentai (=porno) et il n'y a aucune scène de cul ! Mais disons que les situations, les chara designs et autres visuels laissent une place plus ou moins forte à la suggestion de la sexualité, ou à la romance niveau ++, sans jamais rien dévoiler. Désolé pour vous. Un certain nombres d'animés ont par exemple un côté ecchi, sans que cela soit le cœur du propos. On parle alors de fan service, ça donne bonne conscience.
 
 -   [[Gambling School]]
 
@@ -87,17 +87,17 @@ Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un g
 
 ### Harem
 
-Les animés de type « harem » sont presque toujours des hentais ou des ecchis puisque qu'ils impliquent que plusieurs femmes/filles tournent autour du même homme (parfois l'inverse). Ca va de la simple fréquentation à la partouze générale. En passant, les bons animés n'ont pas souvent d'aspect « harem ». Etrange, étrange...
+Les animés de type « harem » sont presque toujours des hentais ou des ecchis puisque qu'ils impliquent que plusieurs femmes/filles tournent autour du même homme (parfois l'inverse mais j'en connais pas). Ca va de la simple fréquentation à la partouze générale. En passant, les bons animés n'ont pas souvent d'aspect « harem ». Etrange, étrange...
 
 -   [[Monster Musume]]
 
--   [[School Days]] (attention ce truc pue les pieds)
+-   [[School Days]] (attention ce truc est à chier)
 
 -   [[Rosario to Vampire]]
 
 ### Ecole
 
-Simple à comprendre : le scénario se déroule intégralement ou en partie avec des écoliers ou dans une école (accueillant souvent lesdits écoliers d'ailleurs). Enormément d'animés pourraient être placés dans cette catégorie, donc je vous en donne 3 qui insistent spécifiquement sur l'aspect « école ».
+Simple à comprendre : le scénario se déroule intégralement ou en partie avec des écoliers ou dans une école (accueillant souvent lesdits écoliers d'ailleurs). Enormément d'animés pourraient être placés dans cette catégorie, donc je vous en donne trois qui insistent spécifiquement sur l'aspect « école ».
 
 -   [[Tasogare Otome X Amnesia]]
 
@@ -107,7 +107,7 @@ Simple à comprendre : le scénario se déroule intégralement ou en partie ave
 
 ### Fantastique
 
-Créatures, magie, sorcellerie et autres trucs bizarres sont courants dans les animés fantastiques, au contraire de ceux « surnaturels » qui ont plutôt tendance, d'une part, à se passer dans un monde où la magie ça n'existe pas mon garçon, et, d'autre part, à être horrifiques. De manière plus propre, on parle de "fantastique" quand les éléments qui sont présents dedans mais pas dans notre vrai monde à nous sont normaux ; "surnaturel", c'est pour les oeuvres dont une partie des événements sont anormaux, même dans le lore. T'AS COMPRIS ?
+Créatures, magie, sorcellerie et autres trucs bizarres sont courants dans les animés fantastiques, au contraire de ceux « surnaturels » qui si passent dans un monde (souvent proche du nôtre) où tout cela n'est pas censé exister. De manière plus propre, on parle de "fantastique" quand les éléments qui sont présents dedans mais pas dans notre vrai monde à nous sont normaux ; "surnaturel", c'est pour les œuvres dont une partie des événements sont anormaux, même dans le lore. T'AS COMPRIS ?
 
 -   [[Princesse Mononoké]]
 
@@ -147,7 +147,7 @@ Pas facile d'avoir les miquettes devant un animé, mais certains titres instille
 </figure>
 ### Isekai
 
-Cela signifie littéralement « autre monde ». Le principe est simple : le (parfois les) héros se retrouve(nt) dans un univers qui n'a rien à voir avec notre réalité actuelle. L'exemple le plus connu est l'isekai médiéval, mais c'est looooiiiin d'être le seul genre. D'ailleurs, des isekai random qui sentent le fromage sont légion en ce moment.
+Cela signifie littéralement « autre monde ». Le principe est simple : le (parfois les) héros se retrouve(nt) dans un univers qui n'a rien à voir avec notre réalité actuelle. L'exemple le plus connu est l'isekai médiéval, mais c'est looooiiiin d'être le seul genre. D'ailleurs, les isekai random qui sont fades et chiants sont légion en ce moment.
 
 -   [[Mushoku Tensei]]
 
@@ -157,7 +157,7 @@ Cela signifie littéralement « autre monde ». Le principe est simple : le (
 
 ### Magical Girl/Mahou Shoujo
 
-Habituellement destiné aux jeunes filles, les magical girls montrent des collégiennes ou lycéennes se transformant en combattantes luttant contre des monstres. Destiné aux jeunes filles ? Sur le principe oui, mais habilement déconstruit un magical girl se transforme en œuvre plutôt sombre et vraiment intéressante.
+Habituellement destiné aux jeunes filles, les magical girls montrent des collégiennes ou lycéennes se transformant en combattantes luttant contre des monstres. En gros, c'est Batman. Destiné aux jeunes filles ? Sur le principe oui, mais habilement déconstruit, un magical girl se transforme en œuvre sombre, mâture et vraiment intéressante.
 
 -   [[Puella Magi Madoka Magica]]
 
@@ -167,32 +167,32 @@ Habituellement destiné aux jeunes filles, les magical girls montrent des collé
 
 <figure style="text-align: center; margin: 30px 0">
   <img src="/images/articles/Les animes_pour_se_lancer/Magical_girl.jpg" alt="Magical Girl" width="90%" style="display: block; margin: 0 auto" />
-  <figcaption><em>bah alors, on s'amuse ou bien ?</em></figcaption>
+  <figcaption><em>Bah alors, on s'amuse ou bien ?</em></figcaption>
 </figure>
 
 ### Mécha
 
-Je ne vais pas m'étaler dessus car j'en n'ai jamais vraiment regardé, mais en gros ça met en scène des robots qui se battent, voilà voilà. Après, les robots se placent en soutien d'une intrigue principale plus élaborée, comme les zombies dans The Walking Dead, sinon ça serait vraiment daubique.
+Je ne vais pas m'étaler dessus car j'en n'ai jamais vraiment regardé, mais en gros, ça met en scène des robots qui se battent, voilà voilà. Après, les robots se placent en soutien d'une intrigue principale plus élaborée, comme les zombies dans The Walking Dead, sinon ça serait vraiment daubique.
 
 - [[Code Geass]]
 
 - [[Neon Genesis Evangelion]]
 
-- [[Gurren Lagann]] (que j'ai ragequit)
+- [[Bokurano]]
 
 ### Musique
 
-Là encore, rien de sorcier : l'intrigue est liée d'une façon ou d'une autre à la musique 
+Là encore, rien de sorcier : l'intrigue est liée d'une façon ou d'une autre à la musique. 
 
--   [[Your Lie in April]]
+-  [[Your Lie in April]]
 
--   [[La Mélodie du Ciel]]
+-  [[La Mélodie du Ciel]]
 
 -  [[Sound! Euphonium]]
 
 ### Psychologique
 
-Les animés de cette catégorie s'intéressent de près aux valeurs, réflexions et choix des différents personnages. Contrairement à ce que ça laisse entendre, il y a souvent pas mal d'action car le côté psychologique sert surtout à justifier un comportement, parfois étrange ou considéré comme inadapté (du genre manger des gens). A titre purement personnel, je pense que beaucoup des meilleurs animés existants relèvent de ce genre ([[Pourquoi Madoka Magica est un chef-d'oeuvre|n'est-ce pas mon animé préféré à moi]] ?).
+Les animés de cette catégorie s'intéressent de près aux valeurs, réflexions et choix des différents personnages. Contrairement à ce que ça laisse entendre, il y a souvent pas mal d'action car le côté psychologique sert surtout à justifier un comportement, qui peut être étrange ou considéré comme inadapté (du genre manger des gens). A titre purement personnel, je pense que beaucoup des meilleurs animés existant relèvent de ce genre ([[Pourquoi Madoka Magica est un chef-d'oeuvre|n'est-ce pas mon animé préféré à moi]] ?).
 
 -   [[Classroom of the Elite]]
 
@@ -203,7 +203,7 @@ Les animés de cette catégorie s'intéressent de près aux valeurs, réflexions
 
 ### Romance
 
-Histoire d'amour, je t'aime moi non plus, je t'aime moi aussi, j'aime les biscuits, tout ça tout ça.
+Histoire d'amour, je t'aime moi non plus, je t'aime moi aussi, j'aime les biscuits, tout ça tout ça. Méfiez-vous, les animés dont la romance est le centre de l'histoire, voire l'unique thème abordé, sont très souvent inintéressants au possible.
 
 -   [[Violet Evergarden]]
 
@@ -218,7 +218,7 @@ Histoire d'amour, je t'aime moi non plus, je t'aime moi aussi, j'aime les biscui
 
 ### Slice of life
 
-« Morceau de vie », pour aborder la routine des personnages, que ce soit la petite maison dans la prairie, le fun absolu ou le fin fond des obscures ténèbres de la nuit.
+« Tranche de vie », pour aborder la routine des personnages, que ce soit la petite maison dans la prairie, le fun absolu, les vacances... La vie quoi.
 
 -   [[Shirobako]]
 
@@ -234,7 +234,7 @@ Une fois encore, rien à expliquer ici puisqu'on suit un personnage ou une équi
 
 ### Surnaturel
 
-Lorsque les histoires de fantômes, démons, invocations et autres légendes humaines finissent par prendre forme dans un monde où elles ne sont pas censées prendre forme. Attention, un animé « surnaturel » ne veut pas dire animé « horrifique » ! Certains sont des ecchis, des comédies, des slices of life etc.
+Lorsque les histoires de fantômes, démons, invocations et autres légendes humaines finissent par prendre forme dans un monde où elles ne sont pas censées prendre forme. Attention, un animé « surnaturel » ne veut pas forcément dire animé « horrifique » ! Certains sont des ecchis, des comédies, des slices of life etc.
 
 -   [[Tasogare Otome X Amnesia]]
 
@@ -243,7 +243,7 @@ Lorsque les histoires de fantômes, démons, invocations et autres légendes hum
 -   [[Bokurano]]
 
 <figure style="text-align: center; margin: 30px 0">
-  <img src="/images/articles/Les animes_pour_se_lancer/Thriller.jpg" alt="JSurnaturel" width="90%" style="display: block; margin: 0 auto" />
+  <img src="/images/articles/Les animes_pour_se_lancer/Thriller.jpg" alt="Surnaturel" width="90%" style="display: block; margin: 0 auto" />
   <figcaption><em>PRANKED !</em></figcaption>
 </figure>
 
@@ -260,7 +260,7 @@ Nous voilà arrivés à l'avant dernier arrêt de notre voyage, un arrêt qui tr
 
 ### Yaoi/Yuri
 
-Pour finir, 2 sous-genres que vous avez peut-être déjà croisés si vous êtes un être corrompu par les hentais. Le Yuri correspond aux animés montrant des relations sexuelles entre femmes ; le yaoi étant son équivalent avec des messieurs. Coquins !
+Pour finir, deux sous-genres que vous avez peut-être déjà croisés si vous êtes un être corrompu par les hentais. Le Yuri correspond aux animés montrant des relations sexuelles entre femmes ; le yaoi étant son équivalent avec des messieurs. Coquins !
 
 ## Mes recommandations selon les cibles
 

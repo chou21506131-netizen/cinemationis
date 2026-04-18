@@ -18,10 +18,11 @@ studios:
   - J.C.Staff
 realisateur: Tatsuyuki Nagai
 resume_court: Un garçon et une fille vont devoir s'aider l'un l'autre pour leurs histoires d'amour.
-image: https://myanimelist.net/images/anime/13/22128l.jpg
+image: /images/animes/Toradora.jpg
 date_ajout: 2022-02-20
 score_mal: 8.04
 mal_id: 4224
+date_modification: 2026-04-18
 ---
 
 ## Résumé

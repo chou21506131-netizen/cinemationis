@@ -17,12 +17,13 @@ studios:
   - Lerche
 realisateur: Seiji Kishi
 resume_court: Une classe de collégiens dispose d'un an pour éliminer son professeur avant qu'il ne détruise la Terre.
-image: https://myanimelist.net/images/anime/5/75639l.jpg
+image: /images/animes/Assassination_classroom.jpg
 date_ajout: 2022-02-16
 videos:
   - 
 score_mal: 7.99
 mal_id: 24833
+date_modification: 2026-04-18
 ---
 
 ## Résumé

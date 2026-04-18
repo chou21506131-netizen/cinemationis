@@ -21,11 +21,11 @@ studios:
   - Bridge
 realisateur: Shinji Ishihira
 resume_court: Isolée sur une île, une école accueille des élèves doués de pouvoirs surnaturels. Mais les disparitions s'accumulent, et l'un d'eux est certainement un intrus.
-image: https://myanimelist.net/images/anime/1301/110433.jpg
+image: /images/animes/Talentless_nana.jpg
 date_ajout: 2026-04-12
 score_mal: 7.17
 mal_id: 41619
-date_modification: 2026-04-13
+date_modification: 2026-04-18
 ---
 
 ## Résumé

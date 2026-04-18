@@ -18,13 +18,13 @@ studios:
   - Madhouse
 realisateur: Kotono Watanabe
 resume_court: Des personnes se font capturer et envoyer sur une île pour participer à un survival game.
-image: https://myanimelist.net/images/anime/4/40977.jpg
+image: /images/animes/Btoom.jpg
 date_ajout: 2023-09-02
 videos:
   - 
 score_mal: 7.26
 mal_id: 14345
-date_modification: 2026-04-12
+date_modification: 2026-04-18
 ---
 
 ## Résumé

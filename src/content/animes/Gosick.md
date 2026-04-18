@@ -18,11 +18,12 @@ studios:
   - Bones
 realisateur: Hitoshi Nanba
 resume_court: Après son arrivée dans un nouveau lycée, un élève rencontre une fille mystérieuse qui va l'aider à résoudre une série d'enquêtes.
-image: https://myanimelist.net/images/anime/11/27906l.jpg
+image: /images/animes/Gosick.jpg
 date_ajout: 2022-02-17
 videos: []
 score_mal: 8.04
 mal_id: 8425
+date_modification: 2026-04-18
 ---
 
 ## Résumé

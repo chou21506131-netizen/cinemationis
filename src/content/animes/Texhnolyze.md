@@ -22,8 +22,9 @@ realisateur: Hirotsugu Hamazaki
 resume_court: ""
 image: https://myanimelist.net/images/anime/1027/131977.jpg
 date_ajout: 2025-03-15
-score_mal: 7.76
+score_mal: 7.77
 mal_id: 26
+date_modification: 2026-04-18
 ---
 
 ## Résumé
