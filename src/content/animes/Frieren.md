@@ -19,9 +19,9 @@ resume_court: Une elfe immortelle poursuit sa vie après la mort de ses camarade
 image: https://myanimelist.net/images/anime/1015/138006l.jpg
 date_ajout: 2024-06-03
 videos: []
-score_mal: 9.1
+score_mal: 9.09
 mal_id: 52991
-date_modification: 2026-04-18
+date_modification: 2026-05-15
 ---
 
 ## Résumé

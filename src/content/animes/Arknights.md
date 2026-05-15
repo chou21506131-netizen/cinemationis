@@ -3,8 +3,8 @@ titre: Arknights
 titre_mal: '"Arknights: Prelude to Dawn"'
 annee: 2022
 type: série
-saisons: 2
-episodes: 16
+saisons: 3
+episodes: 26
 films:
 note: 16/20
 recommandation: A voir
@@ -17,14 +17,14 @@ genres:
 studios:
   - Yostar Pictures
 realisateur: Yuki Watanabe
-resume_court: Une organisation paramilitaire tente de venir aux réfugiés à travers un monde en guerre.
+resume_court: Une organisation paramilitaire tente de venir en aide aux réfugiés à travers un monde en guerre.
 image: /images/animes/Arknights.jpg
 date_ajout: 2024-09-15
 videos:
   - 
 score_mal: 7.5
 mal_id: 50205
-date_modification: 2026-04-13
+date_modification: 2026-05-15
 ---
 
 ## Résumé
@@ -45,7 +45,17 @@ C'est pas moche du tout, au contraire, mais un peu spécial. Ceci étant dit, j'
 
 J'ai adoré la saison 2 : on suit plusieurs factions en dégageant bien comme il faut le côté manichéen chiant pour montrer que même le méchant principal de la saison peut être "gentil".
 
-Et putain de merde, quel méchant ! L'un des meilleurs antagonistes d'animés que j'ai vus. Même si son temps à l'écran est vraiment pas élevé il constitue une raison suffisante pour voir cette série. D'ailleurs je mets le tampon "coup de coeur" grâce à lui qui est en fait elle, on est bien d'accord ?
+Et putain de merde, quel méchant ! L'un des meilleurs antagonistes d'animés que j'ai vus. Même si son temps à l'écran est vraiment pas élevé, il constitue une raison suffisante pour voir cette série. D'ailleurs, je mets le tampon "coup de cœur" grâce à lui qui est en fait elle, on est bien d'accord ?
+
+### Saison 3
+
+Putain, pas évident de raccrocher les wagons. Je savais pas qu'une saison 3 existait, et je l'ai regardée sans me remettre le contexte ou les noms des pays et personnages en tête... galère de comprendre la moitié de la saison.
+
+Mais, ça reste bien, sans être transcendant.
+
+Pour le coup, on passe beaucoup de temps à approfondir certains personnages en montrant un peu ce qu'il s'est passé dans leur vie, donc niveau scénario il n'y a pas grand chose à dire. Le combat final est pas incroyable, mais ça se regarde quand même dans l'ensemble. La qualité graphique reste propre aussi.
+
+Bref, c'est ok. Je sais pas s'il y aura une suite, à l'heure actuelle c'est pas annoncé en tout cas. Mais vu qu'il n'y a plus de méchant, la question de la fin définitive se pose sûrement.
 
 ---
 

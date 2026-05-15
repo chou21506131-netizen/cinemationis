@@ -8,7 +8,7 @@ films:
 note: 12,5/20
 recommandation: Bof
 statut: Terminé
-suite:
+suite: Annoncée
 genres:
   - Action
   - Aventure
@@ -25,6 +25,7 @@ videos:
   - 
 score_mal: 6.72
 mal_id: 53439
+date_modification: 2026-05-15
 ---
 
 ## Résumé
