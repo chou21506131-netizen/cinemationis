@@ -21,9 +21,9 @@ image: "https://myanimelist.net/images/anime/10/64587l.jpg"
 date_ajout: 2022-02-25
 videos:
   - 
-score_mal: 6.56
+score_mal: 6.57
 mal_id: 21353
-date_modification: 2026-04-12
+date_modification: 2026-05-17
 ---
 
 ## Résumé

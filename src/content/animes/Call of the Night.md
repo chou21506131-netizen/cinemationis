@@ -8,7 +8,7 @@ episodes: 25
 films:
 note: 16/20
 recommandation: A voir
-statut: En cours
+statut: Terminé
 suite: Aucune annonce
 raquequit:
 genres:
@@ -17,15 +17,14 @@ genres:
   - Surnaturel
 studios:
   - Liden Films
-realisateur: Tetsuya Miyanishi
-resume_court: N'allant plus en cours, un lycéen arpente sa ville la nuit. Il rencontre alors une fille étrange prétendant être une vampire.
+realisateur: Tomoyuki Itamura
+resume_court: Après avoir abandonné les cours, un lycéen décide de vivre la nuit.
 image: /images/animes/Call_of_the_night.jpg
-date_ajout: 2026-05-05
-score_mal:
+date_ajout: 2026-05-18
+score_mal: 8.14
 mal_id: 50346
-date_modification:
+date_modification: 2026-05-17
 ---
-
 ## Résumé
 
 Yamori ne supporte plus l'école. Bien que bon élève, le garçon ne trouve plus son compte dans son lycée, et décide de passer une nuit dans sa ville. En se promenant, il rencontre une fille étrange prénommée Nazuna. Prétendant être une vampire, elle convainc Yamori que le monde de la nuit est fait pour lui. Toutefois, pour pouvoir rester aux côtés de Nazuna, le lycéen doit lui aussi devenir un vampire.

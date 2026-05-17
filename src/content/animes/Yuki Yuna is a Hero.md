@@ -23,9 +23,9 @@ image: https://myanimelist.net/images/anime/8/77057l.jpg
 date_ajout: 2022-05-07
 videos:
   - 
-score_mal: 7.44
+score_mal: 7.47
 mal_id: 25519
-date_modification: 2026-04-18
+date_modification: 2026-05-17
 ---
 
 ## Résumé

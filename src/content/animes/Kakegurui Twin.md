@@ -21,8 +21,9 @@ image: https://myanimelist.net/images/anime/1851/124275.jpg
 date_ajout: 2022-08-22
 videos:
   - 
-score_mal: 7.18
+score_mal: 7.19
 mal_id: 50339
+date_modification: 2026-05-17
 ---
 
 ## Résumé

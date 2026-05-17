@@ -22,8 +22,9 @@ image: https://myanimelist.net/images/anime/2/81087l.jpg
 date_ajout: 2023-03-07
 videos:
   - 
-score_mal: 6.95
+score_mal: 6.97
 mal_id: 33003
+date_modification: 2026-05-17
 ---
 
 ## Résumé

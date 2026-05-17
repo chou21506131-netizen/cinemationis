@@ -22,8 +22,9 @@ image: "https://myanimelist.net/images/anime/1889/105337l.jpg"
 date_ajout: 2025-04-29
 videos:
   - 
-score_mal: 7.81
+score_mal: 7.82
 mal_id: 40046
+date_modification: 2026-05-17
 ---
 
 ## Résumé

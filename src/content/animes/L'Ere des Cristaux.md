@@ -23,9 +23,9 @@ image: https://myanimelist.net/images/anime/3/88293l.jpg
 date_ajout: 2026-03-28
 videos:
   - 
-score_mal: 8.39
+score_mal: 8.4
 mal_id: 35557
-date_modification: 2026-04-13
+date_modification: 2026-05-17
 ---
 
 ## Résumé

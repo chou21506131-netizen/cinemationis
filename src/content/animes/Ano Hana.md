@@ -22,8 +22,9 @@ image: https://myanimelist.net/images/anime/5/79697l.jpg
 date_ajout: 2022-06-07
 videos:
   - 
-score_mal: 8.06
+score_mal: 8.07
 mal_id: 9989
+date_modification: 2026-05-17
 ---
 
 ## Résumé

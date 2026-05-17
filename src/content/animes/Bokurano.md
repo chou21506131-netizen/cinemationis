@@ -22,9 +22,9 @@ image: https://myanimelist.net/images/anime/1690/97048l.jpg
 date_ajout: 2025-07-13
 videos:
   - 
-score_mal: 7.6
+score_mal: 7.61
 mal_id: 1690
-date_modification: 2026-04-18
+date_modification: 2026-05-17
 ---
 
 ## Résumé
