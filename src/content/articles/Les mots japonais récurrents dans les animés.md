@@ -5,7 +5,7 @@ tags:
   - culture
   - japon
 date_publication: 2023-02-06
-resume: Quiconque ayant regardé plus de 3 animés en VOSTFR a forcément remarqué la présence récurrente de certains mots ou expressions. Au-delà du « yamete kudasai », qui peut être parfaitement maîtrisé même par les non-initiés à la japanimation (on vous voit), laissez-moi vous dresser une petite liste des idiomatismes nippons les plus couramment repris dans les animés.
+resume: Quiconque ayant regardé plus de 3 animés en japonais a forcément remarqué la présence récurrente de certains mots ou expressions. Au-delà du « yamete kudasai », qui peut être parfaitement maîtrisé même par les non-initiés à la japanimation (on vous voit), laissez-moi vous dresser une petite liste des idiomatismes nippons les plus couramment repris dans les animés.
 image: /images/articles/Vocabulaire/Cover.gif
 ---
 

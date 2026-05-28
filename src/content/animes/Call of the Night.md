@@ -21,9 +21,9 @@ realisateur: Tomoyuki Itamura
 resume_court: Après avoir abandonné les cours, un lycéen décide de vivre la nuit.
 image: /images/animes/Call_of_the_night.jpg
 date_ajout: 2026-05-18
-score_mal: 8.14
+score_mal: 8.15
 mal_id: 50346
-date_modification: 2026-05-17
+date_modification: 2026-05-28
 ---
 ## Résumé
 

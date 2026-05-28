@@ -4,35 +4,9 @@ tags:
   - animés
   - culture
 date_publication: 2022-02-07
-resume: Vous avez déjà vu (par hasard) des hentaïs avec des enfants dedans ? Légal ou pas légal ? Allez au confessional et lisez mon article pour découvrir la vérité sur cette pratique.
-image: /images/articles/Les_mineurs_dans_les_hentais/Article.jpg
+resume: Vous avez déjà vu (par hasard) des hentaïs avec de jeunes hominidés ? Légal ou pas légal ? Allez au confessionnal et lisez mon article pour découvrir la vérité sur cette pratique.
+image: /images/articles/Les_mineurs/Pigeon.jpg
 ---
-Les japonais et le monde des fe-fesses... Une histoire tout aussi intéressante que tordue. Plutôt que de m'étendre dessus je vous propose une petite question : pourquoi existe-t-il des hentaïs mettant en scène des personnages clairement min€urs ? Qu'entends-je ?! Vous ne savez pas ?! Eh bien pallions cela avec un petit article très bref sur les animés/mangas et la pr0n0grafi (oui, je tente de dodge les vilains robots strikers de sites).
+Ci-gît un article très drôle et explicatif. Repose en paix, Pepito.
 
-<figure style="text-align: center; margin: 30px 0">
-  <img src="/images/articles/Les_mineurs_dans_les_hentais/Minia_tel.jpg" alt="Jeune fille" width="90%" style="display: block; margin: 0 auto" />
-  <figcaption><em>Bonjour, j'ai 38 ans.</em></figcaption>
-</figure>
-
-« *Yamete kudasai !* ». Si vous ne connaissez pas cette phrase, et bien passez votre chemin, vous n'avez rien à faire ici, nous préférons rester entre braves gens. « *Arrêtez, s'il vous plaît !* »... Le Japon a (la fâcheuse ?) tendance à particulièrement apprécier les films de c** accordant une place de premier choix aux jeunes filles. Les traditions c'est important après tout. Moi, du moment où ça leur convient et qu'elles sont majeures, j'ai envie de leur dire qu'elles font ce que bon leur semble. Après tout, je ne suis ni leur père ni leur gynécologue. Oui mais il y a un mais. En effet, il arrive que ces jeunes personnes soient mineures, voire très mineures.
-
-Bon, passons sur ce qui est montré dans les vidéos, films, photos et autres médias diffusant de vraies images de la vraie vie vraie puisque la loi japonaise interdit la diffusion et la conservation de tout document pédobearien. Normal me direz-vous... sauf que cette loi ne s'applique pas aux animés, mangas ou autre image du genre. Pour les néophytes, les imbéciles et les Iops, je vous annonce que vous pouvez trouver facilement, rapidement, gratuitement et légalement un hentaï mettant en scène des jeunes filles (le plus souvent) se livrant à des actes immoraux. Corrélation ou hasard, le nombre de cas d'affaires de pet d'eau filie (désolé) semble s'accroître de manière plus ou moins continue depuis quelques années. Alors pourquoi ne pas serrer la vis du point de vue pénal ?
-
-<figure style="text-align: center; margin: 30px 0">
-  <img src="/images/articles/Les_mineurs_dans_les_hentais/Cover.jpg" alt="Jeunes filles" width="90%" style="display: block; margin: 0 auto" />
-  <figcaption><em>Des déesses plurimillénaires en plein travail</em></figcaption>
-</figure>
-
-Si les raisons à cela sont très certainement à chercher du côté du pouvoir du monde de l'animation au Japon, et de la moulaga qu'il dégage, d'autres moyens de défenses sont invoqués par des personnes dont je tairai le nom (parce que je le connais pas). Déjà, les créateurs des œuvres peuvent très facilement mettre les choses au clair avec leurs personnages : « こんにちは、明美さんです。36歳です。» ce qui donne une fois traduit quelque chose comme : « Bonjour, je m'appelle Akemi et j'ai 36 ans. ». Eh oui, je peux parfaitement donner un physique infantile à une personne plus vieille, et inversement. Pas con, hein ?
-
-En gros, je pense que vous avez compris, les mecs grugent au maximum un peu comme ils peuvent. Pour faire simple, on s'approche du débat des armes à feu aux Etats-Unis. Mini compil des arguments que j'ai trouvés du côté de la défense des œuvres. Moi je ne prends pas partie, je suis la Suisse (le pognon en moins).
-
--   *« Les animés et mangas ne sont pas réels. »*
-
--   *« Tirer sur des gens avec des armes est interdit par la loi non ? Alors pourquoi autorise-t-on les films et jeux vidéo de guerre, de règlement de compte... montrant des meurtres ? »*
-
--   *« Les images fictives permettent à ceux qui en ont besoin d'assouvir leurs fantasmes et donc ne pas passer à l'acte sur de vraies personnes »*
-
-La vocation de cet article ultra bref n'est pas de dénoncer ou juger, mais de simplement montrer le cadre dans lequel se débat se tient. Ceci dit, il y aurait pas mal d'éléments à ajouter parce que la question du sexe au Japon... c'est quelque chose. Entre le nombre colossal de couples mariés qui font péniblement un enfant histoire de, avant de se "tromper" l'un l'autre sans que ça les dérange, les 20/25% des lycéennes qui se sont prosti***** au moins une fois dans leur vie, et malgré ça on floute systématiquement tous les zizis et zézettes de TOUTES les productions fessières... Bref, un pays qui est dans son jus. Dégueulasse.
-
-Sinon ? Pour ou contre les homo sapiens ayant l'air peu âgés forniquant dans des bandes dessinées ou dessins animés ? Répondez dans la section « Commentaire » inexistante.
+07/02/2022 - 28/05/2026

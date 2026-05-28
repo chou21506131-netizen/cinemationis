@@ -26,7 +26,7 @@ videos:
   - https://www.youtube.com/watch?v=OZ3syAlBnDM
 score_mal: 7.66
 mal_id: 12445
-date_modification: 2026-05-15
+date_modification: 2026-05-28
 ---
 
 ## Résumé

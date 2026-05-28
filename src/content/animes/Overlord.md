@@ -8,7 +8,7 @@ films: 1
 note: 17/20
 recommandation: A voir
 statut: Terminé
-suite:
+suite: Aucune annonce
 genres:
   - Fantastique
   - Action
@@ -25,6 +25,7 @@ videos:
   - 
 score_mal: 7.91
 mal_id: 29803
+date_modification: 2026-05-28
 ---
 
 ## Résumé
@@ -35,7 +36,7 @@ Yggdrasil, le MMORPG le plus populaire au Japon, annonce la fermeture de ses ser
 
 ## Commentaire
 
-### Saison 1-2
+### Saison 1-2-3-4
 
 J'ai cru que la saison 2 allait me faire regretter d'avoir regardé cet animé, mais non ! En effet, je ne compte pas m'étendre dessus car je suis gentil, mais c'est clairement cette S2 le vilain petit canard du lot. Regardez-la quand même pour comprendre le reste parce que ça vaut le coup !
 
@@ -49,9 +50,15 @@ La musique colle bien et les combats (même s'ils ne sont pas si nombreux que ç
 
 Un côté "complots entre humains" l'aurait rendu parfait mais nous avons déjà le droit à un rekt des héros qui fait plaisir alors, Overlord, je te pardonne.
 
-### Saison 3-4
-
 A noter que le film final de la fin qui clôt l'histoire n'est pas encore sorti. J'ai hâte de le voir !
+
+### Film I
+
+J'ai regardé le film en me basant uniquement sur mes vagues souvenirs, et même comme ça c'est pas mal.
+
+C'est toujours chill à regarder avec un mélange d'action et d'humour qui est ok, et même si je trouve qu'on aurait pu voir davantage les persos principaux du début de l'histoire je trouve pas de gros défaut. On est pas sur l'animé du siècle, mais ça reste un bon divertissement, surtout grâce au côté "méchant" des persos principaux (toute mesure gardée).
+
+Par contre, c’est pas du tout la fin.
 
 ---
 
