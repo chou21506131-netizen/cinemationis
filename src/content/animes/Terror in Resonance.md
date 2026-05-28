@@ -27,7 +27,7 @@ date_modification: 2026-05-28
 
 ## Résumé
 
-Sphinge est un groupe terroriste redoutable. Ses membres, Nine et Twelve, pourtant adolescents, commettent des attentats à la bombe sur Tokyo en annonçant leurs attaques à travers des vidéos publiées en ligne comme un défi à la police. Un inspecteur est alors chargé de comprendre leur objectif et de les arrêter. 
+Sphinge est un groupe terroriste redoutable. Ses membres, Nine et Twelve, pourtant adolescents, commettent des attaques à la bombe sur Tokyo en annonçant leurs actions à travers des vidéos publiées en ligne comme un défi à la police. Un inspecteur est alors chargé de comprendre leur objectif et de les arrêter. 
 
 ---
 

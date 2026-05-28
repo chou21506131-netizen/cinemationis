@@ -23,6 +23,7 @@ videos:
   - 
 score_mal: 8.04
 mal_id: 268
+date_modification: 2026-05-28
 ---
 
 ## Résumé
@@ -37,7 +38,7 @@ Honnêtement, j'étais un peu septique à cause de la qualité des graphismes (1
 
 Oui, l'accent est pas mal mis sur un aspect érotique, mais pour le coup c'est bien présenté. Sans en faire trop (ou presque parfois), on arrive quand même à la rendre suffisamment présent pour ne pas le louper. Après ça plait ou ça plait pas mais c'est un autre sujet.
 
-Et, en passant, si vous voulez savoir pourquoi on trouve parfois des mineures dans les hentais, voici la réponse. En tout cas ça se regarde très bien, sans se prendre la tête à un seul moment, et surtout très vite : 6 épisodes (de 30 minutes) et toto finito.
+En tout cas ça se regarde très bien, sans se prendre la tête à un seul moment, et surtout très vite : 6 épisodes (de 30 minutes) et toto finito.
 
 Un petit animé qui passe crème.
 

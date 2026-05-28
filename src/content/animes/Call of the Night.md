@@ -27,7 +27,7 @@ date_modification: 2026-05-28
 ---
 ## Résumé
 
-Yamori ne supporte plus l'école. Bien que bon élève, le garçon ne trouve plus son compte dans son lycée, et décide de passer une nuit dans sa ville. En se promenant, il rencontre une fille étrange prénommée Nazuna. Prétendant être une vampire, elle convainc Yamori que le monde de la nuit est fait pour lui. Toutefois, pour pouvoir rester aux côtés de Nazuna, le lycéen doit lui aussi devenir un vampire.
+Yamori ne supporte plus l'école. Bien que bon élève, le garçon ne trouve plus son compte dans son lycée, et décide de passer une nuit en ville. En se promenant, il rencontre une fille étrange prénommée Nazuna. Prétendant être une vampire, elle convainc Yamori que le monde de la nuit est fait pour lui. Toutefois, pour pouvoir rester aux côtés de Nazuna, le lycéen doit lui aussi devenir un vampire.
 
 ---
 

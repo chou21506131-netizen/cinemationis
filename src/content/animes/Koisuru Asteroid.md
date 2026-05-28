@@ -21,9 +21,9 @@ image: https://myanimelist.net/images/anime/1142/111693.jpg
 date_ajout: 2022-04-25
 videos:
   - 
-score_mal: 6.92
+score_mal: 6.93
 mal_id: 39388
-date_modification: 2026-05-17
+date_modification: 2026-05-28
 ---
 
 ## Résumé

@@ -22,9 +22,9 @@ image: https://myanimelist.net/images/anime/9/40969l.jpg
 date_ajout: 2022-02-23
 videos:
   - https://www.youtube.com/watch?v=3rkn-xqhSDc
-score_mal: 7.98
+score_mal: 7.99
 mal_id: 14131
-date_modification: 2026-05-17
+date_modification: 2026-05-28
 ---
 
 ## Résumé

@@ -20,8 +20,9 @@ realisateur: Hiroyuki Tanaka
 resume_court: ""
 image: https://myanimelist.net/images/anime/3/21834.jpg
 date_ajout: 2026-04-06
-score_mal: 7.73
+score_mal: 7.74
 mal_id: 1818
+date_modification: 2026-05-28
 ---
 
 ## Résumé

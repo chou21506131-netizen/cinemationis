@@ -26,6 +26,7 @@ videos:
   - https://www.youtube.com/watch?v=LHeYo_-ej2w
 score_mal: 7.34
 mal_id: 11617
+date_modification: 2026-05-28
 ---
 
 ## Résumé
@@ -38,7 +39,7 @@ Après une rencontre avec une fille, Issei est invité à un rendez-vous galant 
 
 Alors, quand bien même il est très vite évident que les nichons occupent une place primordiale dans l'histoire (le pire c'est que c'est vrai), c'est un peu dommage de s'être focalisé à ce point sur ça. On aurait pu laisser des petits temps de pause au spectateur par-ci par-là, histoire de montrer autre chose et de changer un peu de sujet, mais malheureusement ce n'est que trop rarement le cas, ce qui rend l'animé un peu lourd (surtout saison 3 il me semble).
 
-Bien évidemment, cette obsession mammaire s'accompagne d'un harem et de fan service en pagaille. Pour le coup c'est vraiment à la limite du hentai, comme dans Monster Musume. Soit ça plaît, soit ça plaît pas, mais au moins ça a le mérite d'être clair ! Personnellement, même si je suis plutôt bon public sur cet aspect, ça a fini par me gonfler, c'est dire...
+Bien évidemment, cette obsession mammaire s'accompagne d'un harem et de fan service en pagaille. Pour le coup, c'est vraiment à la limite du... comme dans Monster Musume. Soit ça plaît, soit ça plaît pas, mais au moins ça a le mérite d'être clair ! Personnellement, même si je suis plutôt bon public sur cet aspect, ça a fini par me gonfler, c'est dire...
 
 A part ça, même si le scénario rase un peu les pâquerettes, la série propose des choses intéressantes : très bonne musique (voir en dessous), évolution pertinente de certains personnages, moments émotifs réussis etc. Avec un peu moins de tétés et de dialogues à la con pendant les combats ce serait vraiment excellent.
 

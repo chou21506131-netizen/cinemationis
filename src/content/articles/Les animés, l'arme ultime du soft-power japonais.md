@@ -48,7 +48,7 @@ Histoire de comprendre un peu l'efficacité du plan, je vais poser là quelques 
 
 Comment ça fonctionne tout ça ? Comment passe-t-on de « diffuser des dessins animés » à « être la première puissance culturelle mondiale » ? Eh bien, sur le papier, c'est extrêmement simple. On l'a même déjà dit un peu plus haut en quelque sorte.
 
-L'avantage des animés dans le cadre de cette stratégie de soft-power, c'est leur diversité. Sport, horreur, romance, comédie, porno, fiction, psychologique, contemplation, uchronie, gastronomie, dystopie, poêle à bois (celui-là j'ai pas vérifié mais qui sait ?)... ça touche absolument tous les publics, tous les âges et tous les goûts ! Maintenant qu'on sait qu'il y a théoriquement 8 milliards de prospects, il suffit de faire en sorte de pouvoir diffuser tout ça plus ou moins partout. Or, internet, le streaming... niveau diffusion large et rapide, on a jamais fait plus efficace.
+L'avantage des animés dans le cadre de cette stratégie de soft-power, c'est leur diversité. Sport, horreur, romance, comédie, porno, fiction, psychologique, contemplation, uchronie, gastronomie, dystopie, poêle à bois (celui-là j'ai pas vérifié mais qui sait ?)... ça touche absolument tous les publics, tous les âges et tous les goûts ! Maintenant qu'on sait qu'il y a théoriquement 8 milliards de prospects, il suffit de faire en sorte de pouvoir diffuser tout ça plus ou moins partout. Or, internet... niveau diffusion large et rapide, on a jamais fait plus efficace.
 
 Concrètement, on parle principalement des pays comme les USA, l'Europe, Chine/Corée (donc des pays suffisamment riches pour consommer), et la suite devient logique :
 

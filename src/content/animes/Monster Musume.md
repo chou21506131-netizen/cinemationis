@@ -24,6 +24,7 @@ videos:
   - 
 score_mal: 6.92
 mal_id: 30307
+date_modification: 2026-05-28
 ---
 
 ## Résumé
@@ -34,9 +35,9 @@ Dans ce monde, sirènes, centaures, harpies et autres créatures mythologiques e
 
 ## Commentaire
 
-Le tout premier animé que j'ai vu ! C'est limite un hentai, mais c'est le hasard qui veut ça. Je suis sincère. Vraiment. Enfin bref, un animé où l'absence totale de scénario est compensée par des scènes très légèrement connotées, environ toutes les 28,5 secondes.
+Le tout premier animé que j'ai vu ! C'est limite limite, mais c'est le hasard qui veut ça. Je suis sincère. Vraiment. Enfin bref, un animé où l'absence totale de scénario est compensée par des scènes très légèrement connotées, environ toutes les 28,5 secondes.
 
-On nous propose un peu d'humour, beaucoup de légèreté et surtout peu de tissu. Après c'est pas désagréable à regarder du tout, il faut simplement se débarrasser de son cerveau pour en profiter, de même que de son pantalon. J'ai rien d'autre à dire vu que l'étape d'après est interdite aux mineurs.
+On nous propose un peu d'humour, beaucoup de légèreté et surtout peu de tissu. Après c'est pas désagréable à regarder du tout, il faut simplement se débarrasser de son cerveau pour en profiter, de même que de son pantalon.
 
 Ah si ! La fille centaure est in-sup-por-ta-ble. Donc à toi fille centaure : décède s'il te plaît.
 

@@ -25,12 +25,12 @@ image: /images/animes/Cyberpunk_edgerunners.jpg
 date_ajout: 2026-05-17
 score_mal: 8.62
 mal_id: 42310
-date_modification: 2026-05-17
+date_modification: 2026-05-28
 ---
 
 ## Résumé
 
-David est un élève brillant. Admis à la prestigieuse académie de la toute puissante corporation Arasaka malgré les faibles revenus de sa mère, il semble pouvoir gravir les échelons et réussir sa vie. Malheureusement, tout bascule lorsque sa mère décède dans un accident de voiture. N'ayant plus les moyens de vivre, il décide de suivre Lucy, une jeune femme vivant de larcins. Très vite, il découvre que cette dernière fait partie d'un gang criminel que David est tenté de rejoindre.
+David est un élève brillant. Admis à la prestigieuse académie de la toute puissante corporation Arasaka malgré les faibles revenus de sa mère, il semble pouvoir gravir les échelons et réussir sa vie. Malheureusement, tout bascule lorsque sa mère décède dans un accident de voiture. N'ayant pas les moyens de vivre, il décide de suivre Lucy, une jeune femme vivant de larcins. Très vite, il découvre que cette dernière fait partie d'un gang criminel que David est tenté de rejoindre.
 
 ---
 

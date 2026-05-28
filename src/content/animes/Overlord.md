@@ -30,13 +30,13 @@ date_modification: 2026-05-28
 
 ## Résumé
 
-Yggdrasil, le MMORPG le plus populaire au Japon, annonce la fermeture de ses serveurs à minuit. Triste de voir ce monde virtuel s'éteindre, Momonga l'arpente une dernière et décide d'y rester jusqu'à la déconnexion. A sa grande surprise, rien ne se passe lorsque sonne minuit. En parcourant son château pour essayer de comprendre la situation, Momonga découvre que le jeu qu'il connaissait est devenu réalité.
+Yggdrasil, le MMORPG le plus populaire du Japon, annonce la fermeture de ses serveurs à minuit. Triste de voir ce monde virtuel s'éteindre, Momonga l'arpente une dernière et décide d'y rester jusqu'à la déconnexion. A sa grande surprise, rien ne se passe lorsque sonne minuit. En parcourant son château pour essayer de comprendre la situation, Momonga découvre que le jeu qu'il connaissait est devenu réalité.
 
 ---
 
 ## Commentaire
 
-### Saison 1-2-3-4
+### Saisons 1-2-3-4
 
 J'ai cru que la saison 2 allait me faire regretter d'avoir regardé cet animé, mais non ! En effet, je ne compte pas m'étendre dessus car je suis gentil, mais c'est clairement cette S2 le vilain petit canard du lot. Regardez-la quand même pour comprendre le reste parce que ça vaut le coup !
 
@@ -52,7 +52,7 @@ Un côté "complots entre humains" l'aurait rendu parfait mais nous avons déjà
 
 A noter que le film final de la fin qui clôt l'histoire n'est pas encore sorti. J'ai hâte de le voir !
 
-### Film I
+### Film 1
 
 J'ai regardé le film en me basant uniquement sur mes vagues souvenirs, et même comme ça c'est pas mal.
 

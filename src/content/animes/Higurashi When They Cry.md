@@ -23,8 +23,9 @@ image: "https://myanimelist.net/images/anime/12/19634l.jpg"
 date_ajout: 2025-03-08
 videos:
   - 
-score_mal: 7.48
+score_mal: 7.49
 mal_id: 934
+date_modification: 2026-05-28
 ---
 
 ## Résumé
