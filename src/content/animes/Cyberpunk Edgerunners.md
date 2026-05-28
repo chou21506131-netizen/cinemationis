@@ -42,7 +42,7 @@ Bon, le style cyberpunk c'est vraiment pas mon truc à la base, mais là j'ai r�
 
 On a même le droit à une poignée de passages un peu plus émotifs, ce qui me fait toujours plaisir. J'avoue que la fin (qui est un de ces passages) aurait mérité d'être un peu mieux traitée à mon sens pour qu'elle soit plus marquante que ça, mais ça reste correct. 
 
-En vrai, un animé honnête, qui va vite à voir (2 après-midis perso) et qui vaut le coup.
+En vrai, un animé honnête, qui va vite à voir (24h perso) et qui vaut le coup.
 
 Petite mention pour la musique [I Really Want to Stay at Your House](https://youtu.be/-__6jnfQ444) qui claque de fou, et qui aurait eu le pouvoir de m'arracher une larme si l'animé s'était un peu concentré sur la fin.
 

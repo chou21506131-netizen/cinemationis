@@ -43,7 +43,6 @@ Avant toute chose, je préfère vous avertir que je n'ai jamais pris aucun cours
 | Ganbatte !                                   | En gros, « donne tout/fonce ! ». Equivalent de l'expression ch'ti « saque ed'din ». J'ai pas trouvé de meilleure comparaison |
 | Gomen (nasai)                                | Une des 3 millions de façons de s'excuser                                                                                    |
 | Hayaku !                                     | « Vite ! »                                                                                                                   |
-| Hentai                                       | Je vous laisse le taper sur internet, mais vous avez l'habitude                                                              |
 | Honto (ni) ?                                 | Là aussi, plein de manières différentes pour dire la même chose : « vraiment ? »                                             |
 | Itadakimasu                                  | « Bon appétit », mais littéralement ça ne veut pas dire ça du tout                                                           |
 | Ka                                           | A ajouter à la fin d'une phrase interrogative mais n'a aucun sens. Un genre de point d'interrogation quoi                    |

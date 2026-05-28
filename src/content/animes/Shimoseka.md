@@ -34,7 +34,7 @@ La « Loi au maintien à l'ordre public et de la morale pour le développement d
 
 ## Commentaire
 
-On va clarifier les choses : ce n'est pas un hentai, même si tous les ingrédients sont réunis. Oui je sais c'est décevant. Bon, on trouve bien 2 ou 3 scènes un peu osées par-ci par-là, l'honneur est sauf. On regarde plutôt une bonne grosse comédie bien beauf, mais, il faut l'avouer, assez efficace pour peu que l'humour zizi vous plaise.
+On va clarifier les choses : ce n'est pas un h-e-n-t-a-i, même si tous les ingrédients sont réunis. Oui je sais c'est décevant. Bon, on trouve bien 2 ou 3 scènes un peu osées par-ci par-là, l'honneur est sauf. On regarde plutôt une bonne grosse comédie bien beauf, mais, il faut l'avouer, assez efficace pour peu que l'humour zizi vous plaise.
 
 L'histoire tourne autour d'actes terroristes prônant la liberté de placer les mots "bite" ou "chatte" dans des conversations, donc forcément l'humour tourne systématiquement en dessous de la ceinture. Mais malgré l'omniprésence de cette grivoiserie (anecdote : j'ai écrit ce mot au pifomètre et apparemment il existe) ça ne devient pas insupportable, et même l'histoire propose des situations assez intéressantes, notamment un genre de triangle amoureux un peu bizarre mais bienvenu.
 

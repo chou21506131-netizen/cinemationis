@@ -72,7 +72,7 @@ Peu importe le ton de l'animé, la fin vous  laissera sur votre séant.
 
 ### Ecchi
 
-Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un genre hmm... pas pour enfants. Attention, ce n'est pas un hentai (=porno) et il n'y a aucune scène de cul ! Mais disons que les situations, les chara designs et autres visuels laissent une place plus ou moins forte à la suggestion de la sexualité, ou à la romance niveau ++, sans jamais rien dévoiler. Désolé pour vous. Un certain nombres d'animés ont par exemple un côté ecchi, sans que cela soit le cœur du propos. On parle alors de fan service, ça donne bonne conscience.
+Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un genre hmm... pas pour enfants. Attention, ce n'est pas un truc pour majeurs et il n'y a aucune scène de... ! Mais disons que les situations, les chara designs et autres visuels laissent une place plus ou moins forte à la suggestion de la sexualité, ou à la romance niveau ++, sans jamais rien dévoiler. Désolé pour vous. Un certain nombres d'animés ont par exemple un côté ecchi, sans que cela soit le cœur du propos. On parle alors de fan service, ça donne bonne conscience.
 
 -   [[Gambling School]]
 
@@ -87,7 +87,7 @@ Même si je ne sais pas comment ça se prononce, les ecchi correspondent à un g
 
 ### Harem
 
-Les animés de type « harem » sont presque toujours des hentais ou des ecchis puisque qu'ils impliquent que plusieurs femmes/filles tournent autour du même homme (parfois l'inverse mais j'en connais pas). Ca va de la simple fréquentation à la partouze générale. En passant, les bons animés n'ont pas souvent d'aspect « harem ». Etrange, étrange...
+Les animés de type « harem » sont presque toujours des ecchis (ou pire) puisque qu'ils impliquent que plusieurs femmes/filles tournent autour du même homme (parfois l'inverse mais j'en connais pas). Ca va de la simple fréquentation à la partouze générale. En passant, les bons animés n'ont pas souvent d'aspect « harem ». Etrange, étrange...
 
 -   [[Monster Musume]]
 
@@ -114,12 +114,6 @@ Créatures, magie, sorcellerie et autres trucs bizarres sont courants dans les a
 -   [[Noragami]]
 
 -   [[Shinsekai Yori]]
-
-### Hentai
-
-Vous connaissez les pornos ? Vous connaissez les animés ? Mélangez les deux et vous obtenez les hentais. Je vous préviens, on trouve de tout ! Même [[La règle sur les mineures dans les hentaïs|des gosses]].
-
--   Personne ne saura jamais si j'en ai déjà vu ou non
 
 ### Historique
 
@@ -260,7 +254,7 @@ Nous voilà arrivés à l'avant dernier arrêt de notre voyage, un arrêt qui tr
 
 ### Yaoi/Yuri
 
-Pour finir, deux sous-genres que vous avez peut-être déjà croisés si vous êtes un être corrompu par les hentais. Le Yuri correspond aux animés montrant des relations sexuelles entre femmes ; le yaoi étant son équivalent avec des messieurs. Coquins !
+Pour finir, deux sous-genres que vous avez peut-être déjà croisés si vous êtes un être corrompu. Coquins !
 
 ## Mes recommandations selon les cibles
 

@@ -54,9 +54,9 @@ A noter que le film final de la fin qui clôt l'histoire n'est pas encore sorti.
 
 ### Film 1
 
-J'ai regardé le film en me basant uniquement sur mes vagues souvenirs, et même comme ça c'est pas mal.
+J'ai regardé le film en me basant uniquement sur mes vagues souvenirs, et malgré ça ça reste c'est pas mal.
 
-C'est toujours chill à regarder avec un mélange d'action et d'humour qui est ok, et même si je trouve qu'on aurait pu voir davantage les persos principaux du début de l'histoire je trouve pas de gros défaut. On est pas sur l'animé du siècle, mais ça reste un bon divertissement, surtout grâce au côté "méchant" des persos principaux (toute mesure gardée).
+C'est toujours chill à regarder avec un mélange d'action et d'humour qui est ok, et, même si je trouve qu'on aurait pu voir davantage les persos principaux du début de l'histoire, je trouve pas de gros défaut. On est pas sur l'animé du siècle, mais ça reste un bon divertissement, surtout grâce au côté "méchant" des persos principaux (toute mesure gardée).
 
 Par contre, c’est pas du tout la fin.
 

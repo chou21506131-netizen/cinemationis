@@ -35,7 +35,7 @@ Sphinge est un groupe terroriste redoutable. Ses membres, Nine et Twelve, pourta
 
 A chaque fois que je cherchais un nouvel animé à regarder je tombe sur celui-ci, fallait bien que je finisse par le voir. Il est très bien noté un peu partout et... je comprends pas trop pourquoi.
 
-Disons que c'est pas mal, mais qu'il n'y a absolument rien de particulier. Y a rien de mauvais hein, simplement je trouve que le rendu a un goût un peu fade. Il y a de bonnes idées mais qui ne sont pas forcément exploitées, et si le but était de faire passer un message je l'ai pas capté. La fin est pas trop trop mal, mais sans que ce soit à se rouler par terre non plus. 
+Disons que c'est pas mal, mais sans rien de particulier. Y a rien de mauvais hein, simplement je trouve que le rendu a un goût un peu fade. Il y a de bonnes idées mais qui ne sont pas forcément exploitées, et si le but était de faire passer un message je l'ai pas capté. La fin est pas trop trop mal, mais sans que ce soit à se rouler par terre non plus. 
 
 Enfin bref, je vais pas passer ma nuit là-dessus. Regardez le si vous voulez, il est pas nul pour autant.
 

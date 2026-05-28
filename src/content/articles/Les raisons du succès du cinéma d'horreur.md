@@ -48,7 +48,7 @@ Plus sérieusement, je tiens à préciser que je ne suis pas tout à fait convai
 
 ## Les raisons transgressives
 
-Un peu comme certains hentaïs constituent un moyen pour les détraqués sexuels d'évacuer (et j'insiste sur ce mot) leurs pulsions ([[La règle sur les mineures dans les hentaïs|un point abordé ici]]), les films d'horreur représenteraient pour les Hommes une façon d'assouvir des fantasmes interdits par la loi.
+Un peu comme certains hentaïs constituent un moyen pour les détraqués sexuels d'évacuer (et j'insiste sur ce mot) leurs pulsions ([[Devoir de mémoire|un point abordé ici]]), les films d'horreur représenteraient pour les Hommes une façon d'assouvir des fantasmes interdits par la loi.
 
 Vous avez toujours rêvé de vous défendre à coup de pelle contre des enfoirés de cambrioleurs ? Pas de problème, [[Intruders]] le fait pour vous, et ça vous fait du bien ! Plutôt que de partir vous-même outrepasser toutes les lois pour vous livrer à quelques actes immoraux, le cinéma (et l'art en général) vous libère de ces désirs en vous les présentant d'une manière relativement réaliste, à laquelle vous pouvez vous identifier.
 

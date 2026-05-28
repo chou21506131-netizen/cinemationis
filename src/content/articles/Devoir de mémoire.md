@@ -1,5 +1,5 @@
 ---
-titre: La règle sur les mineures dans les hentaïs
+titre: La règle sur les ⛏️ dans les animés (🍑)
 tags:
   - animés
   - culture

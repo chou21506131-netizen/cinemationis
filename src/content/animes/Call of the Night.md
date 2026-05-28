@@ -39,6 +39,6 @@ Les personnages sont sympas, ils évoluent de sorte à ce que ça reste intéres
 
 Ca reste un animé assez "random" parce qu'il n'a rien de révolutionnaire, mais pour quelqu'un qui cherche un machin qui se regarde sans trop se poser de questions c'est parfait.
 
-PS : avec [[Talentless Nana]] ça fait deux bonnes surprises, et ça c'est rare.
+PS : avec [[Talentless Nana]] ça fait deux bonnes surprises à la suite, et ça c'est rare.
 
 ---
