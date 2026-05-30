@@ -23,7 +23,7 @@ image: /images/animes/Call_of_the_night.jpg
 date_ajout: 2026-05-18
 score_mal: 8.15
 mal_id: 50346
-date_modification: 2026-05-28
+date_modification: 2026-05-30
 ---
 ## Résumé
 
@@ -37,7 +37,7 @@ Je m'attendais à rien, et je suis déçu parce que c'était bien sympa.
 
 Les personnages sont sympas, ils évoluent de sorte à ce que ça reste intéressant, l'équilibre entre le côté chill et les moments plus sérieux est bien dosé, les musiques sont cool... Bah voilà ! C'est un peu dommage de pas avoir de suite pour le moment, mais honnêtement c'est pas trop frustrant.
 
-Ca reste un animé assez "random" parce qu'il n'a rien de révolutionnaire, mais pour quelqu'un qui cherche un machin qui se regarde sans trop se poser de questions c'est parfait.
+Ca reste un animé assez "random", parce qu'il n'y a rien de révolutionnaire dedans, mais pour quelqu'un qui cherche un machin qui se regarde sans trop se poser de questions c'est parfait.
 
 PS : avec [[Talentless Nana]] ça fait deux bonnes surprises à la suite, et ça c'est rare.
 

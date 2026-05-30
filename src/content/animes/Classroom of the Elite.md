@@ -3,7 +3,7 @@ titre: Classroom of the Elite
 annee: 2017
 type: série
 saisons: 3
-episodes: 54
+episodes: 38
 films:
 note: 19/20
 recommandation: A voir
@@ -25,7 +25,7 @@ videos:
   - 
 score_mal: 7.97
 mal_id: 35507
-date_modification: 2026-05-28
+date_modification: 2026-05-30
 ---
 
 ## Résumé

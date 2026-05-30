@@ -22,7 +22,7 @@ image: /images/animes/Terror_in_resonance.jpg
 date_ajout: 2026-05-23
 score_mal: 8.08
 mal_id: 23283
-date_modification: 2026-05-28
+date_modification: 2026-05-30
 ---
 
 ## Résumé
@@ -37,6 +37,6 @@ A chaque fois que je cherchais un nouvel animé à regarder je tombe sur celui-c
 
 Disons que c'est pas mal, mais sans rien de particulier. Y a rien de mauvais hein, simplement je trouve que le rendu a un goût un peu fade. Il y a de bonnes idées mais qui ne sont pas forcément exploitées, et si le but était de faire passer un message je l'ai pas capté. La fin est pas trop trop mal, mais sans que ce soit à se rouler par terre non plus. 
 
-Enfin bref, je vais pas passer ma nuit là-dessus. Regardez le si vous voulez, il est pas nul pour autant.
+Enfin bref, je vais pas passer ma nuit dessus. Regardez le si vous voulez, il est pas nul pour autant.
 
 ---

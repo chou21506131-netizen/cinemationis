@@ -147,7 +147,12 @@ async function main() {
 
     if (!animeData) {
       console.log(`  ⚠️ ${titre} : impossible de récupérer les détails MAL`);
-      if (changed) {
+      if (changed && newRaw !== parsed.raw) {
+        // PROTECTION : préserver date_modification avant d'écrire
+        const originalDateMod = getFrontmatterValue(parsed.raw, 'date_modification');
+        if (originalDateMod) {
+          newRaw = setFrontmatterValue(newRaw, 'date_modification', originalDateMod);
+        }
         const newContent = `---\n${newRaw}\n---${parsed.body}`;
         fs.writeFileSync(filePath, newContent, 'utf-8');
         updated++;
@@ -176,9 +181,6 @@ async function main() {
 
     // Remplir realisateur si vide
     if (isEmpty(getFrontmatterValue(newRaw, 'realisateur'))) {
-      // Chercher le réalisateur dans les staff (pas dans /full, on prend le Director)
-      const directors = (animeData.studios || []).length > 0 ? null : null; // placeholder
-      // L'API full ne donne pas le staff directement, on essaie avec /staff
       await sleep(DELAY);
       const staffData = await fetchJSON(`${JIKAN_BASE}/anime/${malId}/staff`);
       if (staffData?.data) {
@@ -206,7 +208,6 @@ async function main() {
     const currentStudios = getFrontmatterArray(newRaw, 'studios');
     if (currentStudios.length === 0 && animeData.studios?.length > 0) {
       const studioNames = animeData.studios.map(s => s.name);
-      // Remplacer la ligne studios vide
       const studioYaml = 'studios:\n' + studioNames.map(s => `  - ${s}`).join('\n');
       newRaw = newRaw.replace(/^studios:\s*\n(  - \s*\n)?/m, studioYaml + '\n');
       changed = true;
@@ -225,7 +226,14 @@ async function main() {
       changed = true;
     }
 
-    if (changed) {
+    // PROTECTION 1 : préserver date_modification — ce script ne doit jamais la modifier
+    const originalDateMod = getFrontmatterValue(parsed.raw, 'date_modification');
+    if (originalDateMod) {
+      newRaw = setFrontmatterValue(newRaw, 'date_modification', originalDateMod);
+    }
+
+    // PROTECTION 2 : n'écrire sur le disque que si le contenu a réellement changé
+    if (changed && newRaw !== parsed.raw) {
       const newContent = `---\n${newRaw}\n---${parsed.body}`;
       fs.writeFileSync(filePath, newContent, 'utf-8');
       updated++;

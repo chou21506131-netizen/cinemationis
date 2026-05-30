@@ -25,7 +25,7 @@ videos:
   - 
 score_mal: 7.91
 mal_id: 29803
-date_modification: 2026-05-28
+date_modification: 2026-05-30
 ---
 
 ## Résumé
@@ -38,9 +38,9 @@ Yggdrasil, le MMORPG le plus populaire du Japon, annonce la fermeture de ses ser
 
 ### Saisons 1-2-3-4
 
-J'ai cru que la saison 2 allait me faire regretter d'avoir regardé cet animé, mais non ! En effet, je ne compte pas m'étendre dessus car je suis gentil, mais c'est clairement cette S2 le vilain petit canard du lot. Regardez-la quand même pour comprendre le reste parce que ça vaut le coup !
+J'ai cru que la saison 2 allait me faire regretter d'avoir regardé cet animé, mais non. En effet, je ne compte pas m'étendre dessus car je suis gentil, mais c'est clairement cette S2 le vilain petit canard du lot. Regardez-la quand même pour comprendre le reste parce que ça vaut le coup !
 
-Pour une fois, on suit le méchant complètement over crack broken et parfaitement imbattable qui dézingue les gentils ! Même s'il a une tronche de squelette made in Satan on commence par nous montrer que c'est plutôt un bon gars... jusqu'à la fin de la saison 2 environ..
+Pour une fois, on suit le méchant complètement over crack broken et parfaitement imbattable qui dézingue les gentils ! Même s'il a une tronche de squelette made in Satan on commence par nous montrer que c'est plutôt un bon gars... jusqu'à la fin de la saison 2 environ.
 
 Après ça il, passe du Côté Obscur et RIP le monde des héros. Alors si vous cherchez enfin une œuvre de fiction où les héros prennent tarif, vous ne trouverez pas mieux ! Et j'insiste : y a du macchabée en puissance, surtout vers la fin. Au-delà de ça, le scénario part sur une conquête du monde en bonne et due forme avec des arcs secondaires plutôt sympa proposés de temps en temps.
 

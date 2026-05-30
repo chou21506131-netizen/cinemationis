@@ -25,7 +25,7 @@ image: /images/animes/Cyberpunk_edgerunners.jpg
 date_ajout: 2026-05-17
 score_mal: 8.62
 mal_id: 42310
-date_modification: 2026-05-28
+date_modification: 2026-05-30
 ---
 
 ## Résumé
@@ -38,9 +38,9 @@ David est un élève brillant. Admis à la prestigieuse académie de la toute pu
 
 On continue les bons animés après [[Talentless Nana]] et [[Call of the Night]] ! 
 
-Bon, le style cyberpunk c'est vraiment pas mon truc à la base, mais là j'ai réussi à vite me mettre dedans, et ça m'arrange parce que ça m'a permis de bien profiter de l'œuvre. C'est court, bien rythmé, avec des évolutions intéressantes, un peu de tétés, beaucoup d'action et de démembrements en tout genre, avec une histoire qui tient la route.
+Bon, le style cyberpunk c'est vraiment pas du tout mon truc à la base, mais là j'ai réussi à vite me mettre dedans, et ça m'arrange parce que ça m'a permis de bien profiter de l'œuvre. C'est court, bien rythmé, avec des évolutions intéressantes, un peu de tétés, beaucoup d'action et de démembrements en tout genre, avec une histoire qui tient la route.
 
-On a même le droit à une poignée de passages un peu plus émotifs, ce qui me fait toujours plaisir. J'avoue que la fin (qui est un de ces passages) aurait mérité d'être un peu mieux traitée à mon sens pour qu'elle soit plus marquante que ça, mais ça reste correct. 
+On a même le droit à une (petite) poignée de passages un peu plus émotifs, ce qui me fait toujours plaisir. J'avoue que la fin (qui est un de ces passages) aurait mérité d'être un peu mieux traitée à mon sens pour qu'elle soit plus marquante que ça, mais ça reste correct. 
 
 En vrai, un animé honnête, qui va vite à voir (24h perso) et qui vaut le coup.
 
