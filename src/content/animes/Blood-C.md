@@ -23,7 +23,7 @@ image: https://myanimelist.net/images/anime/1691/140716l.jpg
 date_ajout: 2024-11-09
 videos:
   - 
-score_mal: 6.82
+score_mal: 6.81
 mal_id: 10490
 date_modification: 2026-05-17
 ---

@@ -24,7 +24,7 @@ image: /images/animes/The_civilization_blaster.jpg
 date_ajout: 2025-03-22
 videos:
   - 
-score_mal: 7.89
+score_mal: 7.88
 mal_id: 14075
 date_modification: 2026-04-13
 ---

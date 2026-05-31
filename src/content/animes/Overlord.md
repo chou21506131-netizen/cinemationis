@@ -25,7 +25,7 @@ videos:
   - 
 score_mal: 7.91
 mal_id: 29803
-date_modification: 2026-05-30
+date_modification: 2026-05-31
 ---
 
 ## Résumé
@@ -44,7 +44,7 @@ Pour une fois, on suit le méchant complètement over crack broken et parfaiteme
 
 Après ça il, passe du Côté Obscur et RIP le monde des héros. Alors si vous cherchez enfin une œuvre de fiction où les héros prennent tarif, vous ne trouverez pas mieux ! Et j'insiste : y a du macchabée en puissance, surtout vers la fin. Au-delà de ça, le scénario part sur une conquête du monde en bonne et due forme avec des arcs secondaires plutôt sympa proposés de temps en temps.
 
-On change souvent de personnages pour voir le point de vue de tous les camps et/ou personnages, ce qui est assez rare pour le mentionner, et personnellement j'aime beaucoup ça. Tout s'enchaîne avec une absence totale de lourdeurs, que ce soit au niveau des personnages, de la romance (y en a pas, ne cherchez pas), de l'humour ou autre et le rythme est bien eu... rythmé, du coup ?
+On change souvent de personnages pour voir le point de vue de tous les camps et/ou personnages, ce qui est assez rare pour le mentionner, et, personnellement, j'aime beaucoup ça. Tout s'enchaîne avec une absence totale de lourdeurs, que ce soit au niveau des personnages, de la romance (y en a pas, ne cherchez pas), de l'humour ou autre et le rythme est bien eu... rythmé, du coup ?
 
 La musique colle bien et les combats (même s'ils ne sont pas si nombreux que ça) sont bien foutus avec une pointe de 3D qui pète bien comme il faut. Je parle que de quelques points sans trop détailler mais pour faire simple c'est un très bon animé isekai/médiéval.
 
