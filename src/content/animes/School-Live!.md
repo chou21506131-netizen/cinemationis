@@ -25,7 +25,7 @@ image: https://myanimelist.net/images/anime/6/80039l.jpg
 date_ajout: 2025-04-24
 videos:
   - 
-score_mal: 7.62
+score_mal: 7.61
 mal_id: 24765
 date_modification: 2026-05-17
 ---

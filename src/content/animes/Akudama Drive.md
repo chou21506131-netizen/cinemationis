@@ -22,7 +22,7 @@ image: "https://myanimelist.net/images/anime/1468/109172l.jpg"
 date_ajout: 2025-07-20
 videos:
   - 
-score_mal: 7.57
+score_mal: 7.56
 mal_id: 41433
 ---
 

@@ -24,7 +24,7 @@ image: "https://myanimelist.net/images/anime/1314/142015l.jpg"
 date_ajout: 2023-01-10
 videos:
   - 
-score_mal: 7.63
+score_mal: 7.62
 mal_id: 13601
 date_modification: 2026-05-28
 ---

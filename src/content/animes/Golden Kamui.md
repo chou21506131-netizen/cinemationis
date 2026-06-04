@@ -23,9 +23,9 @@ image: https://myanimelist.net/images/anime/1145/90880l.jpg
 date_ajout: 2024-10-14
 videos:
   - 
-score_mal: 8.23
+score_mal: 8.22
 mal_id: 36028
-date_modification: 2026-05-15
+date_modification: 2026-06-04
 ---
 
 ## Résumé
@@ -36,6 +36,8 @@ Sugimoto est devenu une légende vivante de la guerre russo-japonaise. Mais lors
 
 ## Commentaire
 
+### Saisons 1-4
+
 Et c'est un coup de coeur pour cet animé même si tout n'est pas parfait ! On suit une véritable aventure comme c'est rarement le cas dans une oeuvre (selon moi). On passe par toutes les étapes d'un véritable périple : la rencontre des protagonistes, la création de l'équipe, les dangers, les morts, les trahisons, les rebondissements...
 
 L'intrigue est plutôt intéressante à suivre même si on s'en écarte un peu (trop) par moments. C'est d'ailleurs le seul véritable petit point noir de l'animé car tout le reste vaut le coup, surtout au niveau de l'ambiance. Là on est véritablement plongé dans la culture et le mode de vie Aïnou (le peuple dont sont issus certains personnages principaux) avec les traditions ancestrales, les rituels et même la façon d'appeler les éléments naturels.
@@ -44,7 +46,15 @@ Je suis allé vérifier si ce qui était raconté était pas du bullshit et ben 
 
 A noter qu'il y a pour ainsi dire pas de romance, ce qui est assez rare pour le noter. Pour info, au moment où j'écris ça on en est à 4 saisons et la dernière est en cours de création, soit une soixantaine d'épisodes au total, mais qui se regardent ultra facilement !
 
-Hâte de voir comme ça se conclut. Ps : certaines scènes sont classées dans la catégorie "à ne pas voir en famille" et je les qualifie personnellement de "sorties du cul". Vous voilà prévenus.
+Hâte de voir comme ça se conclut.
+
+PS : certaines scènes sont classées dans la catégorie "à ne pas voir en famille" et je les qualifie personnellement de "sorties du cul". Vous voilà prévenus.
+
+### Saison 5
+
+Dernière saison avant le film final et continue sur du qualitatif. C'est juste la continuité de l'histoire, et je suis content de voir qu'elle avance vers son dénouement, pas comme les animés qui traînent en longueur histoire de continuer à vendre et qui savent pas où ils vont (n'est-ce pas [[Spy x Family]] ?).
+
+J'espère qu'il y aura quand même une bonne fin, avec des pitits chamboulements ou je sais pas trop comment dire. Que ça pète un peu quoi, que ça ait de la gueule.
 
 ---
 

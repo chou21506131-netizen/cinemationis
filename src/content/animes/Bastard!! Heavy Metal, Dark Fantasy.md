@@ -22,7 +22,7 @@ image: /images/animes/Bastard_heavy_metal_dark_fantasy.jpg
 date_ajout: 2022-07-23
 videos:
   - 
-score_mal: 6.83
+score_mal: 6.68
 mal_id: 54141
 date_modification: 2026-05-17
 ---

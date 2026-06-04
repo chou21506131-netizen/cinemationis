@@ -23,7 +23,7 @@ image: "https://myanimelist.net/images/anime/11/79531l.jpg"
 date_ajout: 2024-08-09
 videos:
   - 
-score_mal: 7.63
+score_mal: 7.62
 mal_id: 31764
 ---
 

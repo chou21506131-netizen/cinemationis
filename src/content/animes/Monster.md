@@ -21,7 +21,7 @@ image: "https://myanimelist.net/images/anime/10/18793l.jpg"
 date_ajout: 2025-08-16
 videos:
   - 
-score_mal: 8.9
+score_mal: 8.89
 mal_id: 19
 date_modification: 2026-05-28
 ---

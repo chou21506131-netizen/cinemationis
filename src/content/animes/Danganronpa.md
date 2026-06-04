@@ -24,7 +24,7 @@ image: "https://myanimelist.net/images/anime/4/51463l.jpg"
 date_ajout: 2022-03-16
 videos:
   - 
-score_mal: 7.22
+score_mal: 7.21
 mal_id: 16592
 ---
 

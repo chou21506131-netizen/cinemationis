@@ -21,7 +21,7 @@ realisateur: Shinji Takamatsu
 resume_court: ""
 image: https://myanimelist.net/images/anime/4/79468.jpg
 date_ajout: 2025-04-08
-score_mal: 7.54
+score_mal: 7.53
 mal_id: 32542
 ---
 

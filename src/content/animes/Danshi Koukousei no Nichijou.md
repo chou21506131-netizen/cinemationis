@@ -20,7 +20,7 @@ image: "https://myanimelist.net/images/anime/3/33257l.jpg"
 date_ajout: 2022-03-24
 videos:
   - 
-score_mal: 8.23
+score_mal: 8.22
 mal_id: 11843
 ---
 

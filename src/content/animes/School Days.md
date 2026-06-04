@@ -25,7 +25,7 @@ image: "https://myanimelist.net/images/anime/1593/122440l.jpg"
 date_ajout: 2022-02-24
 videos:
   - 
-score_mal: 5.51
+score_mal: 5.5
 mal_id: 2476
 ---
 

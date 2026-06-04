@@ -22,7 +22,7 @@ realisateur: Hiroyuki Imaishi
 resume_court: ""
 image: https://myanimelist.net/images/anime/4/5123.jpg
 date_ajout: 2024-11-16
-score_mal: 8.65
+score_mal: 8.64
 mal_id: 2001
 date_modification: 2026-05-28
 ---
