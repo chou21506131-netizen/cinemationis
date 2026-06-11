@@ -52,6 +52,7 @@ const sameStudio = d.studios?.length > 0
         {d.studios?.length > 0 && <p class="meta-line"><strong>Studio :</strong> {d.studios.join(', ')}</p>}
         {d.realisateur && <p class="meta-line"><strong>Réalisateur :</strong> {d.realisateur}</p>}
         <p class="meta-line"><strong>Recommandation :</strong> {d.recommandation}</p>
+        <p class="meta-line"><strong>Mis à jour le :</strong> {(d.date_modification ?? d.date_ajout)?.toLocaleDateString('fr-FR')}</p>
         <div class="genres">
           {d.genres.map(g => <a href={`/animes?genre=${g}`} class="tag">{g}</a>)}
         </div>

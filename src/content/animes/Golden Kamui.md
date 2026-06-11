@@ -25,7 +25,7 @@ videos:
   - 
 score_mal: 8.22
 mal_id: 36028
-date_modification: 2026-06-04
+date_modification: 2026-06-11
 ---
 
 ## Résumé
@@ -52,7 +52,7 @@ PS : certaines scènes sont classées dans la catégorie "à ne pas voir en fami
 
 ### Saison 5
 
-Dernière saison avant le film final et continue sur du qualitatif. C'est juste la continuité de l'histoire, et je suis content de voir qu'elle avance vers son dénouement, pas comme les animés qui traînent en longueur histoire de continuer à vendre et qui savent pas où ils vont (n'est-ce pas [[Spy x Family]] ?).
+Dernière saison avant le film final et on continue sur du qualitatif. C'est juste la continuité de l'histoire, et je suis content de voir qu'elle avance vers son dénouement, pas comme les animés qui traînent en longueur histoire de continuer à vendre et qui savent pas où ils vont (n'est-ce pas [[Spy x Family]] ?).
 
 J'espère qu'il y aura quand même une bonne fin, avec des pitits chamboulements ou je sais pas trop comment dire. Que ça pète un peu quoi, que ça ait de la gueule.
 
