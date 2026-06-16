@@ -23,7 +23,7 @@ image: https://myanimelist.net/images/anime/5/86830l.jpg
 date_ajout: 2023-05-19
 videos:
   - 
-score_mal: 7.82
+score_mal: 7.95
 mal_id: 35507
 date_modification: 2026-05-30
 ---

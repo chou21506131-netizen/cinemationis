@@ -23,7 +23,7 @@ image: https://myanimelist.net/images/anime/1314/108941l.jpg
 date_ajout: 2024-08-18
 videos:
   - 
-score_mal: 8.37
+score_mal: 8.47
 mal_id: 30
 ---
 

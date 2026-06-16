@@ -22,7 +22,7 @@ image: "https://myanimelist.net/images/anime/3/50177l.jpg"
 date_ajout: 2023-04-08
 videos:
   - 
-score_mal: 7.7
+score_mal: 7.01
 mal_id: 15809
 ---
 

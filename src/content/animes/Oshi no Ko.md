@@ -21,7 +21,7 @@ image: https://myanimelist.net/images/anime/1812/134736l.jpg
 date_ajout: 2023-07-08
 videos:
   - https://www.youtube.com/watch?v=PgBvV9ofjmA
-score_mal: 8.53
+score_mal: 8.58
 mal_id: 52034
 date_modification: 2026-05-17
 ---

@@ -182,8 +182,11 @@ function hasOnlyTechnicalChanges(relPath) {
     const currentParsed = parseFrontmatter(currentContent);
     if (!headParsed || !currentParsed) return false;
 
-    // Uniquement le corps (résumé + commentaire) déclenche date_modification
-    return headParsed.body === currentParsed.body;
+    // Normaliser les fins de ligne avant comparaison (CRLF → LF)
+    const headBody = headParsed.body.replace(/\r\n/g, '\n');
+    const currentBody = currentParsed.body.replace(/\r\n/g, '\n');
+
+    return headBody === currentBody;
   } catch {
     return false;
   }
