@@ -224,7 +224,8 @@ function parseNote(note: string): number {
 
   function renderPagination(totalPages: number) {
     if (totalPages <= 1) { paginationEl.innerHTML = ''; return; }
-    let html = `<button data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>&laquo;</button>`;
+    let html = `<button data-page="first" ${currentPage === 1 ? 'disabled' : ''}>&laquo;</button>`;
+html += `<button data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>&lsaquo;</button>`;
     for (let i = 1; i <= totalPages; i++) {
       if (totalPages > 7 && i > 2 && i < totalPages - 1 && Math.abs(i - currentPage) > 1) {
         if (i === 3 || i === totalPages - 2) html += `<span class="pagination-dots">...</span>`;
@@ -238,7 +239,10 @@ function parseNote(note: string): number {
     paginationEl.querySelectorAll('button').forEach(btn => {
       btn.addEventListener('click', () => {
         const p = btn.dataset.page;
-        if (p === 'prev') currentPage--;
+        if (p === 'first') currentPage = 1;
+else if (p === 'prev') currentPage--;
+else if (p === 'next') currentPage++;
+else if (p === 'last') currentPage = totalPages;
         else if (p === 'next') currentPage++;
         else currentPage = parseInt(p!);
         filterAndSort();

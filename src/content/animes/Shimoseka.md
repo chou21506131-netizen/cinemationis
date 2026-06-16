@@ -21,7 +21,7 @@ image: "https://myanimelist.net/images/anime/6/75106l.jpg"
 date_ajout: 2022-02-20
 videos:
   - 
-score_mal: 7.21
+score_mal: 7.2
 mal_id: 29786
 date_modification: 2026-05-28
 ---
