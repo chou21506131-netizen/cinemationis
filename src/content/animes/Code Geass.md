@@ -23,7 +23,7 @@ image: /images/animes/Code_geass.jpg
 date_ajout: 2022-02-12
 videos:
   - https://www.youtube.com/watch?v=s9wsRRlTL3s
-score_mal: 8.82
+score_mal: 8.71
 mal_id: 1575
 date_modification: 2026-04-13
 ---

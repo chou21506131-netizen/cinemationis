@@ -19,7 +19,7 @@ realisateur: Taichi Ishidate
 resume_court: Après la guerre, une jeune fille se reconvertit dans le domaine postal.
 image: https://myanimelist.net/images/anime/1795/95088l.jpg
 date_ajout: 2022-02-14
-score_mal: 8.76
+score_mal: 8.69
 mal_id: 33352
 ---
 

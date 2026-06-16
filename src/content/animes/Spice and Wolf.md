@@ -20,8 +20,9 @@ realisateur: Takeo Takahashi
 resume_court: Un marchand ambulant découvre une déesse mi-femme mi-loup cachée dans sa charrette.
 image: https://myanimelist.net/images/anime/5/59401l.jpg
 date_ajout: 2022-02-25
-score_mal: 8.12
+score_mal: 8.21
 mal_id: 2966
+date_modification: 2026-06-16
 ---
 
 ## Résumé

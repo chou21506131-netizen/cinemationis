@@ -21,7 +21,7 @@ image: /images/animes/Assassination_classroom.jpg
 date_ajout: 2022-02-16
 videos:
   - 
-score_mal: 7.99
+score_mal: 8.07
 mal_id: 24833
 date_modification: 2026-04-18
 ---

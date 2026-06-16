@@ -22,7 +22,7 @@ resume_court: "Suite à la mort de sa mère, un enfant virtuose du piano arrête
 image: "https://myanimelist.net/images/anime/1405/143284l.jpg"
 date_ajout: 2022-02-13
 videos: []
-score_mal: 8.17
+score_mal: 8.64
 mal_id: 23273
 ---
 

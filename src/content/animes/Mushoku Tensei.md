@@ -24,8 +24,9 @@ resume_court: Après s'être fait écraser par un camion, un homme se réincarne
 image: https://myanimelist.net/images/anime/1530/117776l.jpg
 date_ajout: 2024-02-15
 videos: []
-score_mal: 8.38
+score_mal: 8.33
 mal_id: 39535
+date_modification: 2026-06-16
 ---
 
 ## Résumé

@@ -233,7 +233,8 @@ html += `<button data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>&lsaquo
       }
       html += `<button data-page="${i}" class="${i === currentPage ? 'active' : ''}">${i}</button>`;
     }
-    html += `<button data-page="next" ${currentPage === totalPages ? 'disabled' : ''}>&raquo;</button>`;
+    html += `<button data-page="next" ${currentPage === totalPages ? 'disabled' : ''}>&rsaquo;</button>`;
+html += `<button data-page="last" ${currentPage === totalPages ? 'disabled' : ''}>&raquo;</button>`;
     paginationEl.innerHTML = html;
 
     paginationEl.querySelectorAll('button').forEach(btn => {

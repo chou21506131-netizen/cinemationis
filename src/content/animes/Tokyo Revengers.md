@@ -21,7 +21,7 @@ image: https://myanimelist.net/images/anime/1839/122012l.jpg
 date_ajout: 2022-12-05
 videos:
   - 
-score_mal: 7.75
+score_mal: 7.81
 mal_id: 42249
 raquequit: oui
 ---
