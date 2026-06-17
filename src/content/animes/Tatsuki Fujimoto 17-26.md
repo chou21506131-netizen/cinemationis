@@ -5,7 +5,7 @@ annee: 2025
 type: série
 saisons: 1
 episodes: 8
-films: -1
+films:
 note: 17/20
 recommandation: A voir
 statut: Terminé
@@ -31,7 +31,7 @@ image: /images/animes/Fujimoto_tatsuki_17_26.jpg
 date_ajout: 2026-06-14
 score_mal: 8.05
 mal_id: 62405
-date_modification: 2026-06-16
+date_modification: 2026-06-17
 ---
 
 ## Résumé
@@ -50,6 +50,6 @@ Le fait qu'on balaye quand même pas mal de thématiques amoureuses (amour frate
 
 Loin de moi de remuer le couteau dans la plaie, mais quand on passe de [[Wistoria Wand and Sword]] à ça, la comparaison est vite fait. Oui, je sais : "c'est pas le même genre, ni le même public gna gna gna"... ferme-la. Définitivement.
 
-PS : j'ai mis tous les studios ayant participé mais pas tous les réalisateurs. J'en ai pris un au pif, parce que voilà.
+PS : j'ai mis tous les studios ayant participé mais pas tous les réalisateurs. J'en ai pris un au pif parce que voilà.
 
 ---
