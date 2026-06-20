@@ -2,8 +2,8 @@
 titre: "Magia Record: Puella Magi Madoka Magica Side Story"
 annee: 2020
 type: série
-saisons: 1
-episodes: 12
+saisons: 3
+episodes: 24
 films:
 note: 14/20
 recommandation: Bof
@@ -26,7 +26,7 @@ videos:
   - 
 score_mal: 6.95
 mal_id: 38256
-date_modification: 2026-06-17
+date_modification: 2026-06-20
 ---
 
 ## Résumé
@@ -48,6 +48,18 @@ Le scénario n'est pas à la hauteur de celui de la grande sœur non plus, bien 
 Il parait qu'il va y avoir une saison 2, à check mais pas trop quand même.
 
 ### Saisons 2 - 3
+
+Que dire que dire...
+
+Ca serait malhonnête de dire que la série est mauvaise, mais ça me piquerait de dire qu'elle est bonne. Ca reste pas incroyable, mais 24 épisodes pour 3 saisons, avec quelques passages intéressants, c'est ok.
+
+On est d'accord que l'anime n'a pas trop de raison d'exister, mais on peut y trouver son compte pour peu qu'on apprécie l'univers : la présence bien dosée des persos principaux de la série originale, des clins d'oeil à l'histoire initiale assez sympas, quelques personnages plutôt intéressants et des musiques honnêtes.
+
+Par contre : l'histoire est plus ou moins bidon, beaucoup de personnages sont cuculs et/ou très cons, et on ne retrouve absolument pas le rythme posé/mystérieux/tragique/psychologique qui m'a tant plu dans l'originale, ou alors c'est mal fait. 
+
+Pour mettre tout le monde d'accord, qualifions cette série de "bonus pour ceux qui apprécient PMMM sans que son visionnage n'apporte grand-chose". 
+
+Affaire classée.
 
 ---
 
