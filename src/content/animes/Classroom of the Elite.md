@@ -2,10 +2,10 @@
 titre: Classroom of the Elite
 annee: 2017
 type: série
-saisons: 3
-episodes: 38
+saisons: 4
+episodes: 54
 films:
-note: 19/20
+note: 19,5/20
 recommandation: A voir
 statut: En cours
 suite:
@@ -25,7 +25,7 @@ videos:
   - 
 score_mal: 7.95
 mal_id: 35507
-date_modification: 2026-05-30
+date_modification: 2026-06-24
 ---
 
 ## Résumé
@@ -55,6 +55,24 @@ Etant donné que je le mets direct dans mon top 3 de mes animés préférés, je
 Bouhouhoooouuu c'est quoi cette saison 3 mollasse comme tout ?! On a l'impression que c'était juste une préparation de la saison 4 avec des ch'tites billes placées à droite à gauche.
 
 Pas de plot twists à se mettre sous la dent à part une ou deux déclarations un peu stylées... Bon, je suis full hypé pour la suite alors vous allez me faire le plaisir de vos secouer les rognons et la sortir rapido !
+
+### Saison 4
+
+J'ai des choses à dire sur toi mon coco !
+
+J'ai cru comprendre que le réalisateur (ou le directeur je sais pas) n'était plus le même et... ça se voit. Au niveau des graphismes on est sur un style légèrement différemment dont je suis pas ultra fan, mais mettons. C'est juste un choix, c'est pas moche. 
+
+Au niveau du rythme, pareil : changement de plan. On passe d'une alternance préparation-épreuve-préparation-épreuve... à préparation-épreuve. Pourquoi pas ? Bon, si l'idée se défend, j'avoue que la majeure partie de la saison c'est surtout du dialogue. Moi je m'en fous, j'aime bien comment ils sont foutus, mais c'est vrai qu'il aurait fallu y avoir plus de punch au moment de l'épreuve. Là, y en a, mais pas assez pour compenser les phases où les persos s'occupent de leurs plans. C'est un peu dommage, mais... 
+
+Déjà, il commence à y avoir pas mal de personnages qu'on suit régulièrement. J'ai pas compté, mais je pense que je peux atteindre les 10 facilement, voire 15 si j'ajoute ceux un peu plus secondaires. C'est énorme. Et malgré une saison de 16 épisodes contre une douzaine habituellement, ben on passe moins de temps par tête. Logique. Dans les nouveaux venus y en a qui sont assez intéressants, voire vraiment cool, à suivre, mais y a aussi du plutôt random dont on se fout un peu. A côté de ça, les relations entre les personnages du tout début de l'animé ont été mises en retrait et progressent pas du tout pour la plupart.
+
+Pour l'instant, on se demande où est la qualité dans tout ça. C'est simple : le perso principal est une putain de tuerie. Et durant cette saison, tous les autres persos convergent vers lui pour une raison ou une autre, ce qui concentre l'attention sur son histoire à lui uniquement, et ça c'est trop bien. Le personnage évolue pour pas qu'on se fasse chier, sans pour autant changer ce qui nous le fait aimer. D'ailleurs, ça me dérange un peu qu'il soit aussi stylé, parce que je viens d'écrire mon article pour déterminer [[Makima vs Akemi Homura, duel pour la première place|quel était mon perso favori]], et ben je peux recommencer. La mise à jour viendra bientôt.
+
+Et j'ai gardé le meilleur pour la fin. Le perso principal est stylé, l'histoire est cool, l'intrigue intéressante... MAIS L'EPISODE 15 !!!! Je veux et vais être bref sur cet épisode : il s'agit du meilleur épisode que j'ai jamais vu. Il m'a tout retourné ce con. Bon, le 16<sup>ème</sup> et dernier pue la vieille bouse, mais le 15... C'est incroyable.
+
+S'il vous plaît, tous les messieurs et madames qui, d'une façon ou d'une autre, participent à la création de cet animé : finissez-le, je vous en supplie.
+
+PS : je te monte à 19,5 (en tout bien tout honneur), ne me déçois pas.
 
 ---
 
