@@ -23,7 +23,7 @@ image: https://myanimelist.net/images/anime/11/61039l.jpg
 date_ajout: 2023-06-24
 videos:
   - 
-score_mal: 7.14
+score_mal: 7.16
 mal_id: 20785
 raquequit: oui
 ---
