@@ -21,7 +21,7 @@ resume_court: Une enfant devient une apprentie sorcière après avoir accidentel
 image: /images/animes/L_atelier_des_sorciers.jpg
 date_ajout: 2026-07-02
 score_mal: 8.56
-mal_id: 51552
+mal_id: 51553
 date_modification: 2026-07-02
 ---
 

@@ -29,7 +29,7 @@ realisateur: Nagaya Seishiro
 resume_court: 8 histoires courtes sur le thème de l'amour.
 image: /images/animes/Fujimoto_tatsuki_17_26.jpg
 date_ajout: 2026-06-14
-score_mal: 8.05
+score_mal: 8.04
 mal_id: 62405
 date_modification: 2026-06-17
 ---

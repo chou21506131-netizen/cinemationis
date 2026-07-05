@@ -23,7 +23,7 @@ resume_court: Une collégienne est approchée par un être mystérieux lui deman
 image: https://myanimelist.net/images/anime/11/55225l.jpg
 date_ajout: 2022-02-12
 videos: []
-score_mal: 8.37
+score_mal: 8.38
 mal_id: 9756
 date_modification: 2026-05-17
 ---

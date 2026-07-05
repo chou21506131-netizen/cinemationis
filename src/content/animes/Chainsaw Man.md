@@ -24,7 +24,7 @@ image: https://myanimelist.net/images/anime/1806/126216l.jpg
 date_ajout: 2023-03-02
 videos:
   - 
-score_mal: 8.75
+score_mal: 8.74
 mal_id: 44511
 date_modification: 2026-05-15
 ---
