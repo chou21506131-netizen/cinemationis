@@ -22,7 +22,7 @@ image: /images/animes/Arknights.jpg
 date_ajout: 2024-09-15
 videos:
   - 
-score_mal: 7.5
+score_mal: 7.08
 mal_id: 50205
 date_modification: 2026-05-15
 ---

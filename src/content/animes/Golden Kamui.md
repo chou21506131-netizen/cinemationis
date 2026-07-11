@@ -23,7 +23,7 @@ image: https://myanimelist.net/images/anime/1145/90880l.jpg
 date_ajout: 2024-10-14
 videos:
   - 
-score_mal: 8.22
+score_mal: 7.89
 mal_id: 36028
 date_modification: 2026-06-11
 ---
