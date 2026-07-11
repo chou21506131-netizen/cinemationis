@@ -23,7 +23,7 @@ resume_court: "Un homme débarque sans raison dans le monde de son MMORPG sous l
 image: "https://myanimelist.net/images/anime/1361/120706l.jpg"
 date_ajout: 2022-07-26
 videos: []
-score_mal: 7.15
+score_mal: 7.13
 mal_id: 48760
 ---
 

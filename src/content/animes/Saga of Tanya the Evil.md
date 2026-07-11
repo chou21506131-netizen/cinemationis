@@ -19,7 +19,7 @@ image: https://myanimelist.net/images/anime/5/82890l.jpg
 date_ajout: 2024-12-02
 videos:
   - 
-score_mal: 8.1
+score_mal: 8.21
 mal_id: 32615
 ---
 

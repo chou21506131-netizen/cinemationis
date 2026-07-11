@@ -1,5 +1,5 @@
 ---
-titre: Takopi's Original Sin
+titre: Le Péché originel de Takopi
 titre_mal: Takopii no Genzai
 annee: 2025
 type: série

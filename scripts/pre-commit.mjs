@@ -21,7 +21,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function fetchJSON(url, retries = 0) {
   const res = await fetch(url);
-  if (res.status === 429) {
+  if (res.status === 429 || res.status >= 500) {
     if (retries >= MAX_RETRIES) return null;
     await sleep(2000 + retries * 1000);
     return fetchJSON(url, retries + 1);

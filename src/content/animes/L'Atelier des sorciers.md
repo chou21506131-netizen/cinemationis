@@ -20,7 +20,7 @@ realisateur: Ayumu Watanabe
 resume_court: Une enfant devient une apprentie sorcière après avoir accidentellement découvert la magie.
 image: /images/animes/L_atelier_des_sorciers.jpg
 date_ajout: 2026-07-02
-score_mal: 8.55
+score_mal: 8.53
 mal_id: 51553
 date_modification: 2026-07-02
 ---

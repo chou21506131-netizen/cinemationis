@@ -1,5 +1,6 @@
 ---
 titre: Time of Eve
+titre_mal: Eve no Jikan
 annee: 2010
 type: série
 saisons: 1
@@ -15,7 +16,7 @@ studios:
   - Studio Rikka
 realisateur: Yasuhiro Yoshiura
 resume_court: La société est divisée sur le statut des robots.
-image: "https://myanimelist.net/images/anime/9/27711l.jpg"
+image: https://myanimelist.net/images/anime/9/27711l.jpg
 date_ajout: 2024-04-27
 videos:
   - 

@@ -23,7 +23,7 @@ realisateur: Tatsuya Yoshihara
 resume_court: Un élève sans pouvoirs tente de se faire une place dans un monde régi par la magie.
 image: /images/animes/Wistoria_wand_and_sword.jpg
 date_ajout: 2026-06-11
-score_mal: 8.04
+score_mal: 7.86
 mal_id: 58059
 date_modification: 2026-06-11
 ---

@@ -22,7 +22,7 @@ realisateur: Shinji Ishihara
 resume_court: ""
 image: https://myanimelist.net/images/anime/5/84004.jpg
 date_ajout: 2023-06-08
-score_mal: 7.51
+score_mal: 7.72
 mal_id: 17265
 date_modification: 2026-05-17
 ---

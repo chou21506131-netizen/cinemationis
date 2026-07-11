@@ -22,7 +22,7 @@ realisateur: Shin Wakabayashi
 resume_court: 4 jeunes filles affrontent des cauchemars pour ressusciter des proches qu'elles ont perdus.
 image: https://myanimelist.net/images/anime/1079/110751l.jpg
 date_ajout: 2022-02-23
-score_mal: 7.54
+score_mal: 7.53
 mal_id: 43299
 ---
 
