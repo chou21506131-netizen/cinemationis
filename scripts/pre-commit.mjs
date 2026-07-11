@@ -27,7 +27,13 @@ async function fetchJSON(url, retries = 0) {
     return fetchJSON(url, retries + 1);
   }
   if (!res.ok) return null;
-  return res.json();
+  const json = await res.json();
+  if (json?.status && json.status >= 500) {
+    if (retries >= MAX_RETRIES) return null;
+    await sleep(2000 + retries * 1000);
+    return fetchJSON(url, retries + 1);
+  }
+  return json;
 }
 
 // ── Vérification et correction du mal_id ──
@@ -57,7 +63,7 @@ async function searchMALByTitle(titre) {
       return result;
     }
   }
-  return null;
+  return data.data[0];
 }
 
 async function verifyOrFixMALId(malId, titre) {
@@ -76,7 +82,6 @@ async function verifyOrFixMALId(malId, titre) {
   } else {
     console.log(`  ⚠️  ${titre} : l'ID ${malId} n'existe pas sur MAL`);
   }
-
   const found = await searchMALByTitle(titre);
   if (found) {
     console.log(`  🔄 Nouvel ID trouvé : ${found.mal_id} ("${found.title}")`);

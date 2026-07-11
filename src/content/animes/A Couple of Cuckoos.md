@@ -1,5 +1,6 @@
 ---
 titre: A Couple of Cuckoos
+titre_mal: Kakkou no Iinazuke
 annee: 2022
 type: série
 saisons: 2

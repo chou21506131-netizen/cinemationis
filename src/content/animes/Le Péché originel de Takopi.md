@@ -24,7 +24,7 @@ resume_court: Un petit extraterrestre souhaitant répandre la joie sur Terre ren
 image: /images/animes/Le_peche_originel_de_takopi.jpg
 date_ajout: 2026-07-11
 score_mal: 8.75
-mal_id: 60488
+mal_id: 60489
 date_modification:
 ---
 
