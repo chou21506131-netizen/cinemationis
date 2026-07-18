@@ -96,6 +96,9 @@
     overflow: hidden;
     cursor: pointer;
     transition: flex 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Au survol, le panel actif grandit, les autres rétrécissent */
@@ -119,16 +122,13 @@
     transition: all 0.6s ease;
   }
 
-  /* Content — positionné dans le tiers inférieur */
+  /* Content — positionné au milieu */
   .panel-content {
-    position: absolute;
-    bottom: 15%;
-    left: 0;
-    right: 0;
-    padding: 0 2rem;
-    z-index: 10;
-    text-align: center;
-    transition: all 0.5s ease;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 0 2rem;
+  transition: all 0.5s ease;
   }
 
   .panel-content h2 {
@@ -299,11 +299,10 @@
     html, body { overflow: auto; height: auto; }
     .home { height: auto; min-height: 100vh; }
     .panels { flex-direction: column; height: auto; min-height: 100vh; }
-    .panel { flex: none !important; height: 33.4vh; min-height: 200px; }
+    .panel { flex: none !important; height: 33.333vh; min-height: 0; display: flex; align-items: center; justify-content: center; }
     .panels:hover .panel { flex: none !important; }
     .panels:hover .panel:hover { flex: none !important; }
-    .panel-content { opacity: 1; transform: translateY(0); }
-    .panel-content p { opacity: 0.7; transform: translateY(0); }
+    .panel-content { position: static; padding: 0 1.5rem; opacity: 1; transform: translateY(0); }
     .panel-cta { opacity: 0.8; transform: translateY(0); }
     .panel-content h2 { font-size: 1.8rem; }
     .home-logo { font-size: 1.1rem; }
