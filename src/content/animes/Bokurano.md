@@ -1,5 +1,6 @@
 ---
 titre: Bokurano
+titre_mal: Bokura no
 annee: 2007
 type: série
 saisons: 1

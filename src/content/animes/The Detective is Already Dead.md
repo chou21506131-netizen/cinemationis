@@ -1,5 +1,6 @@
 ---
 titre: The Detective is Already Dead
+titre_mal: Tantei wa Mou, Shindeiru.
 annee: 2021
 type: série
 saisons: 1

@@ -21,7 +21,7 @@ realisateur: Ayumu Watanabe
 resume_court: ""
 image: https://myanimelist.net/images/anime/1899/117237.jpg
 date_ajout: 2023-04-04
-score_mal: 7.78
+score_mal: 7.77
 mal_id: 48926
 date_modification: 2026-04-12
 ---

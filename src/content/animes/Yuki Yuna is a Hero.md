@@ -1,5 +1,6 @@
 ---
 titre: Yuki Yuna is a Hero
+titre_mal: Yuuki Yuuna wa Yuusha de Aru
 annee: 2014
 type: série
 saisons: 4

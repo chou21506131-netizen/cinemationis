@@ -1,5 +1,6 @@
 ---
 titre: Alderamin on the Sky
+titre_mal: "Nejimaki Seirei Senki: Tenkyou no Alderamin"
 annee: 2016
 type: série
 saisons: 1
@@ -19,7 +20,7 @@ studios:
   - Madhouse
 realisateur: Tetsuo Ichimura
 resume_court: Des inconnus sont intégrés à l'armée nationale en tant qu'officiers.
-image: "https://myanimelist.net/images/anime/11/79531l.jpg"
+image: https://myanimelist.net/images/anime/11/79531l.jpg
 date_ajout: 2024-08-09
 videos:
   - 

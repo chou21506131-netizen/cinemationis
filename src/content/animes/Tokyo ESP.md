@@ -1,5 +1,6 @@
 ---
 titre: Tokyo ESP
+titre_mal: Tokyo ESP
 annee: 2014
 type: série
 saisons: 1
@@ -16,8 +17,8 @@ genres:
 studios:
   - Xebec
 realisateur: Shigehito Takayanagi
-resume_court: Des habitants de Tokyo obtiennent subitement des pouvoirs de manière complètement aléatoire. 
-image: "https://myanimelist.net/images/anime/10/64587l.jpg"
+resume_court: Des habitants de Tokyo obtiennent subitement des pouvoirs de manière complètement aléatoire.
+image: https://myanimelist.net/images/anime/10/64587l.jpg
 date_ajout: 2022-02-25
 videos:
   - 

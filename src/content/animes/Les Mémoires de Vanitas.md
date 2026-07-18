@@ -23,7 +23,7 @@ realisateur: Tomoyuki Itamura
 resume_court: ""
 image: https://myanimelist.net/images/anime/1401/118483.jpg
 date_ajout: 2025-12-12
-score_mal: 8.05
+score_mal: 7.9
 mal_id: 48580
 ---
 

@@ -1,5 +1,6 @@
 ---
 titre: Asobi Asobase
+titre_mal: Asobi Asobase
 annee: 2018
 type: série
 saisons: 1
@@ -17,7 +18,7 @@ studios:
   - Lerche
 realisateur: Seiji Kishi
 resume_court: 3 filles montent un club de jeu de société dans leur collège.
-image: "https://myanimelist.net/images/anime/1139/95077l.jpg"
+image: https://myanimelist.net/images/anime/1139/95077l.jpg
 date_ajout: 2022-02-13
 videos:
   - 

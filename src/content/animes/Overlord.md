@@ -23,7 +23,7 @@ image: https://myanimelist.net/images/anime/1945/136600l.jpg
 date_ajout: 2023-04-20
 videos:
   - 
-score_mal: 7.9
+score_mal: 7.91
 mal_id: 29803
 date_modification: 2026-05-31
 ---

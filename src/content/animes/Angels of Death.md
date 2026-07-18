@@ -1,5 +1,6 @@
 ---
 titre: Angels of Death
+titre_mal: Satsuriku no Tenshi
 annee: 2018
 type: série
 saisons: 1
@@ -18,7 +19,7 @@ studios:
   - J.C.Staff
 realisateur: Kentaro Suzuki
 resume_court: Une jeune fille et un meurtrier tentent de s'évader d'un complexe.
-image: "https://myanimelist.net/images/anime/1862/95624l.jpg"
+image: https://myanimelist.net/images/anime/1862/95624l.jpg
 date_ajout: 2023-09-16
 videos:
   - 

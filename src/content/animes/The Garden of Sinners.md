@@ -1,5 +1,6 @@
 ---
 titre: The Garden of Sinners
+titre_mal: "Kara no Kyoukai Movie 1: Fukan Fuukei"
 annee: 2007
 type: film
 saisons:
@@ -19,7 +20,7 @@ studios:
   - ufotable
 realisateur: Ei Aoki
 resume_court: Trois enquêteurs cherchent l'origine d'une série de suicides.
-image: "https://myanimelist.net/images/anime/12/21741l.jpg"
+image: https://myanimelist.net/images/anime/12/21741l.jpg
 date_ajout: 2025-06-11
 videos:
   - 
