@@ -25,7 +25,7 @@ videos:
   - https://www.youtube.com/watch?v=s9wsRRlTL3s
 score_mal: 8.82
 mal_id: 1575
-date_modification: 2026-04-13
+date_modification: 2026-09-12
 ---
 
 ## Résumé
@@ -40,11 +40,11 @@ Chers amis, on tape dans le grandiose là. J'ai (presque) aucune critique négat
 
 L'intrigue est énorme, les rebondissements toujours inattendus mais satisfaisants (je me demande comment on peut avoir des idées aussi bonnes d'ailleurs), super bien rythmé etc. Les personnages sont tous écrits au poil de fiak, les moments d'action et d'émotion font mouche à chaque fois et la musique est pile dans le thème en plus d'être grandiose à l'occasion. Et la fin... Mais la fin... Je pense qu'on peut pas faire mieux, les enfants. Là ça rivalise avec Le Dernier des Mohicans. C'est vraiment parce que je suis pas humain que j'ai pas pleuré mais je jure que le cœur y était.
 
-Le seul tout petit bémol que je peux trouver c'est le côté "Regardez ! Ils ont un nouveau robot trop bien mégacool superpuissant ! Vite ! Faut qu'on en fasse un encore mieux !", suivi d'un "Oh non ! Ils ont un robot encore plus balèze que notre plus balèze à nous, faisons-en encore un !" et tutti quanti. C'est pas trop trop présent non plus, mais voilà. Tout de même : juste à voir une fois dans sa vie.
+Le seul tout petit bémol que je peux trouver c'est le côté "Regardez ! Ils ont un nouveau robot trop bien mégacool superpuissant ! Vite ! Faut qu'on en fasse un encore mieux !", suivi d'un "Oh non ! Ils ont un robot encore plus balèze que notre plus balèze à nous, faisons-en encore un !" et tutti quanti. C'est pas trop trop présent non plus, mais voilà.
 
-Si jamais, il pourrait s'avérer intéressant de lire ça.
+Tout de même : juste à voir une fois dans sa vie.
 
-J'avais pas d'autre choix que de mettre l'une des musiques de la BO...
+PS : je viens de le voir pour la deuxième fois : avec le recul c'est peut-être pas si bien ? Si, si.
 
 ---
 
