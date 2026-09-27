@@ -18,7 +18,7 @@ studios:
   - Yokohama Animation Lab
 realisateur: Takayuki Hamana
 resume_court: Un duo de mages traquent les sorcières cachées dans la population.
-image: https://myanimelist.net/images/anime/1637/137188l.jpg
+image: /images/animes/The_witch_and_the_beast.jpg
 date_ajout: 2025-05-22
 videos:
   - 

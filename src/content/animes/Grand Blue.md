@@ -2,8 +2,8 @@
 titre: Grand Blue
 annee: 2018
 type: série
-saisons: 2
-episodes: 24
+saisons: 3
+episodes: 37
 films:
 note: 18/20
 recommandation: A voir
@@ -23,6 +23,7 @@ videos:
   - 
 score_mal: 8.45
 mal_id: 37105
+date_modification: 2026-09-27
 ---
 
 ## Résumé
@@ -46,6 +47,12 @@ Si tu ris pas c'est que t'as vraiment pas d'âme... Sale roux de merde.
 La saison 2 est (certainement) tout aussi bien que la première. J’ai eu un peu peur lors des premiers épisodes mais daijobu : on rit. J’aurais quand même aimé que quelque chose se passe entre certains personnages, peu importe lesquels, parce que l’anime tourne principalement autour des pseudo-attirances mais rien ne se passe.
 
 C’est pas du tout surprenant, mais c’est chiant.
+
+### Saison 3
+
+Ah pour le coup j'ai bien ri. Y a certaines scènes vraiment bien foutues, même si, soyons honnêtes, y a des moments où l'humour est forcé de fou (surtout au début). Mais peu importe : c'est toujours drôle et il y a enfin de petites avancées dans les sentiments. Tu vois, quand tu veux ?
+
+Hâte de voir la suite pour le coup.
 
 ---
 
