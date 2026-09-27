@@ -52,7 +52,7 @@ C’est pas du tout surprenant, mais c’est chiant.
 
 Ah pour le coup j'ai bien ri. Y a certaines scènes vraiment bien foutues, même si, soyons honnêtes, y a des moments où l'humour est forcé de fou (surtout au début). Mais peu importe : c'est toujours drôle et il y a enfin de petites avancées dans les sentiments. Tu vois, quand tu veux ?
 
-Hâte de voir la suite pour le coup.
+Hâte de voir la suite.
 
 ---
 
