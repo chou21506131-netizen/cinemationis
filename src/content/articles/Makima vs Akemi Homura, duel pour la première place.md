@@ -137,7 +137,7 @@ Oui, soyons brefs : Makima étant un personnage """secondaire""" pendant tout le
 
 ### Akemi
 
-Pour notre collégienne, on reste dans du mystérieux, mais qui se dévoile petit à petit. L'intrigue avance, et nous passons de plus en plus de temps avec elle. Elle doit livrer des infos au dur et à mesure, et bordel elle fait ça bien. Ses phrases sont toujours justes, avec un impact certain sur les autres personnages. Elle est même capable de faire fermer sa gueule à Kyubey en un seul mot. N'est-ce pas, *Incubator* ?
+Pour notre collégienne, on reste dans du mystérieux, mais qui se dévoile petit à petit. L'intrigue avance, et nous passons de plus en plus de temps avec elle. Elle doit livrer des infos au fur et à mesure, et bordel elle fait ça bien. Ses phrases sont toujours justes, avec un impact certain sur les autres personnages. Elle est même capable de faire fermer sa gueule à Kyubey en un seul mot. N'est-ce pas, *Incubator* ?
 
 Allez, un deuxième point pour toi ma petite.
 

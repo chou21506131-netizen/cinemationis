@@ -30,7 +30,7 @@ date_modification:
 
 ## Résumé
 
-Sheena est dans une école de magie chargée d'accueillir les orphelins de guerre. Au fil des années, les élèves y deviennent des mages de bataille envoyés sur le front. Un jour, sa camarade de classe et colocataire est désignée pour aller au combat, duquel elle ne reviendra pas. Les jours suivants, une nouvelle élève, Mimi, rejoint la classe de Sheena et devient sa partenaire. Rapidement, des rumeurs se répandent à son sujet : malgré son jeune âge, elle a la réputation d'être particulièrement puissante en magie et de faire des ravages dans les rangs ennemis.     
+Sheena est dans une école de magie chargée d'accueillir les orphelins de guerre. Au fil des années, les élèves y deviennent des mages de bataille envoyés sur le front. Un jour, sa camarade de classe et colocataire est désignée pour aller au combat, duquel elle ne reviendra pas. Rapidement, une nouvelle élève, Mimi, rejoint la classe de Sheena et devient sa partenaire. Des rumeurs se répandent immédiatement à son sujet : malgré son jeune âge, elle a la réputation d'être particulièrement puissante en magie et de faire des ravages dans les rangs ennemis.     
 
 ---
 
