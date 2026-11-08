@@ -4,7 +4,7 @@ annee: 2015
 type: série
 saisons: 2
 episodes: 48
-films:
+films: 1
 note: 17/20
 recommandation: A voir
 statut: Terminé
@@ -23,7 +23,7 @@ videos:
   - 
 score_mal: 8.07
 mal_id: 24833
-date_modification: 2026-04-18
+date_modification: 2026-11-08
 ---
 
 ## Résumé
@@ -34,6 +34,8 @@ La rentrée des classes constitue rarement un moment agréable pour les élèves
 
 ## Commentaire
 
+### Série
+
 Le générique de la saison 1 est trop bien, et ça tombe bien parce que le reste de l'animé aussi ! Malgré le synopsis qui semble assez sérieux, il s'agit en fait du comédie durant la presque totalité de la série. On parle là d'un combat constant entre élèves et professeur, sauf que cette tête de poulpe est beaucoup trop drôle.
 
 Le personnage fait tout l'animé, incontestablement. Ce qui est intéressant et qui fait rentrer, selon moi, Assassination Classroom dans la liste "à voir absolument" c'est : le fait d'être attaché aux deux camps, ce qui implique qu'il n'y a pas l'habituelle vision manichéenne du monde des œuvres de fiction ; en plus en rendant les 2 parties (même 3 en fait) attachantes, déjà on ne peut pas prévoir la fin et de 2 ça nous donne pas envie de la voir de peur de ce qui va se passer, ce qui pousse notre curiosité à vouloir encore plus la voir.
@@ -41,6 +43,10 @@ Le personnage fait tout l'animé, incontestablement. Ce qui est intéressant et 
 CQFD.la puissance de l'aspect tragique/dramatique de l'intrigue qui donne au dénouement une de ces puissances... incroyable. La fin m'a vraiment mis une claque. Si j'admets volontiers que plusieurs passages sont un peu longuets (on parle de quelques dizaines de minutes sur 2 saisons, rassurez-vous), ils sont tous balayés par les moments de rires et d'action de l'ensemble de la série, mais aussi et surtout par l'émotion que procure l'avant-dernier épisode, qui est de mon point de vue une œuvre d'art.
 
 Faisons bref, pour celles et ceux en quête d'un truc bien marrant, avec de vraies intrigues (pas seulement l'assassinat du prof) et qui se regarde comme on boit un verre d'eau malgré une fin digne des plus grands films de l'histoire et qui entre sans problème dans mon top des meilleures scènes, n'hésitez pas !
+
+### Film
+
+Je sais pas combien d'années après la fin de la série, quelqu'un s'est dit qu'il était temps de sortir un film. Ben... il s'est mal dit. Ca va que ça dure pas longtemps, parce que c'est pas drôle en plus de n'avoir aucune raison d'exister.
 
 ---
 
